@@ -1,0 +1,289 @@
+{
+  "test": "The platform has been launched as a test",
+  "title": "\"BridgeConstruction\" Joint Stock society",
+  "title2": "New Bridge Road to <br /> a new future",
+  "title3": "\"BridgeConstruction\" Joint Stock society For more than 55 years, our company has been engaged in the construction <br /> of bridges, overpasses and metro",
+  "head": "Main page",
+  "gerb": "State Emblem of the Republic of Uzbekistan",
+  "madhiya": "National Anthem of the Republic of Uzbekistan",
+  "bayrog": "The national flag of the Republic of Uzbekistan",
+  "yangi-kuprik": "Each new bridge and new roads is the next step in the development of the world",
+  "biz-yul": "We are specialists in the construction of bridges and Road conductors in Uzbekistan",
+  "xizmatlarimiz": "Our services",
+  "yillik": "YEARS OF WORK EXPERIENCE",
+  "sifati": "Invaluable experience proving the high quality of our work",
+  "xodimlar": "STAFF TEAM",
+  "boy-tajriba": "A team of highly qualified specialists with rich experience",
+  "yondashuv": "Personal approach",
+  "mijozlarimizga": "We know what our customers need",
+  "qurilyotgan": "Number of bridges under construction",
+  "kupriklar": "Total number of bridges",
+  "xodimlar-soni": "Number of employees",
+  "texnikalar": "Number of techniques",
+  "usefullinks": {
+    "link": "Useful links",
+    "link1": "Press service of the President of the Republic of Uzbekistan",
+    "link2": "Portal of the State Authority of the Republic of Uzbeksitan",
+    "link3": "Senate of the Oliy Majlis of the Republic of Uzbekistan",
+    "link4": "Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan",
+    "link5": "Organization for co-operation between railways (OSJD)",
+    "link6": "Railway Transport Council",
+    "link7": "Ministry of transport of the Republic of Uzbekistan",
+    "link8": "Ministry of digital technologies of the Republic of Uzbekistan",
+    "link9": "E-Government Projects Management Center",
+    "link10": "SUE Cybersecurity Center",
+    "link11": "Single portal of corporate information",
+    "link12": "Uzbekistan Тrаdе Info"
+  },
+  "menus": {
+    "menu1": {
+      "title": "Company",
+      "title1": "About Us",
+      "title2": "Company Charter",
+      "title3": "Organizational structure",
+      "title4": "Leadership",
+      "title5": "Central apparatus",
+      "title6": "Qualification requirements",
+      "title7": "Structural divisions"
+    },
+    "menu2": {
+      "title": "Normative documents",
+      "title1": "Decisions and decrees of the president of the Republic of Uzbekistan",
+      "title2": "Regulations and guidelines on labor protection and industrial safety",
+      "title3": "Decisions of the Cabinet of Ministers of the Republic of Uzbekistan",
+      "title4": "Departmental regulatory documents",
+      "title5": "Technical documents",
+      "title6": "Draft normative documents",
+      "title7": "Manuals",
+      "title8": "Comments to regulatory documents",
+      "title9": "Expired documents",
+      "title10": "Slides"
+    },
+    "menu3": {
+      "title": "Press-center",
+      "title1": "Pictures",
+      "title2": "Videos",
+      "title3": "Frequently asked questions",
+      "title4": "State programs",
+      "title5": "Newspapers",
+      "title6": "Magazines"
+    },
+    "menu4": {
+      "title": "News"
+    },
+    "menu5": {
+      "title": "Contact"
+    },
+    "menu6": {
+      "title": "Anti-Corruption Efforts",
+      "title1": "Departmental Documents on Anti-Corruption",
+      "title2": "Contact Regarding Corruption-related Appeals",
+      "title3": "Awareness Campaigns on Anti-Corruption Efforts",
+      "form": {
+        "name": "First, Middle, Last Name",
+        "phone": "Your phone number",
+        "text": "Message text",
+        "send": "Send"
+      },
+      "toast": {
+        "success": "Your message has been sent!",
+        "error": "An error occurred while sending the message.",
+        "networkError": "Network error. Please try again later."
+      },
+      "network": {
+        "title": "Compliance Control and Anti-Corruption Department",
+        "tel": "Phone"
+      }
+    },
+    "menu7": {
+      "title": "Corporate Governance",
+      "title1": "About the Company",
+      "title2": "Management and Oversight",
+      "title3": "Open Information",
+      "title4": "Internal Documents of the Company",
+      "title5": "For Shareholders",
+      "desc1": "The 'Ko‘prikqurilish' trust was established in 1968 as the 7th Bridge Construction Trust under the former USSR Ministry of Transport Construction. During the independence years, it operated as part of the 'Uzbektransqurilish' association and was incorporated into the 'Uzbekistan Railways' DATYK by the resolution No. 489 of the Cabinet of Ministers of the Republic of Uzbekistan on October 21, 2004.",
+      "desc2": "'Ko‘prikqurilish' trust specializes in construction, maintenance, and repair of railway transport structures (bridges, tunnels, overpasses, and other artificial structures). It is the only enterprise in the republic that also has production facilities, a design organization, and a quality control laboratory for construction works.",
+      "desc3": "Until 2017, the following units operated within the 'Ko‘prikqurilish Trust' unitary enterprise:"
+    }
+  },
+  "eye": "For the visually impaired",
+  "map": "Site map",
+  "virtual": "Virtual reception",
+  "more": "All news",
+  "search": "Site-wide search",
+  "hol": "Biography",
+  "majburiyat": "Obligations",
+  "footer": {
+    "malumot": "For more information",
+    "loc": "Address",
+    "tel": "Telephone",
+    "mail": "Mail"
+  },
+  "contact": {
+    "ims": "YOUR NAME",
+    "tel": "Your phone number",
+    "text": "TEXT MESSAGE",
+    "yubor": "Sending"
+  },
+  "vir": {
+    "name": "full name",
+    "loc": "Your address",
+    "mail": "E-mail",
+    "tel": "Your phone number",
+    "text": "The text of the application"
+  },
+  "batafsil": "More",
+  "bizning_loyihalar": "Our projects",
+  "bizning_hamkorlar": "Our partners",
+  "oldUnits": {
+    "unit1": "13th Bridge Construction Squad (Tashkent)",
+    "unit2": "14th Bridge Construction Squad (Taxiatosh)",
+    "unit3": "67th Bridge Construction Squad (Tashkent)",
+    "unit4": "Khorezm TYK (Urgench)",
+    "unit5": "Bridge Construction Completion DP (Tashkent)"
+  },
+  "presidentDecision": "According to the Resolution of the President of the Republic of Uzbekistan dated October 4, 2017, No. PQ-3309, additional specialized units were established under the “Ko‘prikqurilish Trust”.",
+  "currentCompanies": "Today, the following enterprises operate within the structure of the “Ko‘prikqurilish Trust”:",
+  "currentUnits": [
+    "13,14,67-Bridge Construction Squads",
+    "1-Bridge Construction Squad LLC",
+    "2-Bridge Construction Squad LLC",
+    "Bridge Construction Assembly LLC",
+    "Khorezm Railway Construction LLC",
+    "Bridge Construction Operation LLC",
+    "Special Reinforced Concrete Plant LLC",
+    "Chinoz Special Reinforced Concrete Plant LLC",
+    "Bridge Repair Directorate LLC",
+    "Bridge Design LLC",
+    "Bridge Quality Control LLC"
+  ],
+  "reorganizationNotice": "According to the Resolution No. 389/18 of the Cabinet of Ministers of the Republic of Uzbekistan dated August 15, 2023, the “Ko‘prikqurilish” Joint-Stock Company has been reorganized.",
+  "supervisoryBoard": "Supervisory Board",
+  "executiveBody": "Executive Body",
+  "committees": "Committees",
+  "internalAudit": "Internal Audit Service",
+  "kuzatuv": {
+    "title": "Supervisory Board",
+    "subtitle": "“KO’PRIKQURILISH” Joint-Stock Company",
+    "sub": "Supervisory Board Composition",
+    "back": "Back",
+    "download": "📄 Download Supervisory Board file",
+    "members": [
+      {
+        "name": "Sherzod Saidjonovich Khidoyatov",
+        "desc": "Minister of Construction and Housing and Communal Services of the Republic of Uzbekistan"
+      },
+      {
+        "name": "Jasurbek Ergashovich Choriev",
+        "desc": "Deputy Minister of Transport of the Republic of Uzbekistan"
+      },
+      {
+        "name": "Samandar Asadovich Sadullaev",
+        "desc": "Deputy Minister of Economy and Finance of the Republic of Uzbekistan"
+      },
+      {
+        "name": "Batir Irkinovich Zokirov",
+        "desc": "..."
+      },
+      {
+        "name": "Odiljon Abdugaparovich Mamatov",
+        "desc": "Head of the Department of the Agency for Management of State Assets of the Republic of Uzbekistan"
+      }
+    ]
+  },
+  "executiveBoard": {
+    "title": "Executive Body",
+    "subtitle": "Executive body of “Ko‘prikqurilish” Joint-Stock Company",
+    "back": "Back",
+    "items": [
+      { "text": "The day-to-day activities of the company are directed by the executive body – Company Management." },
+      { "text": "The Company Management Chairman leads management activities." },
+      { "text": "Chairman of Management - Maxamatov Zafar Ergashboyevich.", "bold": true },
+      { "text": "The Company Management may include the Chairman, deputies, department heads, section heads, and employees." }
+    ]
+  },
+  "openData": {
+    "title": "Open Data"
+  },
+  "tuzilma": "Organizational Structure",
+  "ustavi": "Company Charter",
+  "xulosasi": "Audit Report",
+  "reja": "Business Plan",
+  "mainSections": {
+    "title": "Main Sections",
+    "items": [
+      "General rules",
+      "Legal status of the company",
+      "Objectives and tasks of the company",
+      "Charter capital and shares",
+      "Company management bodies",
+      "Rights and duties of shareholders",
+      "Financial activities and profit distribution",
+      "Final provisions"
+    ],
+    "download": "📄 Download the full company charter file"
+  },
+  "auditReport": {
+    "title": "Main Sections",
+    "items": [
+      "Independent audit report",
+      "Auditor's opinion",
+      "Basis for comments",
+      "Analysis of financial condition and results",
+      "Management and corporate governance responsibility",
+      "Auditor's liability",
+      "Audit results and recommendations",
+      "Information about the auditing organization and responsible persons"
+    ],
+    "download": "📄 Download the full audit report file"
+  },
+  "comitet": "Committees",
+  "businessPlan": {
+    "title": "“Ko‘prikqurilish” JSC – Business Plan for 2025",
+    "back": "Back",
+    "subtitle": "Main directions of “Ko‘prikqurilish” JSC:",
+    "items": [
+      "Construction, reconstruction, and capital repair of roads, bridges, tunnels using innovative technologies according to international standards",
+      "Submission of draft regulatory documents to sector organizations, ministries, and the Government of the Republic of Uzbekistan",
+      "Cooperation with foreign countries and international organizations",
+      "Participation in tenders (auctions), including cooperation with other enterprises (consortium, subcontract, etc.)",
+      "Determination of the value of services, products, and work provided by the company and its subsidiaries based on market conditions"
+    ],
+    "objectiveTitle": "Objective of the business plan",
+    "objective": "Develop a business implementation plan, improve company performance from a commercial perspective, and explore income opportunities from construction and installation work",
+    "additional": "Also, maintain and increase market share in reinforced concrete production and services, improve labor productivity and efficiency in the company structure, and achieve planned annual revenue and profit targets",
+    "download": "📄 Download the full business plan"
+  },
+  "back": "Back",
+  "internalDocuments": {
+    "title": "Internal Documents of the Company",
+    "menus": {
+      "codeOfGovernance": "Corporate Governance Code",
+      "internalRegulations": "Internal Regulations"
+    }
+  },
+  "ustavFondi": "Charter capital",
+  "aliflangan": "Subscribed persons",
+  "royhat": "Shareholders list",
+  "umumiyYigilish": "General meeting of shareholders",
+  "jamiyatUstavFondi": "Company Charter Capital",
+  "ustavKapital": "The company's charter capital is 1,445,258,000 UZS (one billion four hundred forty-five million two hundred fifty-eight thousand UZS). All shares belong to the sole shareholder – the Agency for Management of State Assets of the Republic of Uzbekistan.",
+  "downloadUstavFondi": "📄 Download Charter Capital file",
+  "shareholdersTable": {
+    "number": "№",
+    "name": "Shareholder Name",
+    "shares": "Shareholding",
+    "rows": [
+      {
+        "id": 1,
+        "name": "Republic of Uzbekistan\nAgency for Management of State Assets",
+        "shares": "100%\nNominal value 1000 UZS\n1,445,258 ordinary shares"
+      }
+    ]
+  },
+  "downloadShareholdersList": "📄 Download Shareholders List file",
+  "soleShareholder": "All shares belong to the sole shareholder – the Agency for Management of State Assets of the Republic of Uzbekistan.",
+  "downloadShareholdersMeeting": "📄 Download Shareholders Meeting file"
+
+}

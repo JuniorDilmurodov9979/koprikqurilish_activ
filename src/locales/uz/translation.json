@@ -1,0 +1,292 @@
+{
+  "test": "Platforma sinov tariqasida ishga tushirilgan",
+  "title": "\"Ko'prikqurilish\" Aksiyadorlik jamiyati",
+  "title2": "yangi KO'PRIK <br /> yangi KELAJAKka yo'l",
+  "title3": "\"Ko'prikqurilish\" Aksiyadorlik jamiyati 55 yildan ortiq vaqt davomida ko'priklar, yo'l o'tkazgichlar,<br />tonellar, metro va boshqa sun'iy inshootlar qurish bilan shug'ullanadi",
+  "yangi": "Har bir yangi yo'l  va ko'priklar yangi  dunyoni rivojlantirishda keyingi qadamdir",
+  "head": "Bosh sahifa",
+  "gerb": "O‘zbekiston Respublikasining Davlat gerbi",
+  "madhiya": "O'zbekiston Respublikasi Davlat madhiyasi",
+  "bayrog": "O‘zbekiston Respublikasining Davlat bayrog‘i",
+  "yangi-kuprik": "Har bir yangi ko'prik va yangi yo'llar dunyoni rivojlantirishda keyingi qadamdir",
+  "biz-yul": "Biz O'zbekistonda ko'priklar, yo'l o'tkazgichlar, tonellar, metro va boshqa sun'iy inshootlar qurish bo'yicha mutaxassislarmiz",
+  "xizmatlarimiz": "Xizmatlarimiz",
+  "yillik": "KO'P YILLIK ISH TAJRIBASI",
+  "sifati": "Bizning ishimizning yuqori sifatini isbotlovchi bebaho tajriba",
+  "xodimlar": "XODIMLAR JAMOASI",
+  "boy-tajriba": "Boy tajribaga ega yuqori malakali mutaxassislar jamoasi",
+  "yondashuv": "Shaxsiy yondashuv",
+  "mijozlarimizga": "Biz mijozlarimizga nima kerakligini bilamiz",
+  "qurilyotgan": "Qurilyotgan ko'priklar soni",
+  "kupriklar": "Jami ko'priklar soni",
+  "xodimlar-soni": "Xodimlar soni",
+  "texnikalar": "Texnikalar soni",
+  "usefullinks": {
+    "link": "Foydali havolalar",
+    "link1": "O‘zbekiston Respublikasi Prezidentining matbuot xizmati",
+    "link2": "O‘zbekiston Respublikasi hukumat portali",
+    "link3": "O'zbekiston Respublikasi Oliy Majlisi Senati",
+    "link4": "O‘zbekiston Respublikasi Oliy Majlisining qonunchilik palatasi",
+    "link5": "Temir yo‘llar hamkorligi tashkiloti",
+    "link6": "Temir yo‘l transporti kengashi",
+    "link7": "O‘zbekiston Respublikasi transport vazirligi",
+    "link8": "O‘zbekiston Respublikasi raqamli texnologiyalar vazirligi",
+    "link9": "Elektron hukumat loyihalarini boshqarish markazi",
+    "link10": "Kiberxavfsizlik markazi DUK",
+    "link11": "Yagona korporativ axborot portali",
+    "link12": "Uzbekistan Тrаdе Info"
+  },
+  "menus": {
+    "menu1": {
+      "title": "Jamiyat",
+      "title1": "Jamiyat haqida",
+      "title2": "Jamiyat nizomi",
+      "title3": "Tashkiliy tuzilma",
+      "title4": "Rahbariyat",
+      "title5": "Markaziy aparat",
+      "title6": "Malaka talablari",
+      "title7": "Tarkibiy bo'linmalar"
+    },
+    "menu2": {
+      "title": "Normativ hujjatlar",
+      "title1": "O'zbekiston Respublikasi Prezidentining qaror va farmonlari",
+      "title2": "Mehnat muhofazasi va sanoat xavfsizligi bo’yicha nizom va yo’riqnomalar ",
+      "title3": "O'zbekiston Respublikasi Vazirlar Mahkamasining qarorlari",
+      "title4": "Idoraviy me'yoriy hujjatlar",
+      "title5": "Texnik hujjatlar",
+      "title6": "Me'yoriy hujjat loyihalari",
+      "title7": "Qo`llanmalar",
+      "title8": "Normativ hujjatlarga izohlar",
+      "title9": "Kuchini yo'qotgan hujjatlar",
+      "title10": "Ko‘rgazmali targ‘ibot materiallari"
+    },
+    "menu3": {
+      "title": "Press-markaz",
+      "title1": "Rasmlar",
+      "title2": "Videolar",
+      "title3": "Ko'p beriladigan savollar",
+      "title4": "Davlat dasturlari",
+      "title5": "Gazetalar",
+      "title6": "Jurnallar"
+    },
+    "menu4": {
+      "title": "Yangiliklar"
+    },
+    "menu5": {
+      "title": "Aloqa"
+    },
+    "menu6": {
+      "title": "Korrupsiyaga qarshi kurashish",
+      "title1": "Korrupsiyaga qarshi kurashish bo‘yicha idoraviy hujjatlar",
+      "title2": "Korrupsiyaga oid murojaatlar bo‘yicha bog‘lanish",
+      "title3": "Korrupsiyaga qarshi kurash borasida olib borilayotgan targ'ibot ishlari",
+      "form": {
+        "name": "Ism, Sharif, Familiyangiz",
+        "phone": "Telefon raqamingiz",
+        "text": "Xabar matni",
+        "send": "Yuborish"
+      },
+      "toast": {
+        "success": "Xabaringiz yuborildi!",
+        "error": "Xabar yuborishda xatolik yuz berdi.",
+        "networkError": "Tarmoqda xatolik bor. Keyinroq urinib ko‘ring."
+      },
+      "network": {
+        "title": "Korrupsiyaga qarshi kurashish komplaens nazorat boshqarmasi",
+        "tel": "Telefon"
+      }
+    },
+    "menu7": {
+      "title": "Korparativ boshqaruv",
+      "title1": "Jamiyat Haqida",
+      "title2": "Boshqaruv va Nazarot",
+      "title3": "Ochiq Ma'lumotlar",
+      "title4": "Jamiyatning Ichki Hujjatlari",
+      "title5": "Aksiyadorlarga",
+      "desc1": "“Ko‘prikqurilish” tresti UK 1968 yilda sobiq ittifoq transport qurilish vazirligi qoshidagi 7-Ko‘prikqurilish tresti shaklida tashkil topgan bo‘lib, mustaqillik yillarida “O‘zbektransqurilish” uyushmasi tarkibida faoliyat yuritgan va O‘zbekiston Respublikasi Vazirlar Mahkamasining 2004 yil 21 oktyabr 489-son qarori bilan “O‘zbekiston temir yo‘llari” DATYK tarkibiga kiritilgan.",
+      "desc2": "“Ko‘prikqurilish” tresti UK temir yo‘l transport inshootlari (ko‘priklar, tonellar, yo‘l o‘tkazgichlar va boshqa sunʼiy inshootlar)ni qurish, saqlash va taʼmirlashga ixtisoslashgan, shuningdek, ishlab chiqarish korxonalariga, loyiha tashkiloti va qurilish ishlarida sifatni nazorat qilish laboratoriyasiga ega bo‘lgan respublikada yagona korxona hisoblanadi.",
+      "desc3": "2017-yilgacha “Ko‘prikqurilish trest” unitar korxonasi tarkibida quyidagi tarkibiy bo‘linmalar faoliyat ko‘rsatgan:"
+    }
+  },
+  "eye": "Zaif ko'ruvchilar uchun",
+  "map": "Sayt xaritasi",
+  "virtual": "Virtual qabulxona",
+  "more": "Barcha yangiliklar",
+  "search": "Sayt bo'ylab qidiriuv",
+  "hol": "Tarjimai hol",
+  "majburiyat": "Majburiyatlari",
+  "footer": {
+    "malumot": "Qo'shimcha ma'lumot olish uchun",
+    "loc": "Manzil",
+    "tel": "Telefon",
+    "mail": "Pochta"
+  },
+  "contact": {
+    "ims": "Sizning ismingiz",
+    "tel": "Telefon raqamingiz",
+    "text": "Matinli xabar",
+    "yubor": "Yuborish"
+  },
+  "vir": {
+    "name": "F.I.O.",
+    "loc": "Yashash manzilingiz",
+    "mail": "E-mail",
+    "tel": "Telefon raqamingiz",
+    "text": "Murojaat matni"
+  },
+  "batafsil": "Batafsil",
+  "bizning_loyihalar": "Bizning loyihalar",
+  "bizning_hamkorlar": "Bizning hamkorlar",
+  "oldUnits": {
+    "unit1": "13-sonli Ko‘prikqurilish otryadi (Toshkent sh.)",
+    "unit2": "14-sonli Ko‘prikqurilish otryadi (Taxiatosh)",
+    "unit3": "67-sonli Ko‘prikqurilish otryadi (Toshkent sh.)",
+    "unit4": "Xorazm TYK (Urganch)",
+    "unit5": "Ko‘prikqurilishbutlash DP (Toshkent)"
+  },
+  "presidentDecision": "O‘zbekiston Respublikasi Prezidentining 2017-yil 4-oktabrdagi PQ-3309-son qaroriga muvofiq “Ko‘prikqurilish trest” qoshida qo‘shimcha ixtisoslashtirilgan bo‘linmalar tashkil etildi.",
+  "currentCompanies": "Bugungi kunda “Ko‘prikqurilish trest” tarkibida quyidagi korxonalar faoliyat ko‘rsatmoqda:",
+  "currentUnits": [
+    "13,14,67-Ko‘prikqurilish otryadlari",
+    "1-Ko‘prikqurilish otryadi MChJ",
+    "2-Ko‘prikqurilish otryadi MChJ",
+    "Ko‘prikqurilishbutlash MChJ",
+    "Xorazm temir yo‘l qurilish MChJ",
+    "Ko‘prikqurilishfoydalanish MChJ",
+    "Maxsus temir-beton buyumlari ishlab chiqarish zavodi MChJ",
+    "Chinoz maxsus temir-beton konstruksiyalari zavodi MChJ",
+    "Ko‘prikqurilishta’mirlash direksiyasi MChJ",
+    "Ko‘prikqurilishloyixa MChJ",
+    "Ko‘priksifatnazorat MChJ"
+  ],
+  "reorganizationNotice": "O‘zbekiston Respublikasi Vazirlar Mahkamasining 2023-yil 15-avgustdagi 389/18-son qaroriga asosan “Ko‘prikqurilish” aksiyadorlik jamiyati qayta tashkil etilgan.",
+  "supervisoryBoard": "Kuzatuv kengashi",
+  "executiveBody": "Ijroiya organi",
+  "committees": "Qo‘mitalar",
+  "internalAudit": "Ichki audit xizmati",
+  "kuzatuv": {
+    "title": "Kuzatuv Kengashi",
+    "subtitle": "“KO’PRIKQURILISH” AKSIYADORLIK JAMIYATINING",
+    "sub": "Kuzatuv kengashi tarkibi",
+    "back": "Ortga",
+    "download": "📄 Kuzatuv Kengashi faylini yuklab olish",
+    "members": [
+      {
+        "name": "Xidoyatov Sherzod Saidjonovich",
+        "desc": "O‘zbekiston Respublikasi Qurilish va uy-joy kommunal xo‘jaligi vaziri"
+      },
+      {
+        "name": "Choriev Jasurbek Ergashovich",
+        "desc": "O‘zbekiston Respublikasi Transport vaziri o‘rinbosari"
+      },
+      {
+        "name": "Sadullaev Samandar Asadovich",
+        "desc": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vaziri o‘rinbosari"
+      },
+      {
+        "name": "Zokirov Batir Irkinovich",
+        "desc": "..."
+      },
+      {
+        "name": "Mamatov Odiljon Abdugaparovich",
+        "desc": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i"
+      }
+    ]
+  },
+  "executiveBoard": {
+    "title": "Ijroiya organi",
+    "subtitle": "“Ko‘prikqurilish” aksiyadorlik jamiyatining ijroiya organi",
+    "back": "Ortga",
+    "items": [
+      { "text": "Jamiyatning kundalik faoliyatiga rahbarlik ijroiya organ – Jamiyat Boshqaruvi tomonidan amalga oshiriladi." },
+      { "text": "Boshqaruv faoliyatiga Jamiyat Boshqaruv Raisi rahbarlik qiladi." },
+      { "text": "Boshqaruv raisi - Maxamatov Zafar Ergashboyevich.", "bold": true },
+      { "text": "Jamiyat Boshqaruvi tarkibiga Boshqaruv Raisi va uning o‘rinbosarlari, boshqarma boshliqlari, bo‘lim boshliqlari va xodimlar kirishi mumkin." }
+    ]
+  },
+  "openData": {
+    "title": "Ochiq ma’lumotlar"
+  },
+  "tuzilma": "Tashkiliy tuzilma",
+  "ustavi": "Jamiyat ustavi",
+  "xulosasi": "Audit xulosasi",
+  "reja": "Biznes reja",
+  "mainSections": {
+    "title": "Asosiy bo‘limlar",
+    "items": [
+      "Umumiy qoidalar",
+      "Jamiyatning huquqiy maqomi",
+      "Jamiyatning maqsad va vazifalari",
+      "Ustav kapitali va aksiyalar",
+      "Jamiyat boshqaruv organlari",
+      "Aksiyadorlarning huquqlari va majburiyatlari",
+      "Moliyaviy faoliyat va foyda taqsimoti",
+      "Yakuniy qoidalar"
+    ],
+    "download": "📄 Jamiyat ustavining to‘liq fayilini yuklab olish"
+  },
+  "auditReport": {
+    "title": "Asosiy bo‘limlar",
+    "items": [
+      "Mustaqil auditorlik xulosasi",
+      "Auditor fikri",
+      "Fikr bildirish uchun asos",
+      "Moliyaviy holat va natijalar tahlili",
+      "Rahbariyat va korporativ boshqaruv mas’uliyati",
+      "Auditorning javobgarligi",
+      "Audit natijalari va tavsiyalar",
+      "Auditorlik tashkiloti va mas’ullar haqida ma’lumot"
+    ],
+    "download": "📄 Audit xulosasining to‘liq fayilini yuklab olish"
+  },
+  "comitet": "Qo'mitalar",
+  "businessPlan": {
+    "title": "“Ko‘prikqurilish” AJ – 2025 yil uchun biznes reja",
+    "back": "Ortga",
+    "subtitle": "“Ko‘prikqurilish” AJning asosiy yo‘nalishlari:",
+    "items": [
+      "Xalqaro standartlar asosida innovatsion texnologiyalarni joriy etgan holda yo‘l o‘tkazgichlar, ko‘priklar, tonnellar va avtomobil yo‘llarini qurish, rekonstruksiya qilish va kapital ta’mirlash",
+      "Jamiyat vakolatlariga kiruvchi masalalar bo‘yicha me’yoriy hujjatlar loyihalarini o‘rnatilgan tartibda soha tashkilotiga, vazirlikka va O‘zbekiston Respublikasi Hukumatiga taqdim etish",
+      "Xorijiy davlat va xalqaro tashkilotlar bilan hamkorlikni amalga oshirish",
+      "Tanlovlarda (kim oshdi savdolarida) qatnashish, jumladan yakka va boshqa korxonalar bilan hamkorlik (konsorsium, subpudrat va boshqalar)",
+      "Jamiyat va uning tarkibidagi korxonalar tomonidan ko‘rsatiladigan xizmat, ishlab chiqariladigan mahsulot va bajariladigan ishlar qiymatini bozor kon’yunkturasidan kelib chiqqan holda belgilash"
+    ],
+    "objectiveTitle": "Biznes-rejaning maqsadi",
+    "objective": "biznesni amalga oshirish rejasi ishlab chiqish, jamiyat faoliyatini tijorat nuqtai nazaridan yaxshilash, qurilish-montaj ishlaridan daromad olish imkoniyatlarini ko‘rib chiqish",
+    "additional": "Shuningdek, temir-beton konstruksiyalar ishlab chiqarishda va ko‘rsatiladigan xizmatlar bo‘yicha bozor ulushini saqlab qolish va oshirish, jamiyat tuzilmasida mehnat unumdorligini va ish samaradorligini oshirish, hamda rejalashtirilgan yillik daromad va foyda prognoziga erishish uchun strategiya yaratish",
+    "download": "📄 To‘liq biznes rejani yuklab olish"
+  },
+  "back": "Ortga",
+  "internalDocuments": {
+    "title": "Jamiyatning ichki hujjatlari",
+    "menus": {
+      "codeOfGovernance": "Korporativ boshqaruv kodeksi",
+      "internalRegulations": "Ichki nizomlar"
+    }
+  },
+  "ustavFondi": "Ustav fondi",
+  "aliflangan": "Afillangan shaxslar",
+  "royhat": "Aksiyadorlar ro‘yxati",
+  "umumiyYigilish": "Aksiyadorlarning umumiy yig‘ilishi",
+  "jamiyatUstavFondi": "Jamiyat Ustav fondi",
+  "ustavKapital": "Jamiyatning ustav kapitali 1 445 258 000 so‘m (bir milliard to‘rt yuz qirq besh million ikki yuz ellik sakkiz ming so‘m). Barcha aksiyalar yagona aksiyador – O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligiga tegishli.",
+  "downloadUstavFondi": "📄 Ustav fondi faylini yuklab olish",
+  "shareholdersTable": {
+    "number": "№",
+    "name": "Aksiyador nomi",
+    "shares": "Aktsiyalar ulushi",
+    "rows": [
+      {
+        "id": 1,
+        "name": "O‘zbekiston Respublikasi\nDavlat aktivlarini boshqarish agentligi",
+        "shares": "100%\nNominal qiymati 1000 so‘mdan\n1 445 258 dona oddiy aksiyalar"
+      }
+    ]
+  },
+  "downloadShareholdersList": "📄 Aksiyadorlar ro'yhati faylini yuklab olish",
+  "soleShareholder": "Barcha aksiyalar yagona aksiyador – O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligiga tegishli.",
+  "downloadShareholdersMeeting": "📄 Aksiyadorlar yig‘ilishi faylini yuklab olish"
+
+
+}
+

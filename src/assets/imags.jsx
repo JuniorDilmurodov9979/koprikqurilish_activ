@@ -1,0 +1,13 @@
+export { default as POYEZD } from "./imgs/pyezd.jpg";
+export { default as FOOTER } from "./imgs/footer.jpg";
+export { default as FLAG } from "./imgs/flagUZB.jpg";
+export { default as GERB } from "./imgs/gerbUZB.png";
+export { default as MADHIYA } from "./madhiya.mp3";
+export { default as IMG } from "./imgs/img.jpg";
+export { default as IMG1 } from "./imgs/img1.jpg";
+export { default as IMG2 } from "./imgs/img2.jpg";
+export { default as IMG3 } from "./imgs/img3.jpg";
+export { default as IMG4 } from "./imgs/img4.jpg";
+export { default as IMG5 } from "./imgs/img5.jpg";
+export { default as LOGOGIF } from "./imgs/logo.mp4";
+export { default as BRIDGE2 } from "./imgs/bridge.mp4";
