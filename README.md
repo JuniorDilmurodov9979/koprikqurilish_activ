@@ -1,0 +1,2 @@
+ÿþ# kuprikqurulish.uz
+# koprikqurilish_activ
