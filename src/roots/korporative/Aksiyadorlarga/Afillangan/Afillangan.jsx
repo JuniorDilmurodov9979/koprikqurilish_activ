@@ -3,40 +3,41 @@ import Footer from "../../../../containers/footer/Footer";
 import Breadcrumb from "../../../../components/breadcrumb/Breadcrumb";
 import { BackGroundColor } from "../../../../const/Wrapper";
 import { useNavigate } from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Afillangan = () => {
     const navigate = useNavigate();
-
+    const {t} = useTranslation();
     const data = [
         {
             id: 1,
-            name: "Xidoyatov Sherzod Saidjonovich",
-            lavozim: "O‘zbekiston Respublikasi Qurilish va uy-joy kommunal xo‘jaligi vaziri",
+            name: t("xidoyatovSherzod"),
+            lavozim: t("ministerConstruction"),
         },
         {
             id: 2,
-            name: "Choriev Jasurbek Ergashovich",
-            lavozim: "O‘zbekiston Respublikasi Transport vaziri o‘rinbosari",
+            name: t("chorievJasurbek"),
+            lavozim: t("deputyTransport"),
         },
         {
             id: 3,
-            name: "Sadullaev Samandar Asadovich",
-            lavozim: "O‘zbekiston Respublikasi Iqtisodiyot va moliya vaziri o‘rinbosari",
+            name: t("sadullaevSamandar"),
+            lavozim: t("deputyEconomy"),
         },
         {
             id: 4,
-            name: "Zokirov Batir Irkinovich",
+            name: t("zokirovBatir"),
             lavozim: "...",
         },
         {
             id: 5,
-            name: "Mamatov Odiljon Abdug‘aprovich",
-            lavozim: "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i",
+            name: t("mamatovOdiljon"),
+            lavozim: t("headStateAssets"),
         },
         {
             id: 6,
-            name: "Maxamatov Zafar Ergashboyevich",
-            lavozim: "“Ko‘prikqurilish” aksiyadorlik jamiyati Boshqaruv raisi",
+            name: t("maxamatovZafar"),
+            lavozim: t("chairKoPrik"),
         },
     ];
 
@@ -51,27 +52,27 @@ const Afillangan = () => {
                     {/* Breadcrumb */}
                     <Breadcrumb
                         links={[
-                            { link: "Aksiyadorlarga" },
-                            { link: "Afillangan Shaxslar" },
+                            { link: t("menus.menu7.title5") },
+                            { link: t("aliflangan") },
                         ]}
                     />
 
                     {/* Title */}
                     <h1 className="text-3xl font-bold text-yellow-600 mb-8 text-center sm:text-left uppercase">
-                        Afillangan Shaxslar
+                        {t("aliflangan")}
                     </h1>
 
                     {/* Card */}
                     <div className="bg-white shadow-lg rounded-2xl p-6 sm:p-8 border border-gray-200">
                         <div className="flex items-center justify-between flex-wrap gap-4 mb-6">
                             <h2 className="text-2xl font-bold text-yellow-600 leading-snug">
-                                “Ko‘prikqurilish” aksiyadorlik jamiyatining affillangan shaxslar ro‘yxati (Jismoniy shaxslar)
+                                {t("affiliatedPersonsList")}
                             </h2>
                             <button
                                 onClick={() => navigate(-1)}
                                 className="bg-yellow-500 hover:bg-yellow-600 text-white font-medium px-5 py-2 rounded-lg shadow-md transition"
                             >
-                                Ortga
+                                {t("back")}
                             </button>
                         </div>
 
@@ -81,8 +82,8 @@ const Afillangan = () => {
                                 <thead className="bg-gray-100">
                                 <tr>
                                     <th className="px-4 py-3 text-left font-medium">#</th>
-                                    <th className="px-4 py-3 text-left font-medium">Ism Familiya</th>
-                                    <th className="px-4 py-3 text-left font-medium">Lavozim</th>
+                                    <th className="px-4 py-3 text-left font-medium">{t("Ism")}</th>
+                                    <th className="px-4 py-3 text-left font-medium">{t("Lavozim")}</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -105,11 +106,10 @@ const Afillangan = () => {
                         {/* Yuridik Shaxslar */}
                         <div className="mt-8">
                             <h2 className="text-2xl font-bold text-yellow-600 leading-snug mb-2">
-                                “Ko‘prikqurilish” aksiyadorlik jamiyatining affillangan shaxslar ro‘yxati (Yuridik shaxslar)
-                            </h2>
+                                {t("affiliatedLegalEntitiesList")}                            </h2>
                             <ul className="list-disc ml-5 space-y-2 text-gray-900">
-                                <li>O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi;</li>
-                                <li>O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligining 20 foiz va undan ortiq foiz aksiyalariga egalik qiluvchi yuridik shaxslar.</li>
+                                <li>{t("affillanganShaxslar")}</li>
+                                <li>{t("affillanganShaxslar2")}</li>
                             </ul>
                         </div>
                     </div>

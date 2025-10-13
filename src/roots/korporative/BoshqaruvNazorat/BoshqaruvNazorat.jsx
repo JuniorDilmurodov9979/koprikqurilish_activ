@@ -30,7 +30,7 @@ const BoshqaruvNazorat = () => {
                     <PageTwoMenu menu={menu7}>
                         {/* Title */}
                         <h2 className="text-3xl sm:text-4xl font-extrabold text-yellow-500 mb-10 leading-tight tracking-tight text-center lg:text-left">
-                            {t("Boshqaruv va nazorat")}
+                            {t("menus.menu7.title2")}
                         </h2>
 
                         {/* Cards */}

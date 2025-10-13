@@ -164,6 +164,7 @@
   "executiveBody": "Ijroiya organi",
   "committees": "Qo‘mitalar",
   "internalAudit": "Ichki audit xizmati",
+  "download2": "📄faylini yuklab olish",
   "kuzatuv": {
     "title": "Kuzatuv Kengashi",
     "subtitle": "“KO’PRIKQURILISH” AKSIYADORLIK JAMIYATINING",
@@ -198,10 +199,19 @@
     "subtitle": "“Ko‘prikqurilish” aksiyadorlik jamiyatining ijroiya organi",
     "back": "Ortga",
     "items": [
-      { "text": "Jamiyatning kundalik faoliyatiga rahbarlik ijroiya organ – Jamiyat Boshqaruvi tomonidan amalga oshiriladi." },
-      { "text": "Boshqaruv faoliyatiga Jamiyat Boshqaruv Raisi rahbarlik qiladi." },
-      { "text": "Boshqaruv raisi - Maxamatov Zafar Ergashboyevich.", "bold": true },
-      { "text": "Jamiyat Boshqaruvi tarkibiga Boshqaruv Raisi va uning o‘rinbosarlari, boshqarma boshliqlari, bo‘lim boshliqlari va xodimlar kirishi mumkin." }
+      {
+        "text": "Jamiyatning kundalik faoliyatiga rahbarlik ijroiya organ – Jamiyat Boshqaruvi tomonidan amalga oshiriladi."
+      },
+      {
+        "text": "Boshqaruv faoliyatiga Jamiyat Boshqaruv Raisi rahbarlik qiladi."
+      },
+      {
+        "text": "Boshqaruv raisi - Maxamatov Zafar Ergashboyevich.",
+        "bold": true
+      },
+      {
+        "text": "Jamiyat Boshqaruvi tarkibiga Boshqaruv Raisi va uning o‘rinbosarlari, boshqarma boshliqlari, bo‘lim boshliqlari va xodimlar kirishi mumkin."
+      }
     ]
   },
   "openData": {
@@ -285,8 +295,23 @@
   },
   "downloadShareholdersList": "📄 Aksiyadorlar ro'yhati faylini yuklab olish",
   "soleShareholder": "Barcha aksiyalar yagona aksiyador – O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligiga tegishli.",
-  "downloadShareholdersMeeting": "📄 Aksiyadorlar yig‘ilishi faylini yuklab olish"
-
-
+  "downloadShareholdersMeeting": "📄 Aksiyadorlar yig‘ilishi faylini yuklab olish",
+  "affiliatedPersonsList": "“Ko‘prikqurilish” aksiyadorlik jamiyatining affillangan shaxslar ro‘yxati (Jismoniy shaxslar)",
+  "affiliatedLegalEntitiesList": "“Ko‘prikqurilish” aksiyadorlik jamiyatining affillangan shaxslar ro‘yxati (Yuridik shaxslar)",
+  "affillanganShaxslar": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi;",
+  "affillanganShaxslar2": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligining 20 foiz va undan ortiq foiz aksiyalariga egalik qiluvchi yuridik shaxslar.",
+  "Lavozim": "Lavozim",
+  "Ism": "Ism Familiya",
+  "ministerConstruction": "O‘zbekiston Respublikasi Qurilish va uy-joy kommunal xo‘jaligi vaziri",
+  "deputyTransport": "O‘zbekiston Respublikasi Transport vaziri o‘rinbosari",
+  "deputyEconomy": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vaziri o‘rinbosari",
+  "headStateAssets": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i",
+  "chairKoPrik": "“Ko‘prikqurilish” aksiyadorlik jamiyati Boshqaruv raisi",
+  "xidoyatovSherzod": "Xidoyatov Sherzod Saidjonovich",
+  "chorievJasurbek": "Choriev Jasurbek Ergashovich",
+  "sadullaevSamandar": "Sadullaev Samandar Asadovich",
+  "zokirovBatir": "Zokirov Batir Irkinovich",
+  "mamatovOdiljon": "Mamatov Odiljon Abdug‘aprovich",
+  "maxamatovZafar": "Maxamatov Zafar Ergashboyevich"
 }
 

@@ -197,10 +197,19 @@
     "subtitle": "Executive body of “Ko‘prikqurilish” Joint-Stock Company",
     "back": "Back",
     "items": [
-      { "text": "The day-to-day activities of the company are directed by the executive body – Company Management." },
-      { "text": "The Company Management Chairman leads management activities." },
-      { "text": "Chairman of Management - Maxamatov Zafar Ergashboyevich.", "bold": true },
-      { "text": "The Company Management may include the Chairman, deputies, department heads, section heads, and employees." }
+      {
+        "text": "The day-to-day activities of the company are directed by the executive body – Company Management."
+      },
+      {
+        "text": "The Company Management Chairman leads management activities."
+      },
+      {
+        "text": "Chairman of Management - Maxamatov Zafar Ergashboyevich.",
+        "bold": true
+      },
+      {
+        "text": "The Company Management may include the Chairman, deputies, department heads, section heads, and employees."
+      }
     ]
   },
   "openData": {
@@ -284,6 +293,23 @@
   },
   "downloadShareholdersList": "📄 Download Shareholders List file",
   "soleShareholder": "All shares belong to the sole shareholder – the Agency for Management of State Assets of the Republic of Uzbekistan.",
-  "downloadShareholdersMeeting": "📄 Download Shareholders Meeting file"
-
+  "downloadShareholdersMeeting": "📄 Download Shareholders Meeting file",
+  "affiliatedPersonsList": "List of affiliated persons of 'Ko‘prikqurilish' Joint-Stock Company (Individuals)",
+  "affiliatedLegalEntitiesList": "List of affiliated persons of 'Ko‘prikqurilish' Joint-Stock Company (Legal entities)",
+  "affillanganShaxslar": "Agency for Management of State Assets of the Republic of Uzbekistan;",
+  "affillanganShaxslar2": "Legal entities owning 20 percent or more of the shares of the Agency for Management of State Assets of the Republic of Uzbekistan.",
+  "Lavozim": "Position",
+  "Ism": "Full Name",
+  "ministerConstruction": "Minister of Construction and Housing and Communal Services of the Republic of Uzbekistan",
+  "deputyTransport": "Deputy Minister of Transport of the Republic of Uzbekistan",
+  "deputyEconomy": "Deputy Minister of Economy and Finance of the Republic of Uzbekistan",
+  "headStateAssets": "Head of Department, State Assets Management Agency of the Republic of Uzbekistan",
+  "chairKoPrik": "Chairman of the Board, “Ko‘prikqurilish” JSC",
+  "xidoyatovSherzod": "Xidoyatov Sherzod Saidjonovich",
+  "chorievJasurbek": "Choriev Jasurbek Ergashovich",
+  "sadullaevSamandar": "Sadullaev Samandar Asadovich",
+  "zokirovBatir": "Zokirov Batir Irkinovich",
+  "mamatovOdiljon": "Mamatov Odiljon Abdug‘aprovich",
+  "maxamatovZafar": "Maxamatov Zafar Ergashboyevich",
+  "download2": "📄 Download file"
 }
