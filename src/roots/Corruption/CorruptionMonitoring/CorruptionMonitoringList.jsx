@@ -83,7 +83,7 @@ const CorruptionMonitoringList = () => {
   };
 
   return (
-    <Container sx={{ mt: 6, mb: 6 }}>
+    <Container sx={{ mt: 6, mb: 6, py: 0 }}>
       {loading ? (
         <Box
           display="flex"
@@ -111,7 +111,7 @@ const CorruptionMonitoringList = () => {
         </Box>
       ) : (
         <Grid container spacing={4}>
-          {data.map((item) => (
+          {data.reverse().map((item) => (
             <Grid item xs={12} sm={6} md={6} key={item.id}>
               <Card
                 elevation={6}
@@ -130,11 +130,13 @@ const CorruptionMonitoringList = () => {
               >
                 {item.image ? (
                   <CardMedia
+                    className="h-[250px]"
                     component="img"
                     height="250px"
+                    // width={100}
                     image={item.image}
                     alt={item.title}
-                    sx={{ objectFit: "cover" }}
+                    sx={{ objectFit: "cover", height: 280 }}
                   />
                 ) : (
                   <Box

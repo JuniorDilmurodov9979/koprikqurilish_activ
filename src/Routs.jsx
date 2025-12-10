@@ -63,6 +63,7 @@ import UstavFondi from "./roots/korporative/Aksiyadorlarga/UstavFondi/UstavFondi
 import Afillangan from "./roots/korporative/Aksiyadorlarga/Afillangan/Afillangan.jsx";
 import AksiyadorlarRoyhati from "./roots/korporative/Aksiyadorlarga/AksiyadorlarRoyhati/AksiyadorlarRoyhati.jsx";
 import AksiyadorlarYigilishi from "./roots/korporative/Aksiyadorlarga/AksiyadorlarYigilishi/AksiyadorlarYigilishi.jsx";
+import Komplaens from "./roots/korporative/Komplaens/Komplaens.jsx";
 
 const Routs = () => {
   const color = useSelector((store) => store.darkmode);
@@ -100,32 +101,92 @@ const Routs = () => {
           <>
             <Route path="/corruption/appeals" element={<CorruptionAppeals />} />
             <Route path="/corruption/documents" element={<CorruptionDocs />} />
-            <Route path="/corruption/monitoring" element={<CorruptionMonitoring />}  />
-            <Route  path="/corruption/monitoring/:id" element={<CorruptionDetails />} />
+            <Route
+              path="/corruption/monitoring"
+              element={<CorruptionMonitoring />}
+            />
+            <Route
+              path="/corruption/monitoring/:id"
+              element={<CorruptionDetails />}
+            />
           </>
-           {/*Korporation*/}
-            <>
-                <Route path="/corporativ/docs" element={<JamiyatHaqida />} />
-                <Route path="/corporativ/monitoring" element={<BoshqaruvNazorat />} />
-                <Route path="/corporativ/monitoring/IchkiAudit" element={<IchkiAudit />} />
-                <Route path="/corporativ/monitoring/IjroiyaOrgani" element={<IjroiyaOrgani />} />
-                <Route path="/corporativ/monitoring/KuzatuvKengashi" element={<KuzatuvKengashi />} />
-                <Route path="/corporativ/monitoring/Qomitalar" element={<Qomitalar />} />
-                <Route path="/corporativ/documents" element={<OchiqMalumotlar />} />
-                <Route path="/corporativ/documents/TashkiliyTuzulma" element={<TashkiliyTuzulma />} />
-                <Route path="/corporativ/documents/jamiyatUstavi" element={<JamiyatUstavi />} />
-                <Route path="/corporativ/documents/auditXulosasi" element={<AuditXulosasi />} />
-                <Route path="/corporativ/documents/biznesReja" element={<BiznesReja />} />
-                <Route path="/corporativ/ichkihujjatlari" element={<Ichkihujjatlar />} />
-                <Route path="/corporativ/ichkihujjatlari/boshqaruvKodeksi" element={<BoshqaruvKodeksi />} />
-                <Route path="/corporativ/ichkihujjatlari/ichkiNizomlar" element={<IchkiNizomlar />} />
-                <Route path="/corporativ/Aksiyadorlarga" element={<Aksiyadorlarga />} />
-                <Route path="/corporativ/Aksiyadorlarga/ustavFondi" element={<UstavFondi />} />
-                <Route path="/corporativ/Aksiyadorlarga/aliflangan" element={<Afillangan />} />
-                <Route path="/corporativ/Aksiyadorlarga/royhat" element={<AksiyadorlarRoyhati />} />
-                <Route path="/corporativ/Aksiyadorlarga/umumiyYigilish" element={<AksiyadorlarYigilishi />} />
-            </>
-
+          {/*Korporation*/}
+          <>
+            <Route path="/corporativ/docs" element={<JamiyatHaqida />} />
+            <Route
+              path="/corporativ/monitoring"
+              element={<BoshqaruvNazorat />}
+            />
+            <Route
+              path="/corporativ/monitoring/IchkiAudit"
+              element={<IchkiAudit />}
+            />
+            <Route
+              path="/corporativ/monitoring/IjroiyaOrgani"
+              element={<IjroiyaOrgani />}
+            />
+            <Route
+              path="/corporativ/monitoring/KuzatuvKengashi"
+              element={<KuzatuvKengashi />}
+            />
+            <Route
+              path="/corporativ/monitoring/Qomitalar"
+              element={<Qomitalar />}
+            />
+            <Route path="/corporativ/documents" element={<OchiqMalumotlar />} />
+            <Route
+              path="/corporativ/documents/TashkiliyTuzulma"
+              element={<TashkiliyTuzulma />}
+            />
+            <Route
+              path="/corporativ/documents/jamiyatUstavi"
+              element={<JamiyatUstavi />}
+            />
+            <Route
+              path="/corporativ/documents/auditXulosasi"
+              element={<AuditXulosasi />}
+            />
+            <Route
+              path="/corporativ/documents/biznesReja"
+              element={<BiznesReja />}
+            />
+            <Route
+              path="/corporativ/ichkihujjatlari"
+              element={<Ichkihujjatlar />}
+            />
+            <Route
+              path="/corporativ/ichkihujjatlari/boshqaruvKodeksi"
+              element={<BoshqaruvKodeksi />}
+            />
+            <Route
+              path="/corporativ/ichkihujjatlari/ichkiNizomlar"
+              element={<IchkiNizomlar />}
+            />
+            <Route
+              path="/corporativ/Aksiyadorlarga"
+              element={<Aksiyadorlarga />}
+            />
+            <Route
+              path="/corporativ/Aksiyadorlarga/ustavFondi"
+              element={<UstavFondi />}
+            />
+            <Route
+              path="/corporativ/Aksiyadorlarga/aliflangan"
+              element={<Afillangan />}
+            />
+            <Route
+              path="/corporativ/Aksiyadorlarga/royhat"
+              element={<AksiyadorlarRoyhati />}
+            />
+            <Route
+              path="/corporativ/Aksiyadorlarga/umumiyYigilish"
+              element={<AksiyadorlarYigilishi />}
+            />
+            <Route
+              path="/corporativ/monopoliyaga-qarshi-komplaens"
+              element={<Komplaens />}
+            />
+          </>
 
           {/* management-boshqarma */}
           <>

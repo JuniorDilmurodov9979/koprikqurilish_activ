@@ -103,6 +103,18 @@
       "title3": "Ochiq Ma'lumotlar",
       "title4": "Jamiyatning Ichki Hujjatlari",
       "title5": "Aksiyadorlarga",
+      "title6": "Monopoliyaga qarshi komplaens",
+      "title6_title": "Monopoliyaga qarshi komplaens tizimidagi hujjatlar",
+      "title6_desc": "“Ko’prikqurilish” AJda Monopoliyaga qarshi komplaens tizimini joriy etish to‘g‘risida buyruq",
+      "title6_desc1": "“Ko’prikqurilish” AJda monopoliyaga qarshi komplaens tizimini joriy etish va samarali faoliyat yuritishini ta’minlash uchun tayinlangan mas’ul shaxs (bo‘linma) to‘g‘risida ma’lumot",
+      "title6_desc2": "“Ko‘prikqurilish” AJda monopoliyaga qarshi komplaens tizimini joriy etish va uning ishlash tartibi to‘g‘risida NIZOM",
+      "title6_desc3": "“Ko‘prikqurilish” AJ tizimida raqobat to‘g‘risidagi qonunchilik hujjatlari talablarining buzilish xavflarini kamaytirish bo‘yicha 2025-yilga mo‘ljallangan “Yo‘l xaritasi”",
+      "komplaens_title": "Monopoliyaga qarshi komplaens tizimining huquqiy asoslari",
+      "komplaens_desc1": "1. O‘zbekiston Respublikasining 2023-yil 3-iyuldagi “Raqobat to‘g‘risida”gi Qonuni.",
+      "komplaens_desc2": "2. O‘zbekiston Respublikasi Prezidentining 06.07.2020-yildagi “Raqobat muhitini yanada rivojlantirish va iqtisodiyotdagi davlat ishtirokini qisqartirish bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida” PF-6019-son Farmoni.",
+      "komplaens_desc3": "3. O‘zbekiston Respublikasi Vazirlar Mahkamasining 02.03.2021-yildagi “Monopoliyaga qarshi komplaens tizimini joriy etish chora-tadbirlari to‘g‘risida”gi 114-son Qarori va ushbu qaror bilan tasdiqlangan “Davlat boshqaruvi organlari, mahalliy ijro etuvchi hokimiyat organlari va xo‘jalik yurituvchi sub’yektlarda monopoliyaga qarshi komplaens tizimini joriy etish va uning ishlash tartibi to‘g‘risida” Nizom.",
+      "komplaens_desc4": "4. O‘zbekiston Respublikasi Vazirlar Mahkamasining 01.05.2024-yildagi “Tovar va moliya bozorlarida monopoliyaga qarshi tartibga solishga doir normativ-huquqiy hujjatlarni tasdiqlash to‘g‘risida”gi 256-son Qarori.",
+      "batafsil_btn": "Batafsil",
       "desc1": "“Ko‘prikqurilish” tresti UK 1968 yilda sobiq ittifoq transport qurilish vazirligi qoshidagi 7-Ko‘prikqurilish tresti shaklida tashkil topgan bo‘lib, mustaqillik yillarida “O‘zbektransqurilish” uyushmasi tarkibida faoliyat yuritgan va O‘zbekiston Respublikasi Vazirlar Mahkamasining 2004 yil 21 oktyabr 489-son qarori bilan “O‘zbekiston temir yo‘llari” DATYK tarkibiga kiritilgan.",
       "desc2": "“Ko‘prikqurilish” tresti UK temir yo‘l transport inshootlari (ko‘priklar, tonellar, yo‘l o‘tkazgichlar va boshqa sunʼiy inshootlar)ni qurish, saqlash va taʼmirlashga ixtisoslashgan, shuningdek, ishlab chiqarish korxonalariga, loyiha tashkiloti va qurilish ishlarida sifatni nazorat qilish laboratoriyasiga ega bo‘lgan respublikada yagona korxona hisoblanadi.",
       "desc3": "2017-yilgacha “Ko‘prikqurilish trest” unitar korxonasi tarkibida quyidagi tarkibiy bo‘linmalar faoliyat ko‘rsatgan:"
@@ -314,4 +326,3 @@
   "mamatovOdiljon": "Mamatov Odiljon Abdug‘aprovich",
   "maxamatovZafar": "Maxamatov Zafar Ergashboyevich"
 }
-
