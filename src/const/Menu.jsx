@@ -96,6 +96,11 @@ export let menu6 = {
       path: "/corruption/appeals",
       title: "menus.menu6.title2",
     },
+    {
+      id: 4,
+      path: "/corruption/monopoliyaga-qarshi-komplaens",
+      title: "menus.menu6.title4",
+    },
   ],
 };
 export const menu7 = {
@@ -126,11 +131,6 @@ export const menu7 = {
       id: 5,
       path: "/corporativ/Aksiyadorlarga",
       title: "menus.menu7.title5",
-    },
-    {
-      id: 6,
-      path: "/corporativ/monopoliyaga-qarshi-komplaens",
-      title: "menus.menu7.title6",
     },
   ],
 };

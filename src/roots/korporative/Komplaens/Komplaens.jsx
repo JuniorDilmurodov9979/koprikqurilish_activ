@@ -5,7 +5,7 @@ import Footer from "../../../containers/footer/Footer";
 import Header from "../../../containers/header/Header";
 import { useTranslation } from "react-i18next";
 import PageTwoMenu from "../../../containers/pageTwoMenu/PageTwoMenu";
-import { menu7 } from "../../../const/Menu";
+import { menu6 } from "../../../const/Menu";
 import SimCardDownloadIcon from "@mui/icons-material/SimCardDownload";
 import { KomplaensWrapper } from "./KomplaensWrapper";
 
@@ -39,22 +39,22 @@ const Komplaens = () => {
   const data = [
     {
       id: 1,
-      name: t("menus.menu7.komplaens_desc1"),
+      name: t("menus.menu6.komplaens_desc1"),
       link: "https://lex.uz/docs/6518381",
     },
     {
       id: 2,
-      name: t("menus.menu7.komplaens_desc2"),
+      name: t("menus.menu6.komplaens_desc2"),
       link: "https://lex.uz/docs/4887654",
     },
     {
       id: 3,
-      name: t("menus.menu7.komplaens_desc3"),
+      name: t("menus.menu6.komplaens_desc3"),
       link: "https://lex.uz/docs/5317558",
     },
     {
       id: 4,
-      name: t("menus.menu7.komplaens_desc4"),
+      name: t("menus.menu6.komplaens_desc4"),
       link: "https://lex.uz/docs/6907023",
     },
   ];
@@ -70,17 +70,19 @@ const Komplaens = () => {
           {/* Breadcrumb */}
           <Breadcrumb
             links={[
-              { link: t("menus.menu7.title") },
-              { link: t("menus.menu7.title6") },
+              { link: t("menus.menu6.title") },
+              { link: t("menus.menu6.title4") },
             ]}
           />
 
           {/* Chap tomondagi menu bar */}
-          <PageTwoMenu menu={menu7}>
+          <PageTwoMenu menu={menu6}>
             <div>
-              <h2 className="text-2xl mb-3">{t("menus.menu7.title6_title")}</h2>
+              <h2 className="text-2xl mb-3">
+                {t("menus.menu6.title4_title2")}
+              </h2>
               <KomplaensWrapper>
-                <section>
+                {/* <section>
                   {data_hujjatlar?.map((item) => (
                     <a
                       key={item.id}
@@ -94,11 +96,11 @@ const Komplaens = () => {
                       <span>{item.name}</span>
                     </a>
                   ))}
-                </section>
+                </section> */}
               </KomplaensWrapper>
               <div>
                 <h3 className="text-2xl mt-3 ">
-                  {t("menus.menu7.komplaens_title")}
+                  {/* {t("menus.menu6.title4_title1")} */}
                 </h3>
 
                 <ol className="flex flex-col gap-3 mt-3">
@@ -112,7 +114,7 @@ const Komplaens = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {t("menus.menu7.batafsil_btn")}
+                          {t("batafsil_btn")}
                         </a>
                       </p>
                     </li>

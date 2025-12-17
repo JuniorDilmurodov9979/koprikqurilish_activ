@@ -97,7 +97,7 @@ const Routs = () => {
             <Route path="/site-map" element={<SiteMap />} />
           </>
 
-          {/* korruptsiya bulimi */}
+          {/* korrupsiya bulimi */}
           <>
             <Route path="/corruption/appeals" element={<CorruptionAppeals />} />
             <Route path="/corruption/documents" element={<CorruptionDocs />} />
@@ -108,6 +108,10 @@ const Routs = () => {
             <Route
               path="/corruption/monitoring/:id"
               element={<CorruptionDetails />}
+            />
+            <Route
+              path="/corruption/monopoliyaga-qarshi-komplaens"
+              element={<Komplaens />}
             />
           </>
           {/*Korporation*/}
@@ -181,10 +185,6 @@ const Routs = () => {
             <Route
               path="/corporativ/Aksiyadorlarga/umumiyYigilish"
               element={<AksiyadorlarYigilishi />}
-            />
-            <Route
-              path="/corporativ/monopoliyaga-qarshi-komplaens"
-              element={<Komplaens />}
             />
           </>
 
