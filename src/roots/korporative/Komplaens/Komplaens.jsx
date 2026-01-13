@@ -16,23 +16,23 @@ const Komplaens = () => {
   const data_hujjatlar = [
     {
       id: 1,
-      name: t("menus.menu7.title6_desc"),
-      link: "/9-сонлибуйруқ.pdf",
+      name: t("menus.menu6.title4_desc1"),
+      link: "/komplaens1.pdf",
     },
     {
       id: 2,
-      name: t("menus.menu7.title6_desc1"),
-      link: "/1-ilova.pdf",
+      name: t("menus.menu6.title4_desc2"),
+      link: "/komplaens2.pdf",
     },
     {
       id: 3,
-      name: t("menus.menu7.title6_desc2"),
-      link: "/2-ilova.pdf",
+      name: t("menus.menu6.title4_desc3"),
+      link: "/komplaens3.pdf",
     },
     {
       id: 4,
-      name: t("menus.menu7.title6_desc3"),
-      link: "/3-ilova.pdf",
+      name: t("menus.menu6.title4_desc4"),
+      link: "/komplaens4.pdf",
     },
   ];
 
@@ -82,7 +82,7 @@ const Komplaens = () => {
                 {t("menus.menu6.title4_title2")}
               </h2>
               <KomplaensWrapper>
-                {/* <section>
+                <section className="flex flex-col gap-1 mb-5">
                   {data_hujjatlar?.map((item) => (
                     <a
                       key={item.id}
@@ -96,11 +96,11 @@ const Komplaens = () => {
                       <span>{item.name}</span>
                     </a>
                   ))}
-                </section> */}
+                </section>
               </KomplaensWrapper>
               <div>
                 <h3 className="text-2xl mt-3 ">
-                  {/* {t("menus.menu6.title4_title1")} */}
+                  {t("menus.menu6.title4_title1")}
                 </h3>
 
                 <ol className="flex flex-col gap-3 mt-3">

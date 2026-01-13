@@ -41,6 +41,8 @@ const AskedGalery = () => {
   useEffect(() => {
     getfaq();
   }, [count, lang]);
+  console.log(faq);
+
   return (
     <>
       <Header />

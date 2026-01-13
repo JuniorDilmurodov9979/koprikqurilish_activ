@@ -64,6 +64,7 @@ import Afillangan from "./roots/korporative/Aksiyadorlarga/Afillangan/Afillangan
 import AksiyadorlarRoyhati from "./roots/korporative/Aksiyadorlarga/AksiyadorlarRoyhati/AksiyadorlarRoyhati.jsx";
 import AksiyadorlarYigilishi from "./roots/korporative/Aksiyadorlarga/AksiyadorlarYigilishi/AksiyadorlarYigilishi.jsx";
 import Komplaens from "./roots/korporative/Komplaens/Komplaens.jsx";
+import AssistantButton from "./components/AI/AssistantButton.jsx";
 
 const Routs = () => {
   const color = useSelector((store) => store.darkmode);
@@ -269,6 +270,7 @@ const Routs = () => {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BgColor>
+      <AssistantButton />
     </CSSVariables>
   );
 };
