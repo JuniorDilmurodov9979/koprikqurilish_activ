@@ -1,15 +1,17 @@
 import { useState, useEffect, useRef } from "react";
+import "./assistant.css";
 import { Button, Input, Spin } from "antd";
 import {
   SendOutlined,
   CloseOutlined,
-  RobotOutlined,
   LoadingOutlined,
 } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
-import { FaRobot } from "react-icons/fa";
 
-const API_URL = "http://192.168.200.72:4000/api/assistant";
+import ai_icon from "../../assets/icon/ai_assistant.png";
+
+const API_URL = "https://tanlov.kuprikqurilish.uz/ai-assistent/api/assistant";
+// const API_URL = "http://192.168.200.72:4000/api/assistant";
 
 // Rate limit configuration
 const RATE_LIMIT_CONFIG = {
@@ -36,6 +38,8 @@ const urlMapping = {
     "/management/inspection-management",
   "https://kuprikqurilish.uz/management/branch-management":
     "/management/branch-management",
+  "http://kuprikqurilish.uz/management/vacancy-management":
+    "/management/vacancy-management",
   "https://kuprikqurilish.uz/Normative-documents/laws":
     "/Normative-documents/laws",
   "https://kuprikqurilish.uz/Normative-documents/ministers":
@@ -164,7 +168,6 @@ const AssistantButton = () => {
 
       const data = await response.json();
 
-      // Handle rate limit from server
       if (response.status === 429) {
         return {
           error: "RATE_LIMIT_EXCEEDED",
@@ -189,7 +192,6 @@ const AssistantButton = () => {
   const handleSend = async () => {
     if (!message.trim() || loading) return;
 
-    // Check client-side rate limit first
     const limitCheck = checkRateLimit();
     if (!limitCheck.allowed) {
       setMessages((prev) => [
@@ -213,7 +215,6 @@ const AssistantButton = () => {
 
     const userMessage = message.trim();
 
-    // Add user message
     setMessages((prev) => [
       ...prev,
       {
@@ -226,13 +227,10 @@ const AssistantButton = () => {
     setMessage("");
     setLoading(true);
 
-    // Increment rate limit
     incrementRateLimit();
 
-    // Get AI response
     const response = await sendMessageToAPI(userMessage);
 
-    // Handle server-side rate limit
     if (response.error === "RATE_LIMIT_EXCEEDED") {
       setMessages((prev) => [
         ...prev,
@@ -247,17 +245,15 @@ const AssistantButton = () => {
       return;
     }
 
-    // Determine message styling based on type
     const messageType = response.type || "CHAT";
     let messageIcon = "";
 
     if (messageType === "FAQ") {
-      messageIcon = "💡 "; // Light bulb for FAQ
+      messageIcon = "💡 ";
     } else if (messageType === "NAVIGATION") {
-      messageIcon = "🧭 "; // Compass for navigation
+      messageIcon = "🧭 ";
     }
 
-    // Add AI response
     setMessages((prev) => [
       ...prev,
       {
@@ -298,10 +294,19 @@ const AssistantButton = () => {
       {open && (
         <div className="fixed bottom-28 right-6 w-96 h-[500px] bg-white rounded-2xl shadow-2xl flex flex-col border border-gray-200 z-50 overflow-hidden">
           <div className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-t-2xl">
-            <h3 className="text-white font-semibold text-lg flex items-center gap-2">
-              <RobotOutlined className="text-xl" />
-              AI Yordamchi
-            </h3>
+            <div className="flex flex-col gap-0.5">
+              <h3 className="text-white font-semibold text-lg flex items-center gap-2">
+                <img src={ai_icon} alt="AI Assistant" className="w-6 h-6" />
+                AI Yordamchi
+              </h3>
+              <div className="flex items-center gap-1.5 ml-8">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
+                </span>
+                <span className="text-xs text-white">Online</span>
+              </div>
+            </div>
             <Button
               type="text"
               icon={<CloseOutlined />}
@@ -412,26 +417,37 @@ const AssistantButton = () => {
       )}
 
       <div className="fixed bottom-10 right-6 z-50 group">
-        <button
-          onClick={() => setOpen(!open)}
-          className={`
-            w-14 h-14 rounded-full
-            flex items-center justify-center
-            border transition-all duration-300
-            shadow-lg hover:shadow-xl
-            ${
-              open
-                ? "bg-blue-600 border-blue-600 rotate-90"
-                : "bg-white border-gray-200 hover:bg-blue-50"
-            }
-          `}
-        >
-          {open ? (
-            <FaRobot className="text-xl text-white transition-transform" />
-          ) : (
-            <FaRobot className="text-xl text-blue-600" />
+        <div className="relative" style={{ width: "64px", height: "64px" }}>
+          {/* Wave rings - only show when closed */}
+          {!open && (
+            <div className="wave-container">
+              <div className="wave-ring wave-outer"></div>
+              <div className="wave-ring wave-middle"></div>
+              <div className="wave-ring wave-inner"></div>
+            </div>
           )}
-        </button>
+
+          {/* Main button */}
+          <button
+            onClick={() => setOpen((prev) => !prev)}
+            className={`
+              relative w-16 h-16 rounded-full
+              flex items-center justify-center
+              border-2 transition-all duration-300
+              ${
+                open
+                  ? "bg-blue-600 border-blue-600 rotate-90"
+                  : "bg-white border-blue-400 hover:bg-blue-50 button-main"
+              }
+            `}
+          >
+            <img
+              src={ai_icon}
+              alt="AI Assistant"
+              className={`w-8 h-8 ${!open ? "icon-float" : ""}`}
+            />
+          </button>
+        </div>
 
         {!open && (
           <div className="absolute bottom-full right-0 mb-2 px-3 py-2 bg-gray-800 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-lg">

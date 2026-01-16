@@ -65,6 +65,8 @@ import AksiyadorlarRoyhati from "./roots/korporative/Aksiyadorlarga/Aksiyadorlar
 import AksiyadorlarYigilishi from "./roots/korporative/Aksiyadorlarga/AksiyadorlarYigilishi/AksiyadorlarYigilishi.jsx";
 import Komplaens from "./roots/korporative/Komplaens/Komplaens.jsx";
 import AssistantButton from "./components/AI/AssistantButton.jsx";
+import VacancyManagement from "./components/Vacancy/VacancyManagement.jsx";
+import VacancyDetails from "./components/Vacancy/VacancyDetails.jsx";
 
 const Routs = () => {
   const color = useSelector((store) => store.darkmode);
@@ -218,6 +220,14 @@ const Routs = () => {
             <Route
               path="/management/branch-management"
               element={<BranchesManagement />}
+            />
+            <Route
+              path="/management/vacancy-management"
+              element={<VacancyManagement />}
+            />
+            <Route
+              path="/management/vacancy-management/:id"
+              element={<VacancyDetails />}
             />
           </>
           {/* Normativ hujjatlar */}

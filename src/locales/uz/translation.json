@@ -1,6 +1,5 @@
 {
   "batafsil_btn": "Batafsil",
-
   "test": "Platforma sinov tariqasida ishga tushirilgan",
   "title": "\"Ko'prikqurilish\" Aksiyadorlik jamiyati",
   "title2": "yangi KO'PRIK <br /> yangi KELAJAKka yo'l",
@@ -47,7 +46,8 @@
       "title4": "Rahbariyat",
       "title5": "Markaziy aparat",
       "title6": "Malaka talablari",
-      "title7": "Tarkibiy bo'linmalar"
+      "title7": "Tarkibiy bo'linmalar",
+      "title8": "Bo'sh ish o'rinlari"
     },
     "menu2": {
       "title": "Normativ hujjatlar",

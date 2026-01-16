@@ -10,6 +10,7 @@
     "dev": "vite --host"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.1.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
@@ -20,6 +21,7 @@
     "@xyflow/react": "^12.8.5",
     "antd": "^6.1.4",
     "axios": "^1.4.0",
+    "dayjs": "^1.11.19",
     "dompurify": "^3.2.6",
     "he": "^1.2.0",
     "i18next": "^22.0.4",

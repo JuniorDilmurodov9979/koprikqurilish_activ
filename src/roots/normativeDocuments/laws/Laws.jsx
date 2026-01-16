@@ -17,6 +17,18 @@ const Laws = () => {
   const [number, setNumber] = useState(1);
   const [laws, setLaws] = useState([]);
 
+  const getUsers = () => {
+    http
+      .get(`users/find/all`)
+      .then((res) => {
+        console.log(res?.response);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  getUsers();
+
   const getLaws = () => {
     http
       .get(`find/all/laws?page=${count}&limit=10&language=${langLocal()}`)

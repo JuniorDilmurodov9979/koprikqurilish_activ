@@ -32,6 +32,11 @@ export let menu1 = {
       path: "/management/branch-management",
       title: "menus.menu1.title7",
     },
+    {
+      id: 8,
+      path: "/management/vacancy-management",
+      title: "menus.menu1.title8",
+    },
   ],
 };
 
