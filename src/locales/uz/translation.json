@@ -325,5 +325,114 @@
   "sadullaevSamandar": "Sadullaev Samandar Asadovich",
   "zokirovBatir": "Zokirov Batir Irkinovich",
   "mamatovOdiljon": "Mamatov Odiljon Abdug‘aprovich",
-  "maxamatovZafar": "Maxamatov Zafar Ergashboyevich"
+  "maxamatovZafar": "Maxamatov Zafar Ergashboyevich",
+
+  "vacancy": {
+    "title_name": "Ish tavsifi",
+    "job_title1": "Ishchi xodimlar",
+    "job_info1": "Ko'prikqurilishbutlash MCHJ",
+    "job_desc1": "2 ta Greyder haydovchisi, 2 ta Dispetcher (ayol), 2 ta Yoqilg'i tarqatuvchi",
+    "job_status_1": "Ochiq",
+    "job_status_2": "Yopiq",
+    "job_price": "Suhbat asosida",
+    "job_price1": "7 000 000 – 10 000 000 so'm",
+    "job_type": "To'liq stavka",
+    "job_type1": "Shartnoma asosida",
+    "job_relese": "E'lon qilingan:",
+    "job_time": "Kelishiladi",
+    "job_deadline": "Muddat:",
+    "job_place": "Toshkent, O'zbekiston",
+    "job_title2": "Ichki nazorat va komplaens xodimi",
+    "job_info2": "Ko'prikqurilishbutlash MCHJ",
+    "job_desc2": "Ichki nazorat va komplaens tizimini joriy etish. Qonunchilik va ichki hujjatlarga muvofiqlikni nazorat qilish...",
+    "job_title3": "Avtobetonosmesitel haydovchisi",
+    "job_info3": "Ko'prikqurilishbutlash MCHJ",
+    "job_desc3": "Vakansiya tafsilotlari mavjud",
+    "job_detail_btn": "Batafsil",
+    "back": "Ortga qaytish",
+    "ariza_btn": "Ariza topshirish",
+    "ariza_btn1": "Vakansiya yopiq",
+    "ariza_desc": "Ushbu vakansiya bo'yicha hujjat topshirish uchun tugmani bosing yoki biz bilan bog'laning.",
+    "contact_btn": "Bog'lanish",
+    "ish_tartibi": "ISH TARTIBI",
+    "maosh": "MAOSH",
+    "location": "O'zbekiston",
+    "experience": "1–3 yil",
+    "salary_payment": "Oyiga 2 marta",
+    "job1": {
+      "job_title": "Ishchi xodimlar",
+      "job_info": "Ko'prikqurilishbutlash MCHJ",
+      "job_desc_title": "Bo'sh ish o'rinlari",
+      "job_desc1": "2 ta Greyder haydovchisi",
+      "job_desc2": "2 ta Dispetcher (ayol)",
+      "job_desc3": "2 ta Yoqilg'i tarqatuvchi"
+    },
+    "job2": {
+      "job_title": "Ichki nazorat va komplaens xodimi",
+      "job_info": "Ko'prikqurilishbutlash MCHJ",
+      "job_desc1": "Talablar",
+      "job_desc2": "Oliy ma'lumot (yuridik, iqtisodiy yoki moliyaviy) Ichki nazorat yoki audit sohasida 1–3 yil tajriba O'zbekiston qonunchiligini bilish Hujjat va hisobotlar bilan ishlash ko'nikmasi MS Word, Excel, PowerPointAnalitik fikrlash va mas'uliyat",
+      "job_desc3": "Majburiyatlar",
+      "job_desc4": "Ichki nazorat va komplaens tizimini joriy etish Qonunchilik va ichki hujjatlarga muvofiqlikni nazorat qilish Korrupsiyaga qarshi siyosat monitoringi Xavf-xatarlarni aniqlash va kamaytirish Shartnoma va hujjatlarni huquqiy ekspertizadan o'tkazish Manfaatlar to'qnashuvini aniqlash va bartaraf etish",
+      "job_desc5": "Tillar",
+      "job_desc6": "O'zbek tili (erkin) Rus tili (afzal)",
+      "job_desc7": "Ish sharoitlari",
+      "job_desc8": "Rasmiy mehnat shartnomasi Barqaror ish joyi O'z vaqtida maosh Kasbiy rivojlanish imkoniyati Zamonaviy ofis texnikasi",
+      "bandlik_turi_word": "BANDLIK TURI",
+      "bandlik_turi": "Rasmiy",
+      "requirements": {
+        "req1": "Oliy ma'lumot (yuridik, iqtisodiy yoki moliyaviy)",
+        "req2": "Ichki nazorat yoki audit sohasida 1–3 yil tajriba",
+        "req3": "O'zbekiston qonunchiligini bilish",
+        "req4": "Hujjat va hisobotlar bilan ishlash ko'nikmasi",
+        "req5": "MS Word, Excel, PowerPoint",
+        "req6": "Analitik fikrlash va mas'uliyat"
+      },
+      "responsibilities": {
+        "resp1": "Ichki nazorat va komplaens tizimini joriy etish",
+        "resp2": "Qonunchilik va ichki hujjatlarga muvofiqlikni nazorat qilish",
+        "resp3": "Korrupsiyaga qarshi siyosat monitoringi",
+        "resp4": "Xavf-xatarlarni aniqlash va kamaytirish",
+        "resp5": "Shartnoma va hujjatlarni huquqiy ekspertizadan o'tkazish",
+        "resp6": "Manfaatlar to'qnashuvini aniqlash va bartaraf etish"
+      },
+      "languages": {
+        "lang1": "O'zbek tili (erkin)",
+        "lang2": "Rus tili (afzal)"
+      },
+      "conditions": {
+        "cond1": "Rasmiy mehnat shartnomasi",
+        "cond2": "Barqaror ish joyi",
+        "cond3": "O'z vaqtida maosh",
+        "cond4": "Kasbiy rivojlanish imkoniyati",
+        "cond5": "Zamonaviy ofis texnikasi"
+      }
+    },
+    "job3": {
+      "job_title": "Avtobetonosmesitel haydovchisi"
+    },
+    "modal": {
+      "name": "Ism",
+      "namePlaceholder": "Ismingizni kiriting",
+      "name_err": "Iltimos, ismingizni kiriting!",
+      "surname": "Familiya",
+      "surname_err": "Iltimos, familiyangizni kiriting!",
+      "surnamePlaceholder": "Familiyangizni kiriting",
+      "birth_date": "Tug'ilgan sana",
+      "birth_date_err": "Iltimos, tug'ilgan sanangizni tanlang!",
+      "phone": "Telefon raqam",
+      "phone_err1": "Iltimos, telefon raqamingizni kiriting!",
+      "phone_err2": "Noto'g'ri telefon raqami!",
+      "docs": "Ma'lumoti",
+      "docsPlaceholder": "Ma'lumotingizni tanlang",
+      "docs_option1": "O'rta",
+      "docs_option2": "O'rta maxsus",
+      "docs_option3": "Oliy",
+      "rezume": "Rezyume CV",
+      "rezume_err": "Iltimos, rezyumengizni yuklang!",
+      "rezume_btn": "Faylni yuklash",
+      "cancelBtn": "Bekor qilish",
+      "submitBtn": "Yuborish"
+    }
+  }
 }

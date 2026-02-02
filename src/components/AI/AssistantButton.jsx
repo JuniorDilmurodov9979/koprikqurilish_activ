@@ -10,8 +10,9 @@ import { useNavigate } from "react-router-dom";
 
 import ai_icon from "../../assets/icon/ai_assistant.png";
 
-const API_URL = "https://tanlov.kuprikqurilish.uz/ai-assistent/api/assistant";
-// const API_URL = "http://192.168.200.72:4000/api/assistant";
+const API_URL =
+  "https://tanlov.kuprikqurilish.uz/ai-assistent/api/assistant/chat";
+// const API_URL = "http://localhost:4000/api/assistant";
 
 // Rate limit configuration
 const RATE_LIMIT_CONFIG = {
@@ -334,10 +335,10 @@ const AssistantButton = () => {
                       msg.sender === "user"
                         ? "bg-blue-600 text-white rounded-br-sm"
                         : msg.isError
-                        ? "bg-red-50 text-red-800 rounded-bl-sm shadow-sm border border-red-200"
-                        : msg.type === "FAQ"
-                        ? "bg-green-50 text-gray-800 rounded-bl-sm shadow-sm border border-green-200"
-                        : "bg-white text-gray-800 rounded-bl-sm shadow-sm border border-gray-100"
+                          ? "bg-red-50 text-red-800 rounded-bl-sm shadow-sm border border-red-200"
+                          : msg.type === "FAQ"
+                            ? "bg-green-50 text-gray-800 rounded-bl-sm shadow-sm border border-green-200"
+                            : "bg-white text-gray-800 rounded-bl-sm shadow-sm border border-gray-100"
                     }`}
                   >
                     <p className="whitespace-pre-wrap">{msg.text}</p>

@@ -54,7 +54,7 @@ HeaderMenu.propTypes = {
         id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
         title: PropTypes.string.isRequired,
         path: PropTypes.string,
-      })
+      }),
     ),
   }).isRequired,
   color: PropTypes.any,

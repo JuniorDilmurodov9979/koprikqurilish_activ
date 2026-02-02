@@ -6,7 +6,6 @@ import PageTwoMenu from "../../containers/pageTwoMenu/PageTwoMenu";
 import { menu1 } from "../../const/Menu";
 import Footer from "../../containers/footer/Footer";
 import { Button, Card, Tag } from "antd";
-import vacancies from "./vacancy.json";
 import { useNavigate } from "react-router-dom";
 import {
   CalendarOutlined,
@@ -20,6 +19,90 @@ import vacancyImg from "../../assets/imgs/vacancy_img.jpg";
 
 const VacancyManagement = () => {
   const { t } = useTranslation();
+
+  const vacancy = [
+    {
+      id: 1,
+      company: t("vacancy.job_info1"),
+      title: t("vacancy.job_title1"),
+      positions: [
+        {
+          name: t("vacancy.job1.job_desc1"),
+          // count: 2,
+        },
+        {
+          name: t("vacancy.job1.job_desc2"),
+          // count: 2,
+        },
+        {
+          name: t("vacancy.job1.job_desc3"),
+          // count: 2,
+        },
+      ],
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job_place"),
+      salary: t("vacancy.job_price"),
+      publishedDate: "2026-01-12",
+      deadline: "2026-02-10",
+      status: t("vacancy.job_status_1"),
+    },
+    {
+      id: 2,
+      company: t("vacancy.job_info2"),
+      title: t("vacancy.job_title2"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job_place"),
+      experience: t("vacancy.experience"),
+      salary: t("vacancy.job_price1"),
+      salaryPayment: t("vacancy.salary_payment"),
+      employment: t("vacancy.job2.bandlik_turi"),
+      publishedDate: "2026-01-14",
+      deadline: "2026-01-16",
+      status: t("vacancy.job_status_2"),
+      responsibilities: [
+        t("vacancy.job2.responsibilities.resp1"),
+        t("vacancy.job2.responsibilities.resp2"),
+        t("vacancy.job2.responsibilities.resp3"),
+        t("vacancy.job2.responsibilities.resp4"),
+        t("vacancy.job2.responsibilities.resp5"),
+        t("vacancy.job2.responsibilities.resp6"),
+      ],
+      requirements: [
+        t("vacancy.job2.requirements.req1"),
+        t("vacancy.job2.requirements.req2"),
+        t("vacancy.job2.requirements.req3"),
+        t("vacancy.job2.requirements.req4"),
+        t("vacancy.job2.requirements.req5"),
+        t("vacancy.job2.requirements.req6"),
+      ],
+      languages: [
+        t("vacancy.job2.languages.lang1"),
+        t("vacancy.job2.languages.lang2"),
+      ],
+      conditions: [
+        t("vacancy.job2.conditions.cond1"),
+        t("vacancy.job2.conditions.cond2"),
+        t("vacancy.job2.conditions.cond3"),
+        t("vacancy.job2.conditions.cond4"),
+        t("vacancy.job2.conditions.cond5"),
+      ],
+    },
+    {
+      id: 3,
+      company: t("vacancy.job_info3"),
+      title: t("vacancy.job_title3"),
+      type: t("vacancy.job_type1"),
+      workDaysPerMonth: 24,
+      workHours: t("vacancy.job_time"),
+      location: t("vacancy.location"),
+      salary: t("vacancy.job_price"),
+      publishedDate: "2025-11-14",
+      status: t("vacancy.job_status_1"),
+    },
+  ];
+
   const navigate = useNavigate();
 
   const getDescription = (vacancy) => {
@@ -27,9 +110,9 @@ const VacancyManagement = () => {
     if (vacancy.description) return vacancy.description;
 
     // Second priority: positions list
-    if (vacancy.positions && vacancy.positions.length > 0) {
-      return vacancy.positions.map((p) => `${p.count} ta ${p.name}`).join(", ");
-    }
+    // if (vacancy.positions && vacancy.positions.length > 0) {
+    //   return vacancy.positions.map((p) => `${p.count} ta ${p.name}`).join(", ");
+    // }
 
     // Third priority: responsibilities
     if (vacancy.responsibilities && vacancy.responsibilities.length > 0) {
@@ -38,31 +121,31 @@ const VacancyManagement = () => {
 
     // Fourth priority: requirements
     if (vacancy.requirements && vacancy.requirements.length > 0) {
-      return "Talablar: " + vacancy.requirements.slice(0, 2).join(", ") + "...";
+      return vacancy.requirements.slice(0, 2).join(", ") + "...";
     }
 
     // Default fallback
-    return "Vakansiya tafsilotlari mavjud";
+    return t("vacancy.job_desc3");
   };
 
   const formatSalary = (vacancy) => {
     if (vacancy.salary) {
       return vacancy.salary;
     }
-    return "Kelishuv asosida";
+    return t("vacancy.job_price");
   };
 
   const formatWorkType = (vacancy) => {
     if (vacancy.type) return vacancy.type;
     if (vacancy.workDaysPerMonth)
-      return `Oyiga ${vacancy.workDaysPerMonth} kun`;
-    return "Aniqlanmagan";
+      return `${vacancy.workDaysPerMonth} kun oyiga`;
+    return t("vacancy.job_time");
   };
 
   const formatWorkHours = (vacancy) => {
     if (vacancy.workHours) return vacancy.workHours;
     if (vacancy.contact) return vacancy.contact;
-    return "Kelishiladi";
+    return t("vacancy.job_time");
   };
 
   return (
@@ -79,7 +162,7 @@ const VacancyManagement = () => {
             />
             <PageTwoMenu menu={menu1}>
               <div className="flex flex-col gap-6">
-                {vacancies.map((vacancy) => (
+                {vacancy.map((vacancy) => (
                   <Card
                     key={vacancy.id}
                     hoverable
@@ -112,7 +195,9 @@ const VacancyManagement = () => {
                             </div>
                             <Tag
                               color={
-                                vacancy.status === "Ochiq" ? "success" : "error"
+                                vacancy.status === t("vacancy.job_status_1")
+                                  ? "success"
+                                  : "error"
                               }
                               className="m-0 rounded-md"
                             >
@@ -136,7 +221,7 @@ const VacancyManagement = () => {
                               icon={<ClockCircleOutlined />}
                               className="bg-green-50 border-green-100 text-green-600 px-2 py-1"
                             >
-                              {formatWorkHours(vacancy)}
+                              {vacancy.workHours}
                             </Tag>
 
                             {vacancy.location && (
@@ -159,13 +244,13 @@ const VacancyManagement = () => {
                         <div className="pt-4 border-t border-gray-100 flex justify-between items-center mt-auto">
                           <div className="text-gray-400 text-xs flex items-center">
                             <CalendarOutlined className="mr-1" />
-                            E'lon qilingan:
+                            {t("vacancy.job_relese")}
                             <span className="ml-1 text-gray-600 font-medium">
                               {vacancy.publishedDate}
                             </span>
                             {vacancy.deadline && (
                               <span className="ml-3">
-                                Muddat:{" "}
+                                {t("vacancy.job_deadline")}{" "}
                                 <span className="text-gray-600 font-medium">
                                   {vacancy.deadline}
                                 </span>
@@ -177,12 +262,12 @@ const VacancyManagement = () => {
                             size="large"
                             onClick={() =>
                               navigate(
-                                `/management/vacancy-management/${vacancy.id}`
+                                `/management/vacancy-management/${vacancy.id}`,
                               )
                             }
                             className="rounded-lg px-8 shadow-blue-200 shadow-lg hover:translate-y-[-2px] transition-transform"
                           >
-                            Batafsil
+                            {t("vacancy.job_detail_btn")}
                           </Button>
                         </div>
                       </div>

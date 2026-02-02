@@ -44,7 +44,8 @@
       "title4": "Leadership",
       "title5": "Central apparatus",
       "title6": "Qualification requirements",
-      "title7": "Structural divisions"
+      "title7": "Structural divisions",
+      "title8": "Job Vacancies"
     },
     "menu2": {
       "title": "Normative documents",
@@ -323,5 +324,114 @@
   "zokirovBatir": "Zokirov Batir Irkinovich",
   "mamatovOdiljon": "Mamatov Odiljon Abdug‘aprovich",
   "maxamatovZafar": "Maxamatov Zafar Ergashboyevich",
-  "download2": "📄 Download file"
+  "download2": "📄 Download file",
+
+  "vacancy": {
+    "title_name": "Job Description",
+    "job_title1": "General Workers",
+    "job_info1": "Ko'prikqurilishbutlash LLC",
+    "job_desc1": "2 grader drivers, 2 dispatchers (female), 2 fuel station operators",
+    "job_status_1": "Open",
+    "job_status_2": "Closed",
+    "job_price": "Negotiable",
+    "job_price1": "7,000,000 – 10,000,000 UZS",
+    "job_type": "Full-time",
+    "job_type1": "Contract-based",
+    "job_relese": "Published:",
+    "job_time": "By agreement",
+    "job_deadline": "Deadline:",
+    "job_place": "Tashkent, Uzbekistan",
+    "job_title2": "Internal Control and Compliance Specialist",
+    "job_info2": "Ko'prikqurilishbutlash LLC",
+    "job_desc2": "Implementation of internal control and compliance systems. Monitoring compliance with legislation and internal policies...",
+    "job_title3": "Concrete Mixer Truck Driver",
+    "job_info3": "Ko'prikqurilishbutlash LLC",
+    "job_desc3": "Vacancy details available",
+    "job_detail_btn": "Details",
+    "back": "Back",
+    "ariza_btn": "Apply",
+    "ariza_btn1": "Vacancy closed",
+    "ariza_desc": "To apply for this vacancy, click the button or contact us.",
+    "contact_btn": "Contact",
+    "ish_tartibi": "WORK SCHEDULE",
+    "maosh": "SALARY",
+    "location": "Uzbekistan",
+    "experience": "1–3 years",
+    "salary_payment": "Paid twice a month",
+    "job1": {
+      "job_title": "General Workers",
+      "job_info": "Ko'prikqurilishbutlash LLC",
+      "job_desc_title": "Job Vacancies",
+      "job_desc1": "2 grader drivers",
+      "job_desc2": "2 dispatchers (female)",
+      "job_desc3": "2 fuel station operators"
+    },
+    "job2": {
+      "job_title": "Internal Control and Compliance Specialist",
+      "job_info": "Ko'prikqurilishbutlash LLC",
+      "job_desc1": "Requirements",
+      "job_desc2": "Higher education (law, economics, or finance). 1–3 years of experience in internal control or audit. Knowledge of Uzbekistan legislation. Skills in working with documents and reports. MS Word, Excel, PowerPoint. Analytical thinking and responsibility.",
+      "job_desc3": "Responsibilities",
+      "job_desc4": "Implementation of internal control and compliance systems. Monitoring compliance with legislation and internal policies. Anti-corruption policy monitoring. Risk identification and mitigation. Legal review of contracts and documents. Identifying and resolving conflicts of interest.",
+      "job_desc5": "Languages",
+      "job_desc6": "Uzbek (fluent), Russian (preferred)",
+      "job_desc7": "Working Conditions",
+      "job_desc8": "Official employment contract. Stable workplace. Timely salary. Professional development opportunities. Modern office equipment.",
+      "bandlik_turi_word": "EMPLOYMENT TYPE",
+      "bandlik_turi": "Official",
+      "requirements": {
+        "req1": "Higher education (law, economics, or finance)",
+        "req2": "1–3 years of experience in internal control or audit",
+        "req3": "Knowledge of Uzbekistan legislation",
+        "req4": "Document and reporting skills",
+        "req5": "MS Word, Excel, PowerPoint",
+        "req6": "Analytical thinking and responsibility"
+      },
+      "responsibilities": {
+        "resp1": "Implementation of internal control and compliance systems",
+        "resp2": "Monitoring compliance with legislation and internal policies",
+        "resp3": "Anti-corruption policy monitoring",
+        "resp4": "Risk identification and mitigation",
+        "resp5": "Legal review of contracts and documents",
+        "resp6": "Identifying and resolving conflicts of interest"
+      },
+      "languages": {
+        "lang1": "Uzbek (fluent)",
+        "lang2": "Russian (preferred)"
+      },
+      "conditions": {
+        "cond1": "Official employment contract",
+        "cond2": "Stable workplace",
+        "cond3": "Timely salary payment",
+        "cond4": "Professional development opportunities",
+        "cond5": "Modern office equipment"
+      }
+    },
+    "job3": {
+      "job_title": "Concrete Mixer Truck Driver"
+    },
+    "modal": {
+      "name": "First Name",
+      "namePlaceholder": "Enter your first name",
+      "name_err": "Please enter your first name!",
+      "surname": "Last Name",
+      "surname_err": "Please enter your last name!",
+      "surnamePlaceholder": "Enter your last name",
+      "birth_date": "Date of Birth",
+      "birth_date_err": "Please select your date of birth!",
+      "phone": "Phone Number",
+      "phone_err1": "Please enter your phone number!",
+      "phone_err2": "Invalid phone number!",
+      "docs": "Education",
+      "docsPlaceholder": "Select your education",
+      "docs_option1": "Secondary",
+      "docs_option2": "Vocational",
+      "docs_option3": "Higher",
+      "rezume": "Resume (CV)",
+      "rezume_err": "Please upload your resume!",
+      "rezume_btn": "Upload file",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Submit"
+    }
+  }
 }

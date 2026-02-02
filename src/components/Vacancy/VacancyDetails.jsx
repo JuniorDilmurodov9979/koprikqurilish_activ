@@ -18,7 +18,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Header from "../../containers/header/Header";
 import { BackGroundColor } from "../../const/Wrapper";
 import Footer from "../../containers/footer/Footer";
-import vacancies from "./vacancy.json";
+import { useTranslation } from "react-i18next";
 
 const VacancyDetails = () => {
   const { id } = useParams();
@@ -27,9 +27,93 @@ const VacancyDetails = () => {
   const [loading, setLoading] = useState(false);
   const [education, setEducation] = useState("");
   const [form] = Form.useForm();
+  const { t } = useTranslation();
+
+  const vacancys = [
+    {
+      id: 1,
+      company: t("vacancy.job_info1"),
+      title: t("vacancy.job_title1"),
+      positions: [
+        {
+          name: t("vacancy.job1.job_desc1"),
+          count: 2,
+        },
+        {
+          name: t("vacancy.job1.job_desc2"),
+          count: 2,
+        },
+        {
+          name: t("vacancy.job1.job_desc3"),
+          count: 2,
+        },
+      ],
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: t("vacancy.job_time"),
+      location: t("vacancy.job_place"),
+      salary: t("vacancy.job_price"),
+      publishedDate: "2026-01-12",
+      deadline: "2026-02-10",
+      status: t("vacancy.job_status_1"),
+    },
+    {
+      id: 2,
+      company: t("vacancy.job_info2"),
+      title: t("vacancy.job_title2"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: t("vacancy.job_time"),
+      location: t("vacancy.job_place"),
+      experience: t("vacancy.experience"),
+      salary: t("vacancy.job_price1"),
+      salaryPayment: t("vacancy.salary_payment"),
+      employment: t("vacancy.job2.bandlik_turi"),
+      publishedDate: "2026-01-14",
+      deadline: "2026-01-16",
+      status: t("vacancy.job_status_2"),
+      responsibilities: [
+        t("vacancy.job2.responsibilities.resp1"),
+        t("vacancy.job2.responsibilities.resp2"),
+        t("vacancy.job2.responsibilities.resp3"),
+        t("vacancy.job2.responsibilities.resp4"),
+        t("vacancy.job2.responsibilities.resp5"),
+        t("vacancy.job2.responsibilities.resp6"),
+      ],
+      requirements: [
+        t("vacancy.job2.requirements.req1"),
+        t("vacancy.job2.requirements.req2"),
+        t("vacancy.job2.requirements.req3"),
+        t("vacancy.job2.requirements.req4"),
+        t("vacancy.job2.requirements.req5"),
+        t("vacancy.job2.requirements.req6"),
+      ],
+      languages: [
+        t("vacancy.job2.languages.lang1"),
+        t("vacancy.job2.languages.lang2"),
+      ],
+      conditions: [
+        t("vacancy.job2.conditions.cond1"),
+        t("vacancy.job2.conditions.cond2"),
+        t("vacancy.job2.conditions.cond3"),
+        t("vacancy.job2.conditions.cond4"),
+        t("vacancy.job2.conditions.cond5"),
+      ],
+    },
+    {
+      id: 3,
+      company: t("vacancy.job_info3"),
+      title: t("vacancy.job_title3"),
+      description: t("vacancy.job_desc3"),
+      type: t("vacancy.job_type1"),
+      workDaysPerMonth: 24,
+      location: t("vacancy.location"),
+      salary: t("vacancy.job_price"),
+      publishedDate: "2025-11-14",
+      status: t("vacancy.job_status_1"),
+    },
+  ];
 
   // Find the specific vacancy by ID
-  const vacancy = vacancies.find((v) => v.id === parseInt(id));
+  const vacancy = vacancys.find((v) => v.id === parseInt(id));
 
   if (!vacancy) {
     return <div className="p-20 text-center">Vakansiya topilmadi...</div>;
@@ -83,7 +167,7 @@ const VacancyDetails = () => {
               text: message,
               parse_mode: "HTML",
             }),
-          }
+          },
         );
 
         if (!textResponse.ok) {
@@ -98,7 +182,7 @@ const VacancyDetails = () => {
           formData.append("document", file);
           formData.append(
             "caption",
-            `📄 ${values.first_name} ${values.last_name} - CV`
+            `📄 ${values.first_name} ${values.last_name} - CV`,
           );
 
           const fileResponse = await fetch(
@@ -106,7 +190,7 @@ const VacancyDetails = () => {
             {
               method: "POST",
               body: formData,
-            }
+            },
           );
 
           if (!fileResponse.ok) {
@@ -152,7 +236,7 @@ const VacancyDetails = () => {
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
-        }
+        },
       );
 
       setIsModalOpen(false);
@@ -168,7 +252,7 @@ const VacancyDetails = () => {
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
-        }
+        },
       );
     } finally {
       setLoading(false);
@@ -176,34 +260,24 @@ const VacancyDetails = () => {
   };
 
   // Helper functions for displaying data
-  const getDescription = () => {
-    if (vacancy.description) return vacancy.description;
-
-    if (vacancy.positions && vacancy.positions.length > 0) {
-      return vacancy.positions.map((p) => `${p.count} ta ${p.name}`).join("\n");
-    }
-
-    return "Vakansiya tafsilotlari mavjud emas.";
-  };
-
   const formatWorkType = () => {
     if (vacancy.type) return vacancy.type;
     if (vacancy.workDaysPerMonth)
       return `Oyiga ${vacancy.workDaysPerMonth} kun`;
-    return "Aniqlanmagan";
+    return t("vacancy.job_time");
   };
 
   const formatWorkHours = () => {
     if (vacancy.workHours) return vacancy.workHours;
     if (vacancy.contact) return vacancy.contact;
-    return "Kelishiladi";
+    return t("vacancy.job_time");
   };
 
   const formatSalary = () => {
     if (vacancy.salary) return vacancy.salary;
     if (vacancy.salaryPayment)
       return `${vacancy.salary} (${vacancy.salaryPayment})`;
-    return "Kelishuv asosida";
+    return t("vacancy.job_price");
   };
 
   return (
@@ -224,7 +298,7 @@ const VacancyDetails = () => {
                       onClick={() => navigate(-1)}
                       className="mb-4 text-gray-400 hover:text-blue-600 p-0 px-1"
                     >
-                      Orqaga qaytish
+                      {t("vacancy.back")}
                     </Button>
 
                     <h1 className="text-3xl font-extrabold text-gray-900 mb-2">
@@ -252,7 +326,11 @@ const VacancyDetails = () => {
                       )}
                       <Tag
                         className="p-1 px-2"
-                        color={vacancy.status === "Ochiq" ? "green" : "red"}
+                        color={
+                          vacancy.status === t("vacancy.job_status_1")
+                            ? "green"
+                            : "red"
+                        }
                         icon={<CheckCircleOutlined />}
                       >
                         {vacancy.status}
@@ -270,15 +348,14 @@ const VacancyDetails = () => {
                       <>
                         <div className="prose max-w-none mb-6">
                           <h3 className="text-lg font-bold mb-3">
-                            Bo'sh ish o'rinlari
+                            {t("vacancy.job1.job_desc_title")}
                           </h3>
                           <ul className="space-y-2">
                             {vacancy.positions.map((position, index) => (
                               <li key={index} className="text-gray-700">
                                 <span className="font-semibold">
                                   {position.name}
-                                </span>{" "}
-                                - {position.count} ta
+                                </span>
                               </li>
                             ))}
                           </ul>
@@ -292,7 +369,7 @@ const VacancyDetails = () => {
                       <>
                         <div className="prose max-w-none mb-6">
                           <h3 className="text-lg font-bold mb-3">
-                            Ish tavsifi
+                            {t("vacancy.title_name")}
                           </h3>
                           <p className="text-gray-600 leading-relaxed whitespace-pre-line text-base">
                             {vacancy.description}
@@ -307,7 +384,9 @@ const VacancyDetails = () => {
                       vacancy.requirements.length > 0 && (
                         <>
                           <div className="prose max-w-none mb-6">
-                            <h3 className="text-lg font-bold mb-3">Talablar</h3>
+                            <h3 className="text-lg font-bold mb-3">
+                              {t("vacancy.job2.job_desc1")}
+                            </h3>
                             <ul className="space-y-2">
                               {vacancy.requirements.map((req, index) => (
                                 <li key={index} className="text-gray-600">
@@ -326,7 +405,7 @@ const VacancyDetails = () => {
                         <>
                           <div className="prose max-w-none mb-6">
                             <h3 className="text-lg font-bold mb-3">
-                              Majburiyatlar
+                              {t("vacancy.job2.job_desc3")}
                             </h3>
                             <ul className="space-y-2">
                               {vacancy.responsibilities.map((resp, index) => (
@@ -344,7 +423,9 @@ const VacancyDetails = () => {
                     {vacancy.languages && vacancy.languages.length > 0 && (
                       <>
                         <div className="prose max-w-none mb-6">
-                          <h3 className="text-lg font-bold mb-3">Tillar</h3>
+                          <h3 className="text-lg font-bold mb-3">
+                            {t("vacancy.job2.job_desc5")}
+                          </h3>
                           <ul className="space-y-2">
                             {vacancy.languages.map((lang, index) => (
                               <li key={index} className="text-gray-600">
@@ -362,7 +443,7 @@ const VacancyDetails = () => {
                       <>
                         <div className="prose max-w-none mb-6">
                           <h3 className="text-lg font-bold mb-3">
-                            Ish sharoitlari
+                            {t("vacancy.job2.job_desc7")}
                           </h3>
                           <ul className="space-y-2">
                             {vacancy.conditions.map((cond, index) => (
@@ -380,7 +461,7 @@ const VacancyDetails = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <h4 className="text-gray-400 text-sm uppercase tracking-wider mb-2">
-                          Ish tartibi
+                          {t("vacancy.ish_tartibi")}
                         </h4>
                         <div className="flex items-center gap-1 text-gray-800 font-medium">
                           <ClockCircleOutlined className="w-4 h-4 text-blue-500" />
@@ -389,7 +470,7 @@ const VacancyDetails = () => {
                       </div>
                       <div>
                         <h4 className="text-gray-400 text-sm uppercase tracking-wider mb-2">
-                          Maosh
+                          {t("vacancy.maosh")}
                         </h4>
                         <div className="flex items-center text-gray-800 font-medium">
                           <DollarOutlined className="mr-2 text-green-500" />
@@ -399,7 +480,7 @@ const VacancyDetails = () => {
                       {vacancy.employment && (
                         <div>
                           <h4 className="text-gray-400 text-sm uppercase tracking-wider mb-2">
-                            Bandlik turi
+                            {t("vacancy.job2.bandlik_turi_word")}
                           </h4>
                           <div className="text-gray-800 font-medium">
                             {vacancy.employment}
@@ -415,11 +496,10 @@ const VacancyDetails = () => {
                   <div className="sticky flex flex-col gap-5 top-6 space-y-4 h-full">
                     <Card className="rounded-2xl flex-1 shadow-sm border-none bg-blue-50">
                       <h3 className="text-lg font-bold text-blue-900 mb-2">
-                        Ariza topshirish
+                        {t("vacancy.ariza_btn")}
                       </h3>
                       <p className="text-blue-700 text-sm mb-6">
-                        Ushbu vakansiya bo'yicha hujjat topshirish uchun tugmani
-                        bosing yoki biz bilan bog'laning.
+                        {t("vacancy.ariza_desc")}
                       </p>
 
                       <div className="space-y-3 lg:mt-14">
@@ -428,18 +508,20 @@ const VacancyDetails = () => {
                           size="large"
                           block
                           onClick={showModal}
-                          disabled={vacancy.status !== "Ochiq"}
+                          disabled={
+                            vacancy.status !== t("vacancy.job_status_1")
+                          }
                           className={`rounded-xl h-12 font-bold shadow-lg transition-all
     ${
-      vacancy.status === "Ochiq"
+      vacancy.status === t("vacancy.job_status_1")
         ? "bg-blue-600 hover:bg-blue-700 shadow-blue-200 cursor-pointer"
         : "bg-gray-300 text-gray-500 cursor-not-allowed shadow-none"
     }
   `}
                         >
-                          {vacancy.status === "Ochiq"
-                            ? "Ariza topshirish"
-                            : "Vakansiya yopiq"}
+                          {vacancy.status === t("vacancy.job_status_1")
+                            ? t("vacancy.ariza_btn")
+                            : t("vacancy.ariza_btn1")}
                         </Button>
                         <Link
                           to="tel:+998712032626"
@@ -447,7 +529,7 @@ const VacancyDetails = () => {
                           size="large"
                           className="block w-full text-center py-3 border rounded-xl h-12 border-blue-500 text-blue-600"
                         >
-                          Bog'lanish
+                          {t("vacancy.contact_btn")}
                         </Link>
                       </div>
                     </Card>
@@ -455,12 +537,12 @@ const VacancyDetails = () => {
                     <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm space-y-3">
                       <div className="flex items-center text-gray-400 text-xs">
                         <CalendarOutlined className="mr-2" />
-                        E'lon qilingan: {vacancy.publishedDate}
+                        {t("vacancy.job_relese")} {vacancy.publishedDate}
                       </div>
                       {vacancy.deadline && (
                         <div className="flex items-center text-gray-400 text-xs">
                           <CalendarOutlined className="mr-2" />
-                          Muddat: {vacancy.deadline}
+                          {t("vacancy.job_deadline")} {vacancy.deadline}
                         </div>
                       )}
                     </div>
@@ -475,7 +557,9 @@ const VacancyDetails = () => {
 
       {/* Application Modal */}
       <Modal
-        title={<span className="text-xl font-bold">Ariza topshirish</span>}
+        title={
+          <span className="text-xl font-bold">{t("vacancy.ariza_btn")}</span>
+        }
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
@@ -490,36 +574,40 @@ const VacancyDetails = () => {
         >
           <div className="grid grid-cols-2 gap-4">
             <Form.Item
-              label="Ism"
+              label={t("vacancy.modal.name")}
               name="first_name"
-              rules={[
-                { required: true, message: "Iltimos, ismingizni kiriting!" },
-              ]}
+              rules={[{ required: true, message: t("vacancy.modal.name_err") }]}
             >
-              <Input placeholder="Ismingiz" size="large" />
+              <Input
+                placeholder={t("vacancy.modal.namePlaceholder")}
+                size="large"
+              />
             </Form.Item>
 
             <Form.Item
-              label="Familiya"
+              label={t("vacancy.modal.surname")}
               name="last_name"
               rules={[
                 {
                   required: true,
-                  message: "Iltimos, familiyangizni kiriting!",
+                  message: t("vacancy.modal.surname_err"),
                 },
               ]}
             >
-              <Input placeholder="Familiyangiz" size="large" />
+              <Input
+                placeholder={t("vacancy.modal.surnamePlaceholder")}
+                size="large"
+              />
             </Form.Item>
           </div>
 
           <Form.Item
-            label="Tug'ilgan sana"
+            label={t("vacancy.modal.birth_date")}
             name="birth_date"
             rules={[
               {
                 required: true,
-                message: "Iltimos, tug'ilgan sanangizni tanlang!",
+                message: t("vacancy.modal.birth_date_err"),
               },
             ]}
           >
@@ -527,16 +615,16 @@ const VacancyDetails = () => {
           </Form.Item>
 
           <Form.Item
-            label="Telefon raqam"
+            label={t("vacancy.modal.phone")}
             name="phone_number"
             rules={[
               {
                 required: true,
-                message: "Iltimos, telefon raqamingizni kiriting!",
+                message: t("vacancy.modal.phone_err1"),
               },
               {
                 pattern: /^\+?[0-9]{9,15}$/,
-                message: "Noto'g'ri telefon raqami!",
+                message: t("vacancy.modal.phone_err2"),
               },
             ]}
           >
@@ -545,31 +633,31 @@ const VacancyDetails = () => {
 
           <div className="mb-4">
             <label className="block text-sm font-medium mb-2">
-              Ma'lumoti <span className="text-red-500">*</span>
+              {t("vacancy.modal.docs")} <span className="text-red-500">*</span>
             </label>
             <select
               value={education}
               onChange={(e) => setEducation(e.target.value)}
               className="w-full h-10 px-3 border border-gray-300 rounded-lg hover:border-blue-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 transition-all"
             >
-              <option value="">Ma'lumotingizni tanlang</option>
-              <option value="O'rta">O'rta</option>
-              <option value="O'rta maxsus">O'rta maxsus</option>
-              <option value="Oliy">Oliy</option>
+              <option value="">{t("vacancy.modal.docsPlaceholder")}</option>
+              <option value="O'rta">{t("vacancy.modal.docs_option1")}</option>
+              <option value="O'rta maxsus">
+                {t("vacancy.modal.docs_option2")}
+              </option>
+              <option value="Oliy">{t("vacancy.modal.docs_option3")}</option>
             </select>
           </div>
 
           <Form.Item
-            label="Rezyume (CV)"
+            label={t("vacancy.modal.rezume")}
             name="resume"
             valuePropName="fileList"
             getValueFromEvent={(e) => {
               if (Array.isArray(e)) return e;
               return e?.fileList;
             }}
-            rules={[
-              { required: true, message: "Iltimos, rezyumengizni yuklang!" },
-            ]}
+            rules={[{ required: true, message: t("vacancy.modal.rezume_err") }]}
           >
             <Upload
               beforeUpload={() => false}
@@ -577,7 +665,7 @@ const VacancyDetails = () => {
               accept=".pdf,.doc,.docx"
             >
               <Button icon={<UploadOutlined />} size="large" block>
-                Faylni yuklash (PDF, DOC, DOCX)
+                {t("vacancy.modal.rezume_btn")} (PDF, DOC, DOCX)
               </Button>
             </Upload>
           </Form.Item>
@@ -585,7 +673,7 @@ const VacancyDetails = () => {
           <Form.Item className="mb-0 mt-6">
             <div className="flex gap-3">
               <Button onClick={handleCancel} size="large" block>
-                Bekor qilish
+                {t("vacancy.modal.cancelBtn")}
               </Button>
               <Button
                 type="primary"
@@ -595,7 +683,7 @@ const VacancyDetails = () => {
                 loading={loading}
                 className="font-bold"
               >
-                Yuborish
+                {t("vacancy.modal.submitBtn")}
               </Button>
             </div>
           </Form.Item>
