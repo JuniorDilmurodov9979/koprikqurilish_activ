@@ -411,6 +411,33 @@
     "job3": {
       "job_title": "Avtobetonosmesitel haydovchisi"
     },
+    "job4": {
+      "experience": "10+ yil",
+      "job_title": "Ichki audit xizmati auditori",
+      "job_info": "Ichki audit xizmati boshqarmasi",
+      "job_desc1": "Talablar",
+      "job_desc2": "Oliy ma’lumot. Audit, buxgalteriya, moliya yoki soliq nazorati sohasida kamida 10 yil ish tajribasi. Ichki auditor sertifikati mavjud bo‘lishi afzal. Xalqaro buxgalteriya hisobi standartlarini bilish qo‘llab-quvvatlanadi.",
+      "job_desc2_info1": "Oliy ma’lumot",
+      "job_desc2_info2": "Audit, buxgalteriya, moliya yoki soliq nazorati sohasida kamida 10 yil ish tajribasi",
+      "job_desc2_info3": "Ichki auditor sertifikati mavjud bo‘lishi afzal",
+      "job_desc2_info4": "Xalqaro buxgalteriya hisobi standartlarini bilish qo‘llab-quvvatlanadi",
+      "job_desc3": "Majburiyatlar",
+      "job_desc4": "Ichki audit faoliyatini amalga oshirish. Moliyaviy va buxgalteriya hujjatlarini tahlil qilish. Audit xulosalari va tavsiyalar tayyorlash.",
+      "job_desc4_info1": "Ichki audit faoliyatini amalga oshirish",
+      "job_desc4_info2": "Moliyaviy va buxgalteriya hujjatlarini tahlil qilish",
+      "job_desc4_info3": "Audit xulosalari va tavsiyalar tayyorlash",
+      "job_desc5": "Ish sharoitlari",
+      "job_desc6": "Ish kunlari: dushanba–juma. Ish vaqti: 09:00–18:00. Dam olish kunlari: shanba va yakshanba.",
+      "job_desc6_info1": "Ish kunlari: dushanba–juma",
+      "job_desc6_info2": "Ish vaqti: 09:00–18:00",
+      "job_desc6_info3": "Dam olish kunlari: shanba va yakshanba",
+      "bandlik_turi_word": "BANDLIK TURI",
+      "bandlik_turi": "Rasmiy",
+      "maosh": "Shtat jadvali asosida",
+      "manzil": "Toshkent shahri, Chilonzor tumani",
+      "aloqa": "(71) 203-26-26 (ichki 1009 yoki 1027)",
+      "pochta": "koprikqurilishaj2@gmail.com"
+    },
     "modal": {
       "name": "Ism",
       "namePlaceholder": "Ismingizni kiriting",

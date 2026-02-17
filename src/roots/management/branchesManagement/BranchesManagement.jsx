@@ -62,7 +62,6 @@ const BranchesManagement = () => {
   useEffect(() => {
     getLeadershipManagement();
   }, [viloyat]);
-  console.log(management);
 
   return (
     <>

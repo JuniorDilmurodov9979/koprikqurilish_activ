@@ -407,7 +407,6 @@ export function transliterate(word) {
       let re = new RegExp(str1, "g");
       word = word.replace(re, `${key}`);
     }
-    // console.log(word);
     word = word.replace(/`/g, "'");
     word = word.replace(/ʹ/g, "'");
     word = word.replace(/ʻ/g, "'");

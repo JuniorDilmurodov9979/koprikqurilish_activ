@@ -110,6 +110,42 @@ const VacancyDetails = () => {
       publishedDate: "2025-11-14",
       status: t("vacancy.job_status_1"),
     },
+    {
+      id: 4,
+      company: t("vacancy.job4.job_info"),
+      title: t("vacancy.job4.job_title"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job4.manzil"),
+      experience: t("vacancy.job4.experience"),
+      education: t("vacancy.modal.docs_option3"),
+      salary: t("vacancy.job4.maosh"),
+      publishedDate: "2026-02-10",
+      deadline: "2026-03-10",
+      status: t("vacancy.job_status_1"),
+
+      responsibilities: [
+        t("vacancy.job4.job_desc4_info1"),
+        t("vacancy.job4.job_desc4_info2"),
+        t("vacancy.job4.job_desc4_info3"),
+      ],
+
+      requirements: [
+        t("vacancy.job4.job_desc2_info1"),
+        t("vacancy.job4.job_desc2_info2"),
+        t("vacancy.job4.job_desc2_info3"),
+        t("vacancy.job4.job_desc2_info4"),
+      ],
+
+      conditions: [
+        t("vacancy.job4.job_desc6_info1"),
+        t("vacancy.job4.job_desc6_info2"),
+        t("vacancy.job4.job_desc6_info3"),
+      ],
+
+      contact: t("vacancy.job4.aloqa"),
+      email: t("vacancy.job4.pochta"),
+    },
   ];
 
   // Find the specific vacancy by ID

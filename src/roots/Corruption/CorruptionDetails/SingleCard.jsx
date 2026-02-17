@@ -72,7 +72,6 @@ export const SingleCard = ({ item }) => {
   const closeZoom = () => {
     setZoomedImg(null);
   };
-  console.log(item?.text);
 
   return (
     <>

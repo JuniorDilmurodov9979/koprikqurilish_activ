@@ -410,6 +410,33 @@
     "job3": {
       "job_title": "Concrete Mixer Truck Driver"
     },
+    "job4": {
+      "experience": "10+ years",
+      "job_title": "Internal Audit Service Auditor",
+      "job_info": "Internal Audit Service Department",
+      "job_desc1": "Requirements",
+      "job_desc2": "Higher education. At least 10 years of work experience in audit, accounting, finance, or tax control. Having an internal auditor certificate is preferred. Knowledge of international accounting standards is supported.",
+      "job_desc2_info1": "Higher education",
+      "job_desc2_info2": "At least 10 years of work experience in audit, accounting, finance, or tax control",
+      "job_desc2_info3": "Having an internal auditor certificate is preferred",
+      "job_desc2_info4": "Knowledge of international accounting standards is supported",
+      "job_desc3": "Responsibilities",
+      "job_desc4": "Carrying out internal audit activities. Analyzing financial and accounting documents. Preparing audit conclusions and recommendations.",
+      "job_desc4_info1": "Carrying out internal audit activities",
+      "job_desc4_info2": "Analyzing financial and accounting documents",
+      "job_desc4_info3": "Preparing audit conclusions and recommendations",
+      "job_desc5": "Working conditions",
+      "job_desc6": "Working days: Monday–Friday. Working hours: 09:00–18:00. Days off: Saturday and Sunday.",
+      "job_desc6_info1": "Working days: Monday–Friday",
+      "job_desc6_info2": "Working hours: 09:00–18:00",
+      "job_desc6_info3": "Days off: Saturday and Sunday",
+      "bandlik_turi_word": "EMPLOYMENT TYPE",
+      "bandlik_turi": "Official",
+      "maosh": "According to the staff schedule",
+      "manzil": "Tashkent city, Chilonzor district",
+      "aloqa": "(71) 203-26-26 (internal 1009 or 1027)",
+      "pochta": "koprikqurilishaj2@gmail.com"
+    },
     "modal": {
       "name": "First Name",
       "namePlaceholder": "Enter your first name",
