@@ -10,8 +10,7 @@ import { useNavigate } from "react-router-dom";
 
 import ai_icon from "../../assets/icon/ai_assistant.png";
 
-const API_URL =
-  "https://tanlov.kuprikqurilish.uz/ai-assistent/api/assistant/chat";
+const API_URL = "https://tanlov.kuprikqurilish.uz/ai-assistent/api/assistant";
 // const API_URL = "http://localhost:4000/api/assistant";
 
 // Rate limit configuration

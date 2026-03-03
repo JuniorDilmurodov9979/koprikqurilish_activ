@@ -437,6 +437,26 @@
       "aloqa": "(71) 203-26-26 (internal 1009 or 1027)",
       "pochta": "koprikqurilishaj2@gmail.com"
     },
+    "job5": {
+      "company": "Department of Construction Mechanization, Energy and Labor Protection",
+      "title": "Lead Power Engineer",
+      "experience": "Minimum 5 years (in energy sector or related field)",
+      "education": "Higher technical education (Energy specialization preferred)",
+      "responsibilities": {
+        "resp1": "Monitor electricity, natural gas and drinking water supply at all construction sites and bases",
+        "resp2": "Analyze fuel and lubricant consumption and develop cost-saving measures",
+        "resp3": "Maintain monitoring and reporting on electricity, gas, water and fuel consumption",
+        "resp4": "Work with technical documentation and prepare reports for senior management"
+      },
+      "requirements": {
+        "req1": "At least 5 years of experience in energy or related field",
+        "req2": "Higher technical education (Energy field preferred)",
+        "req3": "Strong knowledge of MS Word, Excel (advanced formulas), and PowerPoint",
+        "req4": "Understanding of energy resource standardization and limit control procedures",
+        "req5": "Responsibility, analytical thinking, and teamwork skills"
+      }
+    },
+
     "modal": {
       "name": "First Name",
       "namePlaceholder": "Enter your first name",

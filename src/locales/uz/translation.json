@@ -438,6 +438,27 @@
       "aloqa": "(71) 203-26-26 (ichki 1009 yoki 1027)",
       "pochta": "koprikqurilishaj2@gmail.com"
     },
+
+    "job5": {
+      "company": "Qurilishni mexanizatsiyalashtirish, energetika va mehnat muhofazasi boshqarmasi",
+      "title": "Yetakchi energetik",
+      "experience": "Kamida 5 yil (energetika yoki tegishli sohada)",
+      "education": "Oliy texnik ma'lumot (Energetika yo‘nalishi ustuvor)",
+      "responsibilities": {
+        "resp1": "Barcha qurilish obyektlari va bazalardagi elektr energiyasi, tabiiy gaz hamda ichimlik suvi ta’minotini nazorat qilish",
+        "resp2": "Yoqilg‘i-moylash mahsulotlari (YoMM) sarfini tahlil qilish va tejash choralarini ishlab chiqish",
+        "resp3": "Tok, gaz, suv va YoMM xarajati bo‘yicha monitoring va hisobdorlik yuritish",
+        "resp4": "Texnik hujjatlar bilan ishlash va hisobotlarni rahbariyatga taqdim etish"
+      },
+      "requirements": {
+        "req1": "Energetika yoki tegishli sohada kamida 5 yil ish tajribasi",
+        "req2": "Oliy texnik ma’lumot (Energetika ustuvor)",
+        "req3": "MS Word va Excel (murakkab formulalar), PowerPoint bilan ishlay olish",
+        "req4": "Energiya resurslarini me’yorlashtirish va limit nazoratini tushunish",
+        "req5": "Mas’uliyatlilik, tahliliy fikrlash va jamoada ishlash ko‘nikmasi"
+      }
+    },
+
     "modal": {
       "name": "Ism",
       "namePlaceholder": "Ismingizni kiriting",

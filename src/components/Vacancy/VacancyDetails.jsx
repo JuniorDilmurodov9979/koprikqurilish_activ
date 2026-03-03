@@ -146,6 +146,35 @@ const VacancyDetails = () => {
       contact: t("vacancy.job4.aloqa"),
       email: t("vacancy.job4.pochta"),
     },
+    {
+      id: 5,
+      company: t("vacancy.job5.company"),
+      title: t("vacancy.job5.title"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job_place"),
+      experience: t("vacancy.job5.experience"),
+      education: t("vacancy.job5.education"),
+      salary: t("vacancy.job_price"),
+      publishedDate: "2026-03-01",
+      deadline: "2026-03-30",
+      status: t("vacancy.job_status_1"),
+
+      responsibilities: [
+        t("vacancy.job5.responsibilities.resp1"),
+        t("vacancy.job5.responsibilities.resp2"),
+        t("vacancy.job5.responsibilities.resp3"),
+        t("vacancy.job5.responsibilities.resp4"),
+      ],
+
+      requirements: [
+        t("vacancy.job5.requirements.req1"),
+        t("vacancy.job5.requirements.req2"),
+        t("vacancy.job5.requirements.req3"),
+        t("vacancy.job5.requirements.req4"),
+        t("vacancy.job5.requirements.req5"),
+      ],
+    },
   ];
 
   // Find the specific vacancy by ID
