@@ -166,6 +166,35 @@ const VacancyManagement = () => {
         t("vacancy.job5.requirements.req5"),
       ],
     },
+    {
+      id: 6,
+      company: t("vacancy.job6.company"),
+      title: t("vacancy.job6.title"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job_place"),
+      experience: t("vacancy.job6.experience"),
+      education: t("vacancy.job6.education"),
+      salary: t("vacancy.job_price"),
+      publishedDate: "2026-03-10",
+      deadline: "2026-04-10",
+      status: t("vacancy.job_status_1"),
+
+      responsibilities: [
+        t("vacancy.job6.responsibilities.resp1"),
+        t("vacancy.job6.responsibilities.resp2"),
+        t("vacancy.job6.responsibilities.resp3"),
+        t("vacancy.job6.responsibilities.resp4"),
+        t("vacancy.job6.responsibilities.resp5"),
+      ],
+
+      requirements: [
+        t("vacancy.job6.requirements.req1"),
+        t("vacancy.job6.requirements.req2"),
+        t("vacancy.job6.requirements.req3"),
+        t("vacancy.job6.requirements.req4"),
+      ],
+    },
   ];
 
   const navigate = useNavigate();
@@ -227,7 +256,7 @@ const VacancyManagement = () => {
             />
             <PageTwoMenu menu={menu1}>
               <div className="flex flex-col gap-6">
-                {vacancy.map((vacancy) => (
+                {vacancy.reverse().map((vacancy) => (
                   <Card
                     key={vacancy.id}
                     hoverable

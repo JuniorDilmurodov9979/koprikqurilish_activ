@@ -1,3 +1,5 @@
+import { t } from "i18next";
+
 export let menu1 = {
   title: "menus.menu1.title",
   path: "/",
@@ -136,6 +138,27 @@ export const menu7 = {
       id: 5,
       path: "/corporativ/Aksiyadorlarga",
       title: "menus.menu7.title5",
+    },
+  ],
+};
+export const menu8 = {
+  title: t("xizmatlar.title"),
+  path: "/xizmatlar",
+  menus: [
+    {
+      id: 1,
+      path: "/xizmatlar/texnika",
+      title: t("xizmatlar.menu1_title"),
+    },
+    {
+      id: 2,
+      path: "/xizmatlar/laboratoriya",
+      title: t("xizmatlar.menu2_title"),
+    },
+    {
+      id: 3,
+      path: "/xizmatlar/loyiha",
+      title: t("xizmatlar.menu3_title"),
     },
   ],
 };

@@ -1,0 +1,242 @@
+/* MODAL CUSTOM UI */
+
+.order-modal .ant-modal-content {
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 24px !important;
+  background: #ffffff !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.14) !important;
+}
+
+.order-modal .ant-modal-header {
+  padding: 15px 20px !important;
+  background: linear-gradient(135deg, #ff7a00, #ff9f43) !important;
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+
+.order-modal .ant-modal-title {
+  color: white !important;
+}
+
+.order-modal-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+  color: white;
+}
+
+.order-modal-subtitle {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.order-modal .ant-modal-close {
+  top: 18px !important;
+  right: 18px !important;
+}
+
+.order-close-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: white;
+  color: #ff7a00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: 0.25s ease;
+}
+
+.order-close-btn:hover {
+  transform: rotate(90deg);
+}
+
+.order-modal-body {
+  padding: 20px;
+}
+
+.order-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.order-group {
+  margin-bottom: 18px;
+}
+
+.order-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.order-label span {
+  color: #ff7a00;
+}
+
+.order-input {
+  width: 100%;
+  height: 45px;
+  padding: 0 18px;
+
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+
+  background: white;
+  color: #1f1f1f;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  outline: none;
+
+  transition: 0.25s ease;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.order-input::placeholder {
+  color: #9ca3af;
+}
+
+.order-input:focus {
+  border-color: #ff7a00;
+  box-shadow: 0 0 0 4px rgba(255, 122, 0, 0.1);
+}
+
+.order-textarea {
+  width: 100%;
+  min-height: 120px;
+
+  padding: 18px;
+
+  border-radius: 18px;
+  border: 1px solid #e8e8e8;
+
+  background: white;
+
+  font-size: 15px;
+  color: #1f1f1f;
+
+  resize: none;
+  outline: none;
+
+  transition: 0.25s ease;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.order-textarea::placeholder {
+  color: #9ca3af;
+}
+
+.order-textarea:focus {
+  border-color: #ff7a00;
+  box-shadow: 0 0 0 4px rgba(255, 122, 0, 0.1);
+}
+
+.order-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+
+  padding: 22px 26px;
+
+  border-top: 1px solid #f1f1f1;
+  background: #fafafa;
+}
+
+.order-btn-cancel {
+  height: 48px;
+
+  border-radius: 16px;
+  border: 2px solid #ff7a00;
+
+  background: white;
+  color: #222;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.order-btn-cancel:hover {
+  background: #fff4ea;
+}
+
+.order-btn-submit {
+  height: 48px;
+
+  border: none;
+  border-radius: 16px;
+
+  background: linear-gradient(to right, #ff7a00, #ff9f43);
+
+  color: white;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+
+  box-shadow: 0 12px 24px rgba(255, 122, 0, 0.18);
+}
+
+.order-btn-submit:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .order-modal {
+    max-width: calc(100vw - 20px) !important;
+    margin: 0 auto;
+  }
+
+  .order-modal-body {
+    padding: 18px;
+  }
+
+  .order-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .order-footer {
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  .order-modal-title {
+    font-size: 22px;
+  }
+
+  .order-modal-subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}

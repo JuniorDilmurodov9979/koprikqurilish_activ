@@ -203,11 +203,446 @@
         "name": "Odiljon Abdugaparovich Mamatov",
         "desc": "Head of the Department of the Agency for Management of State Assets of the Republic of Uzbekistan"
       }
-    ]
+    ],
+
+    "new": {
+      "qaror": "Download decisions and documents",
+      "aksiyadorlik": "Members of the joint-stock company management",
+      "hujjat1": "Supervisory Board Decision June №1",
+      "hujjat2": "Supervisory Board Decision August №2"
+    }
   },
+  "ichki_nizom": {
+    "hujjatlar": "Internal Documents",
+    "title": "Internal Regulations",
+    "sub": "Learn about the company’s internal management, regulations, and corporate documents.",
+    "pdf": "PDF document",
+    "ruyhat": "Document List",
+    "ruyhat_desc": "Available internal regulations for download",
+
+    "file1": "Appendix 1 Code of Ethics",
+    "file2": "Appendix 2 Anti-Corruption Policy",
+    "file3": "Appendix 3 Conflict of Interest Regulation",
+    "file4": "Appendix 4 Whistleblowing Policy",
+    "file5": "Appendix 5 Internal Audit Service",
+    "file6": "Appendix 6 Compliance System Regulation",
+    "file7": "Appendix 7 About the Audit Committee",
+    "file8": "Appendix 8 About the Appointment Committee",
+    "file9": "Appendix 9 Strategy Committee",
+    "file10": "Appendix 10 Anti-Corruption Committee",
+    "file11": "Appendix 15 Independent Member"
+  },
+
+  "xizmatlar": {
+    "title": "Services",
+    "menu1_title": "Equipment Rental",
+    "menu1": {
+      "title1": "Special",
+      "title2": "Equipment",
+      "sub": "Professional construction equipment — ready for operation",
+      "filter1": "All",
+      "filter2": "Truck Crane",
+      "filter3": "Aerial Platform",
+      "filter4": "Crawler Crane",
+      "filter5": "Drilling Equipment",
+      "filter6": "Pile Driving Equipment",
+      "filter7": "Tractor Unit",
+      "filter8": "Trailer",
+      "filter_menu1": "Available",
+      "filter_menu2": "Busy",
+      "count_label": "equipment found",
+      "vazn": "Weight",
+      "quvvat": "Power",
+      "year": "Year",
+      "buyurtma": "Place Order",
+      "buyurtma_name": "Order",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "full_name": "Full Name",
+      "fullName_placeholder": "Enter your name",
+      "phone": "Phone Number",
+      "address": "Construction Address",
+      "address_placeholder": "Construction site address",
+      "izoh": "Comment",
+      "izoh_placeholder": "Additional requirements or comments...",
+      "cancel": "Cancel",
+      "tasdiqlash": "Confirm",
+      "contact": "For Contact",
+      "buyurtma_tasdiqlash": "Order Confirmation",
+      "buyurtma_empty": "Currently unavailable",
+      "buyurtma_success": "Order submitted successfully!",
+      "buyurtma_error": "An error occurred while submitting the order.",
+      "xususiyat": "Technical Specifications",
+      "imkoniyatlar": "Capabilities",
+      "weight": "Operating Weight",
+      "power": "Engine Power",
+      "max": "Max Reach",
+      "sigim": "Capacity / Lifting",
+      "depth": "Depth / Fuel"
+    },
+    "menu1_single": {},
+    "menu2_title": "Laboratory Services",
+    "menu3_title": "Design and Estimate Services"
+  },
+
+  "texnika": {
+    "item1": {
+      "name": "ZOOMLION QY35V532",
+      "desc": "35-ton truck crane with a 5-section telescopic boom, designed for large construction projects"
+    },
+    "item2": {
+      "name": "SANY STC-500",
+      "desc": "50-ton lifting truck crane with a 42.5 m main boom, equipped with a powerful hydraulic system"
+    },
+    "item3": {
+      "name": "ZOOMLION QY55V532.2",
+      "desc": "55-ton powerful truck crane with a 43 m main boom and 16 m auxiliary boom for complex projects"
+    },
+    "item4": {
+      "name": "ZOOMLION ZTC-1500",
+      "desc": "150-ton mega crane specially designed for high-rise buildings and industrial facility construction"
+    },
+    "item5": {
+      "name": "SANY STC-1600",
+      "desc": "160-ton high-capacity truck crane for heavy industrial loads and tall structures"
+    },
+    "item6": {
+      "name": "SANY SAC-1800",
+      "desc": "180-ton all-terrain crane designed for operation on all road surfaces, ideal for unique projects"
+    },
+    "item7": {
+      "name": "DAEWOO Novus (45m)",
+      "desc": "45-meter aerial platform for urban construction, utility lines, and communication works"
+    },
+    "item8": {
+      "name": "DONGFENG (30m)",
+      "desc": "30-meter aerial platform designed for electrical networks and high-altitude technical works"
+    },
+    "item9": {
+      "name": "JAC XCMG (25m)",
+      "desc": "25-meter lightweight aerial platform suitable for municipal services and technical inspections"
+    },
+    "item10": {
+      "name": "HOWO SINOTRUK special",
+      "desc": "Special-purpose high-altitude vehicle adapted for narrow spaces and complex conditions"
+    },
+    "item11": {
+      "name": "SANY SCC350TB",
+      "desc": "35-ton crawler telescopic crane with a 31.5 m boom and exceptional stability on uneven terrain"
+    },
+    "item12": {
+      "name": "SANY SCC550TB",
+      "desc": "55-ton crawler crane for handling heavy loads on large construction sites"
+    },
+    "item13": {
+      "name": "SANY SCC1350A-1",
+      "desc": "135-ton lattice boom crawler crane for industrial and infrastructure projects"
+    },
+    "item14": {
+      "name": "LIEBHERR LTR 1220",
+      "desc": "220-ton telescopic crawler crane with a 60 m boom for wind turbines and heavy industrial facilities"
+    },
+    "item15": {
+      "name": "LIEBHERR HS 855 HD",
+      "desc": "Multi-functional crawler crane used for pile driving, excavation, and heavy lifting operations"
+    },
+    "item16": {
+      "name": "Bauer BG 36",
+      "desc": "Rotary drilling machine with drilling depth up to 36 m, designed for foundation piles and soil reinforcement"
+    },
+    "item17": {
+      "name": "LIEBHERR LB 36-410",
+      "desc": "Heavy rotary drilling rig with drilling depth up to 88 m and a 390 kW engine for major foundation works"
+    },
+    "item18": {
+      "name": "Crawler Auger HDR-200",
+      "desc": "Crawler mechanical auger designed for installing communication and electrical poles"
+    },
+    "item19": {
+      "name": "Pile Driver SP-49",
+      "desc": "Classic pile driving equipment for driving piles underground with a reliable and durable structure"
+    },
+    "item20": {
+      "name": "Bauer Woltman PVE 5021",
+      "desc": "Hydraulic vibratory pile driving machine, highly efficient for bridge and port construction"
+    },
+    "item21": {
+      "name": "LIEBHERR LRH 100",
+      "desc": "Hydraulic pile driving and drilling rig with high precision and efficiency in foundation works"
+    },
+    "item22": {
+      "name": "RTG RM 20",
+      "desc": "Impact drilling and pile driving system designed for efficient operation even in difficult soil conditions"
+    },
+    "item23": {
+      "name": "HAUSHERR HSB 3000",
+      "desc": "Heavy-duty drilling equipment system for deep drilling in hard rock and difficult ground conditions"
+    },
+    "item24": {
+      "name": "VOLVO tractor unit",
+      "desc": "Powerful heavy-duty tractor unit designed for towing trailers and modular transport systems"
+    },
+    "item25": {
+      "name": "GOLDHOFER THP SL 8",
+      "desc": "8-axle hydraulic modular trailer for transporting extremely heavy loads, each axle supports 45 tons"
+    }
+  },
+
+  "texnikaSingle": {
+    "item1": {
+      "name": "ZOOMLION QY35V532",
+      "desc": "ZOOMLION QY35V532 is a 35-ton truck crane equipped with a 5-section telescopic boom and a hydraulic proportional control system. The 6×4 drive and hydraulic power steering provide excellent driving performance and flexible control.",
+      "feature1": "5-section telescopic boom",
+      "feature2": "Hydraulic proportional control",
+      "feature3": "Load Moment Indicator (LMI)",
+      "feature4": "Wide-visibility operator cabin",
+      "feature5": "3-axle special chassis"
+    },
+
+    "item2": {
+      "name": "SANY STC-500",
+      "desc": "SANY STC-500 is a 50-ton lifting truck crane. It features a 42.5 m main boom and a 16 m jib. Equipped with a load feedback and constant power control system. The colorful LCD display shows load weight, boom length, and angle information.",
+      "feature1": "50 t maximum lifting capacity",
+      "feature2": "42.5 m main + 16 m auxiliary boom",
+      "feature3": "Color LCD safety monitor",
+      "feature4": "Constant power control system",
+      "feature5": "360° rotation, 2 r/min"
+    },
+
+    "item3": {
+      "name": "ZOOMLION QY55V532.2",
+      "desc": "ZOOMLION QY55V532.2 is a powerful 55-ton truck crane. With a 43 m main boom and 16 m luffing jib, it is used for lifting heavy loads at great heights on complex construction sites. It has a maximum working radius of 32 m.",
+      "feature1": "55 t maximum lifting capacity",
+      "feature2": "43 m main boom",
+      "feature3": "16 m luffing jib",
+      "feature4": "Powerful hydraulic system",
+      "feature5": "Intelligent safety system"
+    },
+
+    "item4": {
+      "name": "ZOOMLION ZTC-1500",
+      "desc": "ZOOMLION ZTC-1500 is a 150-ton mega crane designed for high-rise buildings and large industrial construction projects. Its telescopic boom ensures accurate and safe operation even at high elevations.",
+      "feature1": "150 t maximum lifting capacity",
+      "feature2": "Long telescopic boom system",
+      "feature3": "Powerful ballast system",
+      "feature4": "Modern LICCON control",
+      "feature5": "Wide stability chassis"
+    },
+
+    "item5": {
+      "name": "SANY STC-1600",
+      "desc": "SANY STC-1600 is a high-capacity 160-ton truck crane designed for heavy-duty industrial and infrastructure projects. Equipped with a powerful hydraulic and stability control system.",
+      "feature1": "160 t maximum lifting capacity",
+      "feature2": "Long telescopic boom",
+      "feature3": "Powerful hydraulic pump system",
+      "feature4": "Digital load monitoring",
+      "feature5": "All-road operating capability"
+    },
+
+    "item6": {
+      "name": "SANY SAC-1800",
+      "desc": "SANY SAC-1800 is a 180-ton all-terrain crane adapted for operation on all road surfaces. Ideal for unique and complex projects with high lifting capacity and a flexible chassis system.",
+      "feature1": "180 t maximum lifting capacity",
+      "feature2": "All-terrain chassis system",
+      "feature3": "High stability",
+      "feature4": "Powerful main and auxiliary winch",
+      "feature5": "Modern safety monitor"
+    },
+
+    "item7": {
+      "name": "DAEWOO Novus (45m)",
+      "desc": "DAEWOO Novus 45-meter aerial platform is designed for urban construction, electrical line installation, communication systems, and high-altitude maintenance work. Its spacious platform ensures safe operation.",
+      "feature1": "45 m maximum height",
+      "feature2": "Wide working platform",
+      "feature3": "Hydraulic lifting system",
+      "feature4": "360° rotating basket",
+      "feature5": "Safety barrier system"
+    },
+
+    "item8": {
+      "name": "DONGFENG (30m)",
+      "desc": "DONGFENG 30-meter aerial platform is suitable for electrical network work and high-altitude technical inspections. It can easily maneuver through narrow city streets.",
+      "feature1": "30 m maximum height",
+      "feature2": "Adapted for urban conditions",
+      "feature3": "Hydraulic stabilizers",
+      "feature4": "Compact dimensions",
+      "feature5": "Quick deployment system"
+    },
+
+    "item9": {
+      "name": "JAC XCMG (25m)",
+      "desc": "JAC XCMG 25-meter lightweight aerial platform is ideal for municipal services, landscaping, and technical inspections. Known for its compact size and excellent maneuverability.",
+      "feature1": "25 m maximum height",
+      "feature2": "Compact and lightweight construction",
+      "feature3": "Ideal for municipal work",
+      "feature4": "Quick positioning system",
+      "feature5": "Wide platform"
+    },
+
+    "item10": {
+      "name": "HOWO SINOTRUK Special",
+      "desc": "HOWO SINOTRUK special aerial platform is adapted for efficient operation in tight and difficult conditions. It features a powerful diesel engine and reliable hydraulic system.",
+      "feature1": "38 m maximum height",
+      "feature2": "Special heavy-duty chassis",
+      "feature3": "Adapted for harsh conditions",
+      "feature4": "Hydraulic stabilizer",
+      "feature5": "Wide-visibility cabin"
+    },
+
+    "item11": {
+      "name": "SANY SCC350TB",
+      "desc": "SANY SCC350TB is a 35-ton telescopic crawler crane. It has a maximum boom length of 31.5 m and a 13.7 m auxiliary boom. Provides unmatched stability and mobility on uneven terrain.",
+      "feature1": "35 t maximum lifting capacity",
+      "feature2": "31.5 m telescopic boom",
+      "feature3": "Crawler travel system",
+      "feature4": "Self-assembly function",
+      "feature5": "117.5 t·m lifting moment"
+    },
+
+    "item12": {
+      "name": "SANY SCC550TB",
+      "desc": "SANY SCC550TB is a 55-ton telescopic crawler crane designed for handling heavy loads on large construction sites.",
+      "feature1": "55 t maximum lifting capacity",
+      "feature2": "Telescopic boom system",
+      "feature3": "Crawler stability system",
+      "feature4": "Quick assembly and dismantling",
+      "feature5": "Powerful hydraulic winch"
+    },
+
+    "item13": {
+      "name": "SANY SCC1350A-1",
+      "desc": "SANY SCC1350A-1 is a 135-ton lattice boom crawler crane used in industrial and large infrastructure projects.",
+      "feature1": "135 t maximum lifting capacity",
+      "feature2": "Lattice boom system",
+      "feature3": "Wide working radius",
+      "feature4": "Powerful Cummins engine",
+      "feature5": "Real-time monitoring system"
+    },
+
+    "item14": {
+      "name": "LIEBHERR LTR 1220",
+      "desc": "LIEBHERR LTR 1220 is a 220-ton telescopic crawler crane. Ideal for wind turbine installation and industrial facilities.",
+      "feature1": "220 t maximum lifting capacity",
+      "feature2": "60 m telescopic boom",
+      "feature3": "Pick & carry capability",
+      "feature4": "LICCON 2 control system",
+      "feature5": "Hydraulically extendable crawler width"
+    },
+
+    "item15": {
+      "name": "LIEBHERR HS 855 HD",
+      "desc": "LIEBHERR HS 855 HD is a multifunctional crawler crane widely used for pile driving and excavation works.",
+      "feature1": "Multifunctional construction crane",
+      "feature2": "Pile driving attachments",
+      "feature3": "Liebherr diesel engine",
+      "feature4": "High stability",
+      "feature5": "Easy transportation and assembly"
+    },
+
+    "item16": {
+      "name": "Bauer BG 36",
+      "desc": "Bauer BG 36 is a rotary drilling rig designed for operation in hard and complex soil conditions.",
+      "feature1": "360 kNm torque",
+      "feature2": "Kelly drilling system",
+      "feature3": "Soil mixing system",
+      "feature4": "B-Tronic control",
+      "feature5": "Crawler travel system"
+    },
+
+    "item17": {
+      "name": "LIEBHERR LB 36-410",
+      "desc": "LIEBHERR LB 36-410 is a drilling rig for heavy foundation works. It can operate at depths up to 88 m.",
+      "feature1": "410 kNm torque",
+      "feature2": "88 m drilling depth",
+      "feature3": "3000 mm maximum diameter",
+      "feature4": "390 kW Liebherr engine",
+      "feature5": "Kelly and CFA system"
+    },
+
+    "item18": {
+      "name": "Crawler Auger HDR-200",
+      "desc": "Crawler mechanical auger HDR-200 is designed for communication lines and electric pole installation works.",
+      "feature1": "Designed for communication works",
+      "feature2": "Crawler travel system",
+      "feature3": "Compact and maneuverable",
+      "feature4": "Hydraulic drilling head",
+      "feature5": "Quick startup"
+    },
+
+    "item19": {
+      "name": "Pile Driver SP-49",
+      "desc": "SP-49 is a classic pile driving machine used for driving piles deep into the ground.",
+      "feature1": "Mechanical impact system",
+      "feature2": "Durable steel construction",
+      "feature3": "Suitable for bridge works",
+      "feature4": "Long service life",
+      "feature5": "Easy maintenance"
+    },
+
+    "item20": {
+      "name": "Bauer Woltman PVE 5021",
+      "desc": "Bauer Woltman PVE 5021 is a vibratory pile driving machine designed for port and bridge construction projects.",
+      "feature1": "Hydraulic vibration system",
+      "feature2": "Suitable for bridges and ports",
+      "feature3": "Fast pile installation",
+      "feature4": "Precise depth control",
+      "feature5": "Powerful hydraulic system"
+    },
+
+    "item21": {
+      "name": "LIEBHERR LRH 100",
+      "desc": "LIEBHERR LRH 100 is a hydraulic pile driving and drilling rig.",
+      "feature1": "Hydraulic impact system",
+      "feature2": "Precise depth control",
+      "feature3": "Liebherr diesel engine",
+      "feature4": "Crawler stability",
+      "feature5": "Multifunctional operation"
+    },
+
+    "item22": {
+      "name": "RTG RM 20",
+      "desc": "RTG RM 20 is a pile driving machine with impact and rotary drilling systems.",
+      "feature1": "Rotary combination system",
+      "feature2": "Suitable for hard ground",
+      "feature3": "Hydraulic impact mechanism",
+      "feature4": "Quick relocation",
+      "feature5": "Digital depth control"
+    },
+
+    "item23": {
+      "name": "HAUSHERR HSB 3000",
+      "desc": "HAUSHERR HSB 3000 is a heavy-class drilling equipment system.",
+      "feature1": "Hard rock drilling",
+      "feature2": "Powerful rotary head",
+      "feature3": "Suitable for mining projects",
+      "feature4": "Hydraulic power system",
+      "feature5": "Crawler travel system"
+    },
+
+    "item24": {
+      "name": "VOLVO Tractor Unit",
+      "desc": "VOLVO heavy-duty tractor unit is designed for transporting oversized and heavy trailers.",
+      "feature1": "540 kW engine",
+      "feature2": "Designed for heavy transport",
+      "feature3": "Comfortable cabin",
+      "feature4": "Automatic transmission",
+      "feature5": "Modern safety system"
+    },
+
+    "item25": {
+      "name": "GOLDHOFER THP SL 8",
+      "desc": "GOLDHOFER THP SL 8 is an 8-axle hydraulic modular trailer designed for transporting extremely heavy loads.",
+      "feature1": "8 axles, 45 t load",
+      "feature2": "Hydraulic control system",
+      "feature3": "Compatible with SL series combinations",
+      "feature4": "1175 mm loading height",
+      "feature5": "Designed for heavy industry"
+    }
+  },
+
   "executiveBoard": {
-    "title": "Executive Body",
-    "subtitle": "Executive body of “Ko‘prikqurilish” Joint-Stock Company",
+    "title": "Executive Board",
+    "subtitle": "Executive board of “Ko‘prikqurilish” Joint-Stock Company",
     "back": "Back",
     "items": [
       {
@@ -454,6 +889,26 @@
         "req3": "Strong knowledge of MS Word, Excel (advanced formulas), and PowerPoint",
         "req4": "Understanding of energy resource standardization and limit control procedures",
         "req5": "Responsibility, analytical thinking, and teamwork skills"
+      }
+    },
+
+    "job6": {
+      "company": "Ko'prikqurilishbutlash LLC",
+      "title": "Power Engineer (Construction Sites and Production Bases)",
+      "experience": "Practical experience required",
+      "education": "Higher or secondary specialized education in Electrical Engineering",
+      "responsibilities": {
+        "resp1": "Ensure uninterrupted operation of electrical systems at construction sites and production bases",
+        "resp2": "Operate and manage electrical installations with a capacity of 1500 kW and above",
+        "resp3": "Maintain transformer substations (TP), distribution boards, and cable networks in proper technical condition",
+        "resp4": "Install, configure electrical equipment and promptly eliminate any malfunctions",
+        "resp5": "Monitor compliance with safety regulations and fire safety rules"
+      },
+      "requirements": {
+        "req1": "Higher or secondary specialized education in electrical engineering",
+        "req2": "Must possess Group V electrical safety certification",
+        "req3": "Practical experience working with transformers, high-voltage switchboards, and automation systems",
+        "req4": "Ability to read electrical diagrams and work with technical drawings"
       }
     },
 

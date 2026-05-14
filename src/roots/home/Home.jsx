@@ -5,7 +5,7 @@ import { HomeWrapper } from "./HomeWrapper";
 import { BackGroundColor, LargeText } from "../../const/Wrapper";
 import { Link, useNavigate } from "react-router-dom";
 import NewsCard from "../../components/newsCard/NewsCard";
-import { BRIDGE2, IMG, IMG1, IMG2, IMG3, IMG4, IMG5 } from "../../assets/imags";
+import { BRIDGE2, IMG } from "../../assets/imags";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -21,20 +21,12 @@ import { useEffect, useState } from "react";
 import { langLocal } from "../../const/LangLocal";
 import PhotoCard from "../../components/photoCard/PhotoCard";
 import { BULL, WORKERS, BRIDGE, CONSTRUCTION, DOTS } from "../../assets/icon";
-import OurProjectsCard from "../../components/ourProjectsCard/OurProjectsCard";
 
 const Home = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [news, setNews] = useState([]);
   const [pictures, setpictures] = useState([]);
-  let images = [
-    { ulr: IMG1 },
-    { ulr: IMG2 },
-    { ulr: IMG3 },
-    { ulr: IMG4 },
-    { ulr: IMG5 },
-  ];
 
   const getNews = () => {
     http

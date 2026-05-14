@@ -8,14 +8,14 @@ export const HeaderMenuWrapper = styled.div`
 
     .menu-btn,
     .link {
-        padding: 10px 20px;
+        padding: 10px 14px;
         position: relative;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: space-between;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 26px;
         border: none;
         background: transparent;

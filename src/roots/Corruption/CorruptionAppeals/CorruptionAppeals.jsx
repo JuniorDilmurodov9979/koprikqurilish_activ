@@ -1,15 +1,18 @@
-import {useTranslation} from "react-i18next";
-import {useState} from "react";
-import {BackGroundColor} from "../../../const/Wrapper";
+import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import { BackGroundColor } from "../../../const/Wrapper";
 import Footer from "../../../containers/footer/Footer";
 import Header from "../../../containers/header/Header";
 import Breadcrumb from "../../../components/breadcrumb/Breadcrumb";
-import {CorruptionAppealsWrapper, LargeTextCorruption,} from "./CorruptionAppealsWrapper";
-import {toast} from "react-toastify";
+import {
+  CorruptionAppealsWrapper,
+  LargeTextCorruption,
+} from "./CorruptionAppealsWrapper";
+import { toast } from "react-toastify";
 import PageTwoMenu from "../../../containers/pageTwoMenu/PageTwoMenu";
-import {menu6} from "../../../const/Menu";
-import {CorruptionContact} from "./CorruptionContact";
-import {Corruption_BASE_URL} from "../CorruptionURL";
+import { menu6 } from "../../../const/Menu";
+import { CorruptionContact } from "./CorruptionContact";
+import { Corruption_BASE_URL } from "../CorruptionURL";
 
 const CorruptionAppeals = () => {
   const { t } = useTranslation();
@@ -17,8 +20,8 @@ const CorruptionAppeals = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const token = "7322334282:AAFLyMbXVg0MZt8ZHnI5GlnGs5DTJ_VH3u0";
-  const chat_id = 7795342218;
+  const token = import.meta.env.VITE_KORRUPSIYA_TG_TOKEN;
+  const chat_id = import.meta.env.VITE_CHAT_ID_KORRUPSIYA;
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
   const handleSubmit = async (e) => {

@@ -34,14 +34,14 @@ const Partners = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="carusel-box">
+                {/* <div className="carusel-box">
                   <img
                     src={
                       "https://www.tashkent.uz/uploads/pages/2c6eca9acc24854275ac4a0d3b21a757.png"
                     }
                     alt="partners"
                   />
-                </div>
+                </div> */}
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carusel-box">
@@ -59,14 +59,14 @@ const Partners = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="carusel-box">
+                {/* <div className="carusel-box">
                   <img
                     src={
                       "https://www.uzbairports.uz/assets/front/img/header_logo_16374080502106317601.svg"
                     }
                     alt="partners"
                   />
-                </div>
+                </div> */}
               </SwiperSlide>
             </Swiper>
           </PartnersWrapper>

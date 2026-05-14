@@ -183,7 +183,7 @@
     "subtitle": "“KO’PRIKQURILISH” AKSIYADORLIK JAMIYATINING",
     "sub": "Kuzatuv kengashi tarkibi",
     "back": "Ortga",
-    "download": "📄 Kuzatuv Kengashi faylini yuklab olish",
+    "download": "📄 Kuzatuv Kengashi fayli",
     "members": [
       {
         "name": "Xidoyatov Sherzod Saidjonovich",
@@ -205,8 +205,440 @@
         "name": "Mamatov Odiljon Abdugaparovich",
         "desc": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i"
       }
-    ]
+    ],
+    "new": {
+      "qaror": "Qarorlar va hujjatlarni yuklab olish",
+      "aksiyadorlik": "Aksiyadorlik jamiyati boshqaruvi a’zolari",
+      "hujjat1": "Kuzatuv kengashi qarori iyun №1",
+      "hujjat2": "Kuzatuv kengashi qarori avgust №2"
+    }
   },
+  "ichki_nizom": {
+    "hujjatlar": "Ichki hujjatlar",
+    "title": "Ichki nizomlar",
+    "sub": "Jamiyatning ichki boshqaruv, nizom va korporativ hujjatlari bilan tanishing.",
+    "pdf": "PDF hujjat",
+    "ruyhat": "Hujjatlar ro‘yxati",
+    "ruyhat_desc": "Yuklab olish uchun mavjud ichki nizomlar",
+    "file1": "1-ilova Odob-axloq qoidalari",
+    "file2": "2-ilova Korrupsiyaga qarshi kurashish siyosati",
+    "file3": "3-ilova Manfaatlar to‘qnashuvi nizomi",
+    "file4": "4-ilova Qoida buzarlik haqida xabardor qilish siyosati",
+    "file5": "5-ilova Ichki audit xizmati",
+    "file6": "6-ilova Komplaens tizimi nizomi",
+    "file7": "7-ilova Audit qo‘mitasi to‘g‘risida",
+    "file8": "8-ilova Tayinlash qo‘mitasi to‘g‘risida",
+    "file9": "9-ilova Strategiya qo‘mitasi",
+    "file10": "10-ilova Antikorrupsiya qo‘mitasi",
+    "file11": "15-ilova Mustaqil a’zo"
+  },
+
+  "xizmatlar": {
+    "title": "Xizmatlar",
+    
+    "menu1_title": "Texnika ijarasi",
+    "menu1": {
+      "title1": "Maxsus",
+      "title2": "Texnikalar",
+      "sub": "Professional qurilish texnikasi — ishlashga tayyor",
+      "filter1": "Barchasi",
+      "filter2": "Avtokran",
+      "filter3": "Avtominora",
+      "filter4": "Zanjirli kran",
+      "filter5": "Burg'ilovchi texnika",
+      "filter6": "Qoziq qoqadigan texnika",
+      "filter7": "Tyagach",
+      "filter8": "Tirkama",
+      "filter_menu1": "Bo'sh",
+      "filter_menu2": "Band",
+      "count_label": "ta texnika topildi",
+      "vazn": "Vazn",
+      "quvvat": "Quvvat",
+      "year": "Yil",
+      "buyurtma": "Buyurtma berish",
+      "buyurtma_name": "Buyurtma",
+      "start_date": "Boshlanish sanasi",
+      "end_date": "Tugash sanasi",
+      "full_name": "To'liq ism",
+      "fullName_placeholder": "Ismingizni kiriting",
+      "phone": "Telefon raqam",
+      "address": "Qurilish manzili",
+      "address_placeholder": "Qurilish maydoni manzili",
+      "izoh": "Izoh",
+      "izoh_placeholder": "Qo'shimcha talablar yoki izohlar...",
+      "cancel": "Bekor qilish",
+      "tasdiqlash": "Tasdiqlash",
+      "contact": "Bog'lanish uchun",
+      "buyurtma_tasdiqlash": "Buyurtma tasdiqlash",
+      "buyurtma_empty": "Hozirda mavjud emas",
+      "buyurtma_success": "Buyurtma muvaffaqiyatli yuborildi!",
+      "buyurtma_error": "Buyurtma yuborishda xatolik yuz berdi.",
+      "xususiyat": "Texnik xususiyatlar",
+      "imkoniyatlar": "Imkoniyatlar",
+      "weight": "Ishchi og'irlik",
+      "power": "Dvigatel quvvati",
+      "max": "Maks. yetish",
+      "sigim": "Sig'im / Ko'tarish",
+      "depth": "Chuqurlik / Yoqilg'i"
+    },
+    "menu1_single": {},
+    "menu2_title": "Laboratoriya xizmatlari",
+    "menu3_title": "Loyiha-smeta xizmatlari"
+  },
+
+  "texnika": {
+    "item1": {
+      "name": "ZOOMLION QY35V532",
+      "desc": "35 tonnalik avtokran, 5 bo'limli teleskopik stela, yirik qurilish loyihalari uchun mo'ljallangan"
+    },
+    "item2": {
+      "name": "SANY STC-500",
+      "desc": "50 tonnalik yuk ko'taruvchi avtokran, 42.5 m asosiy stela, kuchli gidravlik tizim bilan jihozlangan"
+    },
+    "item3": {
+      "name": "ZOOMLION QY55V532.2",
+      "desc": "55 tonnalik kuchli avtokran, 43 m asosiy stela va 16 m qo'shimcha stela bilan, murakkab ob'ektlar uchun"
+    },
+    "item4": {
+      "name": "ZOOMLION ZTC-1500",
+      "desc": "150 tonnalik mega-kran, ko'p qavatli binolar va sanoat inshootlari qurilishi uchun maxsus ishlab chiqilgan"
+    },
+    "item5": {
+      "name": "SANY STC-1600",
+      "desc": "160 tonnalik yuqori quvvatli avtokran, og'ir industrial yuklar va baland ob'ektlar uchun"
+    },
+    "item6": {
+      "name": "SANY SAC-1800",
+      "desc": "180 tonnalik barcha yo'l qoplamasida ishlashga mo'ljallangan all-terrain kran, noyob loyihalar uchun"
+    },
+    "item7": {
+      "name": "DAEWOO Novus (45m)",
+      "desc": "45 metrli avtominora — shahar qurilishida liniyalar va kommunikatsiyalar o'tkazish uchun"
+    },
+    "item8": {
+      "name": "DONGFENG (30m)",
+      "desc": "30 metrli avtominora, elektr tarmoqlari va yuqori balandlikdagi texnik ishlarga mo'ljallangan"
+    },
+    "item9": {
+      "name": "JAC XCMG (25m)",
+      "desc": "25 metrli yengil avtominora, shahar kommunal xizmatlari va texnik ko'riklar uchun qulay"
+    },
+    "item10": {
+      "name": "HOWO SINOTRUK maxsus",
+      "desc": "Maxsus maqsadli yuqori balandlik mashina, tor joylarda va murakkab sharoitlarda ishlashga moslashtirilgan"
+    },
+    "item11": {
+      "name": "SANY SCC350TB",
+      "desc": "35 tonnalik zanjirlı teleskopik kran, 31.5 m stela, notekis yerda beqiyos barqarorlik"
+    },
+    "item12": {
+      "name": "SANY SCC550TB",
+      "desc": "55 tonnalik zanjirlı kran, katta qurilish maydonlarida og'ir yuklar bilan ishlash uchun"
+    },
+    "item13": {
+      "name": "SANY SCC1350A-1",
+      "desc": "135 tonnalik panjara stelalı zanjirlı kran, industrial va infrastruktura loyihalar uchun"
+    },
+    "item14": {
+      "name": "LIEBHERR LTR 1220",
+      "desc": "220 tonnalik teleskopik zanjirlı kran, 60 m stela, shamol turbinalari va og'ir sanoat inshootlari uchun"
+    },
+    "item15": {
+      "name": "LIEBHERR HS 855 HD",
+      "desc": "Ko'p funksiyali zanjirlı kran, qoziq qoqish, qazish va og'ir ko'tarish ishlarida universal qo'llaniladi"
+    },
+    "item16": {
+      "name": "Bauer BG 36",
+      "desc": "Rotatsion Burg'ilovchi texnika mashina, 36 m gacha chuqurlik, poydevor qoziqlari va gruntni mustahkamlash uchun"
+    },
+    "item17": {
+      "name": "LIEBHERR LB 36-410",
+      "desc": "Og'ir rotatsion Burg'ilovchi texnika qurilma, 88 m chuqurlik, yirik poydevor ishlari uchun 390 kW motor"
+    },
+    "item18": {
+      "name": "Zanjirlı yamobur HDR-200",
+      "desc": "Zanjirlı mexanik yamobur, kommunikatsiya va elektr tirgaklari o'rnatish uchun mo'ljallangan"
+    },
+    "item19": {
+      "name": "Kopёr uskunasi SP-49",
+      "desc": "Klassik kopёr uskuna, qoziqlarni yer ostiga siqib kirish uchun, ishonchli va mustahkam konstruksiya"
+    },
+    "item20": {
+      "name": "Bauer Woltman PVE 5021",
+      "desc": "Gidravlik vibratsion qoziq qoqish mashina, ko'prik va portlar qurilishi uchun yuqori samarali qurilma"
+    },
+    "item21": {
+      "name": "LIEBHERR LRH 100",
+      "desc": "Gidravlik qoziq qoqish va burg'ulash qurilmasi, poydevor ishlarida yuqori aniqlik va samaradorlik"
+    },
+    "item22": {
+      "name": "RTG RM 20",
+      "desc": "Zarba burg'ulash va qoziq qoqish tizimi, qiyin gruntlarda ham samarali ishlashga mo'ljallangan"
+    },
+    "item23": {
+      "name": "HAUSHERR HSB 3000",
+      "desc": "Og'ir burg'ulash uskuna tizimi, qattiq tosh va qiyin gruntlarda chuqur burg'ulash uchun"
+    },
+    "item24": {
+      "name": "VOLVO tyagach",
+      "desc": "Kuchli o'zi tortuvchi tyagach, og'ir yukli tirkama va modulli transportni haydash uchun"
+    },
+    "item25": {
+      "name": "GOLDHOFER THP SL 8",
+      "desc": "8 o'qli gidravlik modul tirkama, o'ta og'ir yuklar tashish uchun, har bir o'q 45 t yuk ko'taradi"
+    }
+  },
+
+  "texnikaSingle": {
+    "item1": {
+      "name": "ZOOMLION QY35V532",
+      "desc": "ZOOMLION QY35V532 — 35 tonnalik avtokran, 5 bo'limli teleskopik stela va gidravlik mutanosib boshqaruv tizimi bilan jihozlangan. 6×4 yuritma va gidravlik quvvatli rul mexanizmi yaxshi haydash ko'rsatkichi va moslashuvchan boshqaruvni ta'minlaydi.",
+      "feature1": "5 bo'limli teleskopik stela",
+      "feature2": "Gidravlik mutanosib boshqaruv",
+      "feature3": "Yuk moment cheklagichi (LMI)",
+      "feature4": "Keng ko'rinishli operator kabinasi",
+      "feature5": "3 o'qli maxsus shassi"
+    },
+
+    "item2": {
+      "name": "SANY STC-500",
+      "desc": "SANY STC-500 — 50 tonnalik yuk ko'taruvchi avtokran. 42.5 m asosiy stela va 16 m qo'shimcha stela. Yuk qaytargich va doimiy quvvat nazorat tizimi bilan jihozlangan. Rang-barang LCD ekran yuk yuklanishi, stela uzunligi va burchagi haqida ma'lumot ko'rsatadi.",
+      "feature1": "50 t maksimal yuk ko'tarish",
+      "feature2": "42.5 m asosiy + 16 m qo'shimcha stela",
+      "feature3": "Rang-barang LCD xavfsizlik monitöri",
+      "feature4": "Doimiy quvvat nazorat tizimi",
+      "feature5": "360° aylanish, 2 r/min"
+    },
+
+    "item3": {
+      "name": "ZOOMLION QY55V532.2",
+      "desc": "ZOOMLION QY55V532.2 — 55 tonnalik güçlü avtokran. 43 m asosiy stela va 16 m luffing jib bilan murakkab ob'ektlarda baland va og'ir yuklar uchun ishlatiladi. 32 m maksimal yetish radiusi, qurilish maydonlarida universal qo'llaniladi.",
+      "feature1": "55 t maksimal yuk ko'tarish",
+      "feature2": "43 m asosiy stela",
+      "feature3": "16 m luffing jib",
+      "feature4": "Kuchli gidravlik tizim",
+      "feature5": "Intellektual xavfsizlik tizimi"
+    },
+    "item4": {
+      "name": "ZOOMLION ZTC-1500",
+      "desc": "ZOOMLION ZTC-1500 — 150 tonnalik mega-kran, ko'p qavatli binolar va yirik sanoat inshootlari qurilishi uchun mo'ljallangan. Teleskopik stela yuqori balandliklarda ham aniq va xavfsiz ishlaydi.",
+      "feature1": "150 t maksimal yuk ko'tarish",
+      "feature2": "Uzun teleskopik stela tizimi",
+      "feature3": "Kuchli balast tizimi",
+      "feature4": "Zamonaviy LICCON boshqaruv",
+      "feature5": "Keng barqarorlikli shassi"
+    },
+
+    "item5": {
+      "name": "SANY STC-1600",
+      "desc": "SANY STC-1600 — 160 tonnalik yuqori quvvatli avtokran. Industrial va infrastruktura loyihalarida og'ir yuklar bilan ishlash uchun mo'ljallangan, kuchli gidravlik tizim va barqarorlik tizimi bilan jihozlangan.",
+      "feature1": "160 t maksimal yuk ko'tarish",
+      "feature2": "Uzun teleskopik stela",
+      "feature3": "Kuchli gidravlik nasos tizimi",
+      "feature4": "Raqamli yuk monitoring",
+      "feature5": "Barcha yo'l sharoitida ishlash"
+    },
+
+    "item6": {
+      "name": "SANY SAC-1800",
+      "desc": "SANY SAC-1800 — 180 tonnalik all-terrain kran, barcha yo'l qoplamalarida ishlashga moslashtirilgan. Noyob va murakkab loyihalar uchun ideal, kuchli ko'tarish quvvati va moslashuvchan shassi tizimi.",
+      "feature1": "180 t maksimal yuk ko'tarish",
+      "feature2": "All-terrain shassi tizimi",
+      "feature3": "Yuqori barqarorlik",
+      "feature4": "Kuchli asosiy va yordamchi winch",
+      "feature5": "Zamonaviy xavfsizlik monitori"
+    },
+
+    "item7": {
+      "name": "DAEWOO Novus (45m)",
+      "desc": "DAEWOO Novus 45 metrli avtominora — shahar qurilishida elektr liniyalari, kommunikatsiyalar o'tkazish va baland balandlikdagi texnik ishlar uchun. Keng ishchi platformasi bilan xavfsiz ishlash imkonini beradi.",
+      "feature1": "45 m maksimal balandlik",
+      "feature2": "Keng ishchi platforma",
+      "feature3": "Gidravlik ko'tarish tizimi",
+      "feature4": "360° aylanadigan basket",
+      "feature5": "Xavfsizlik to'siqli tizim"
+    },
+
+    "item8": {
+      "name": "DONGFENG (30m)",
+      "desc": "DONGFENG 30 metrli avtominora, elektr tarmoqlari va baland balandlikdagi texnik ko'rik ishlari uchun qulay. Shahar sharoitida tor ko'chalarda ham osongina manevrlanadi.",
+      "feature1": "30 m maksimal balandlik",
+      "feature2": "Shahar sharoitiga moslashgan",
+      "feature3": "Gidravlik stabilizatorlar",
+      "feature4": "Kompakt o'lchamlar",
+      "feature5": "Tezkor o'rnatish tizimi"
+    },
+
+    "item9": {
+      "name": "JAC XCMG (25m)",
+      "desc": "JAC XCMG 25 metrli yengil avtominora, shahar kommunal xizmatlari, ko'kalamzorlashtirish va texnik ko'riklar uchun mos. Ixcham o'lchamlar va yuqori manevr qobiliyati bilan ajralib turadi.",
+      "feature1": "25 m maksimal balandlik",
+      "feature2": "Ixcham va yengil konstruksiya",
+      "feature3": "Kommunal ishlar uchun ideal",
+      "feature4": "Tezkor joylashish tizimi",
+      "feature5": "Keng platforma"
+    },
+
+    "item10": {
+      "name": "HOWO SINOTRUK maxsus",
+      "desc": "HOWO SINOTRUK maxsus avtominora, tor joylarda va murakkab sharoitlarda ham samarali ishlashga moslashtirilgan. Kuchli diesel dvigateli va gidravlik tizimi bilan ishonchli ishlaydi.",
+      "feature1": "38 m maksimal balandlik",
+      "feature2": "Maxsus kuchli shassi",
+      "feature3": "Murakkab sharoitga moslashgan",
+      "feature4": "Gidravlik barqarorlashtiruvchi",
+      "feature5": "Keng ko'rinishli kabina"
+    },
+    "item11": {
+      "name": "SANY SCC350TB",
+      "desc": "SANY SCC350TB — 35 tonnalik teleskopik zanjirlı kran. Maksimal stela uzunligi 31.5 m va 13.7 m qo'shimcha stela. Notekis yerda beqiyos barqarorlik va moslashuvchan harakat qilish imkoniyati.",
+      "feature1": "35 t maksimal yuk ko'tarish",
+      "feature2": "31.5 m teleskopik stela",
+      "feature3": "Zanjirlı yurish tizimi",
+      "feature4": "O'z-o'zini yig'ish funksiyasi",
+      "feature5": "117.5 t·m ko'tarish momenti"
+    },
+
+    "item12": {
+      "name": "SANY SCC550TB",
+      "desc": "SANY SCC550TB — 55 tonnalik teleskopik zanjirlı kran, katta qurilish maydonlarida og'ir yuklar bilan ishlash uchun.",
+      "feature1": "55 t maksimal yuk ko'tarish",
+      "feature2": "Teleskopik stela tizimi",
+      "feature3": "Zanjirlı barqarorlik tizimi",
+      "feature4": "Tezkor yig'ish va demontaj",
+      "feature5": "Kuchli gidravlik winch"
+    },
+
+    "item13": {
+      "name": "SANY SCC1350A-1",
+      "desc": "SANY SCC1350A-1 — 135 tonnalik panjara stelalı zanjirlı kran, industrial va katta infrastruktura loyihalarida ishlatiladi.",
+      "feature1": "135 t maksimal yuk ko'tarish",
+      "feature2": "Panjara stela tizimi",
+      "feature3": "Keng yetish radiusi",
+      "feature4": "Kuchli Cummins dvigateli",
+      "feature5": "Real-vaqt monitoring tizimi"
+    },
+
+    "item14": {
+      "name": "LIEBHERR LTR 1220",
+      "desc": "LIEBHERR LTR 1220 — 220 tonnalik teleskopik zanjirlı kran. Shamol turbinalari va sanoat inshootlari uchun ideal.",
+      "feature1": "220 t maksimal yuk ko'tarish",
+      "feature2": "60 m teleskopik stela",
+      "feature3": "Pick & carry imkoniyati",
+      "feature4": "LICCON 2 boshqaruv tizimi",
+      "feature5": "Gidravlik kengayadigan zanjir eni"
+    },
+
+    "item15": {
+      "name": "LIEBHERR HS 855 HD",
+      "desc": "LIEBHERR HS 855 HD — ko'p funksiyali zanjirlı kran, qoziq qoqish va qazish ishlarida universal qo'llaniladi.",
+      "feature1": "Ko'p funksiyali qurilish krani",
+      "feature2": "Qoziq qoqish attachmentlari",
+      "feature3": "Liebherr Diesel dvigateli",
+      "feature4": "Yuqori stabillik",
+      "feature5": "Oson transport va yig'ish"
+    },
+
+    "item16": {
+      "name": "Bauer BG 36",
+      "desc": "Bauer BG 36 — rotatsion burg'ilovchi texnika qurilma. Qattiq va murakkab gruntlarda ishlash uchun mo'ljallangan.",
+      "feature1": "360 kNm burovchi kuch",
+      "feature2": "Kelly burg'ulash tizimi",
+      "feature3": "Tuproq aralashtirish tizimi",
+      "feature4": "B-Tronic boshqaruv",
+      "feature5": "Zanjirlı yurish tizimi"
+    },
+
+    "item17": {
+      "name": "LIEBHERR LB 36-410",
+      "desc": "LIEBHERR LB 36-410 — og'ir poydevor ishlar uchun burg'ilovchi qurilma. 88 m gacha chuqurlikda ishlaydi.",
+      "feature1": "410 kNm burovchi kuch",
+      "feature2": "88 m chuqurlik",
+      "feature3": "3000 mm maksimal diametr",
+      "feature4": "390 kW Liebherr dvigateli",
+      "feature5": "Kelly va CFA tizimi"
+    },
+
+    "item18": {
+      "name": "Zanjirlı yamobur HDR-200",
+      "desc": "Zanjirlı mexanik yamobur HDR-200 kommunikatsiya liniyalari va elektr tirgaklari uchun mo'ljallangan.",
+      "feature1": "Kommunikatsiya ishlari uchun",
+      "feature2": "Zanjirlı yurish tizimi",
+      "feature3": "Ixcham va manevrli",
+      "feature4": "Gidravlik burg'ulash boshi",
+      "feature5": "Tez ishga tushirish"
+    },
+
+    "item19": {
+      "name": "Kopёr uskunasi SP-49",
+      "desc": "SP-49 klassik kopёr uskuna, qoziqlarni zamin ostiga siqib kirish uchun ishlatiladi.",
+      "feature1": "Mexanik zarb tizimi",
+      "feature2": "Mustahkam po'lat konstruksiya",
+      "feature3": "Ko'prik ishlari uchun",
+      "feature4": "Uzoq xizmat muddati",
+      "feature5": "Oson texnik xizmat"
+    },
+
+    "item20": {
+      "name": "Bauer Woltman PVE 5021",
+      "desc": "Bauer Woltman PVE 5021 — vibratsion qoziq qoqish mashinasi. Port va ko'prik qurilishi uchun samarali.",
+      "feature1": "Gidravlik vibratsion tizim",
+      "feature2": "Ko'prik va portlar uchun",
+      "feature3": "Tez qoziq o'rnatish",
+      "feature4": "Aniq chuqurlik nazorati",
+      "feature5": "Kuchli gidravlik tizim"
+    },
+
+    "item21": {
+      "name": "LIEBHERR LRH 100",
+      "desc": "LIEBHERR LRH 100 — gidravlik qoziq qoqish va burg'ulash qurilmasi.",
+      "feature1": "Gidravlik zarb tizimi",
+      "feature2": "Aniq chuqurlik nazorati",
+      "feature3": "Liebherr Diesel dvigateli",
+      "feature4": "Zanjirlı barqarorlik",
+      "feature5": "Ko'p funksiyali ishlash"
+    },
+
+    "item22": {
+      "name": "RTG RM 20",
+      "desc": "RTG RM 20 — zarba va rotatsion burg'ulash tizimli qoziq qoqish qurilmasi.",
+      "feature1": "Rotatsion kombinatsiya",
+      "feature2": "Qattiq gruntlarga mos",
+      "feature3": "Hydraulic zarb mexanizmi",
+      "feature4": "Tez ko'chirish",
+      "feature5": "Raqamli chuqurlik nazorati"
+    },
+
+    "item23": {
+      "name": "HAUSHERR HSB 3000",
+      "desc": "HAUSHERR HSB 3000 — og'ir sinfli burg'ulash uskuna tizimi.",
+      "feature1": "Qattiq toshda burg'ulash",
+      "feature2": "Kuchli rotatsion bosh",
+      "feature3": "Konchilik loyihalari uchun",
+      "feature4": "Gidravlik kuch tizimi",
+      "feature5": "Zanjirlı yurish"
+    },
+
+    "item24": {
+      "name": "VOLVO tyagach",
+      "desc": "VOLVO o'zi tortuvchi tyagach — og'ir yukli tirkamalar uchun mo'ljallangan.",
+      "feature1": "540 kW dvigatel",
+      "feature2": "Og'ir transport uchun",
+      "feature3": "Qulay kabina",
+      "feature4": "Avtomatik transmissiya",
+      "feature5": "Zamonaviy xavfsizlik tizimi"
+    },
+
+    "item25": {
+      "name": "GOLDHOFER THP SL 8",
+      "desc": "GOLDHOFER THP SL 8 — 8 o'qli gidravlik modul tirkama, o'ta og'ir yuklar tashish uchun.",
+      "feature1": "8 o'q, 45 t yuk",
+      "feature2": "Gidravlik nazorat tizimi",
+      "feature3": "SL oilasi bilan kombinatsiya",
+      "feature4": "1175 mm yuklanish balandligi",
+      "feature5": "Og'ir sanoat uchun"
+    }
+  },
+
   "executiveBoard": {
     "title": "Ijroiya organi",
     "subtitle": "“Ko‘prikqurilish” aksiyadorlik jamiyatining ijroiya organi",
@@ -456,6 +888,26 @@
         "req3": "MS Word va Excel (murakkab formulalar), PowerPoint bilan ishlay olish",
         "req4": "Energiya resurslarini me’yorlashtirish va limit nazoratini tushunish",
         "req5": "Mas’uliyatlilik, tahliliy fikrlash va jamoada ishlash ko‘nikmasi"
+      }
+    },
+
+    "job6": {
+      "company": "Ko'prikqurilishbutlash MCHJ",
+      "title": "Energetik (Obyekt va ishlab chiqarish bazalari bo'yicha)",
+      "experience": "Amaliy tajriba talab etiladi",
+      "education": "Elektrotexnika yo'nalishida oliy yoki o'rta-maxsus ma'lumot",
+      "responsibilities": {
+        "resp1": "Qurilish obyektlari va ishlab chiqarish bazalaridagi elektr xo'jaligining uzluksiz ishlashini ta'minlash",
+        "resp2": "1 500 kVt va undan yuqori quvvatga ega bo'lgan elektr qurilmalaridan foydalanish va ularni boshqarish",
+        "resp3": "Transformator nimstansiyalari (TP), taqsimlovchi qurilmalar (shitlar) va kabel tarmoqlarini texnik soz holatda saqlash",
+        "resp4": "Elektr qurilmalarini montaj qilish, sozlash va yuzaga kelgan nosozliklarni tezkor bartaraf etish",
+        "resp5": "Xavfsizlik texnikasi (TB) va yong'in xavfsizligi qoidalariga rioya etilishini nazorat qilish"
+      },
+      "requirements": {
+        "req1": "Elektrotexnika yo'nalishida oliy yoki o'rta-maxsus ma'lumot",
+        "req2": "Elektr xavfsizligi bo'yicha V (beshinchi) guruh guvohnomasiga ega bo'lishi shart",
+        "req3": "Transformatorlar, yuqori kuchlanishli shitlar va avtomatika tizimlari bilan ishlashda amaliy tajriba",
+        "req4": "Elektr sxemalarni o'qiy olish va texnik chizmalar bilan ishlash ko'nikmasi"
       }
     },
 

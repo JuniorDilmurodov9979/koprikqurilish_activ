@@ -67,6 +67,9 @@ import Komplaens from "./roots/korporative/Komplaens/Komplaens.jsx";
 import AssistantButton from "./components/AI/AssistantButton.jsx";
 import VacancyManagement from "./components/Vacancy/VacancyManagement.jsx";
 import VacancyDetails from "./components/Vacancy/VacancyDetails.jsx";
+import Texnika from "./components/Texnika/Texnika.jsx";
+import TexnikaSinglePage from "./components/Texnika/TexnikaSinglePage.jsx";
+import InProgressPage from "./components/InProgressPage/InProgressPage.jsx";
 
 const Routs = () => {
   const color = useSelector((store) => store.darkmode);
@@ -277,6 +280,24 @@ const Routs = () => {
             <Route path="/press-center/newspapers" element={<Newspapers />} />
             <Route path="/press-center/magazines" element={<Magazines />} />
           </>
+
+          {/* xizmatlar */}
+          <>
+            <Route path="/xizmatlar/texnika" element={<Texnika />} />
+            <Route
+              path="/xizmatlar/texnika/:id"
+              element={<TexnikaSinglePage />}
+            />
+            <Route
+              path="/xizmatlar/laboratoriya"
+              element={<InProgressPage />}
+            />
+            <Route
+              path="/xizmatlar/loyiha"
+              element={<InProgressPage />}
+            />
+          </>
+
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BgColor>
