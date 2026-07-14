@@ -81,6 +81,8 @@
       "title2": "Contact Regarding Corruption-related Appeals",
       "title3": "Awareness Campaigns on Anti-Corruption Efforts",
       "title4": "Anti-Monopoly Compliance",
+      "title5": "Reports",
+      "title5_desc": "Annual Report for 2025",
       "title4_title1": "Documents in the Anti-Monopoly Compliance System",
       "title4_desc1": "Order on approval of the “Roadmap” developed for 2026",
       "title4_desc2": "Information on the responsible person (unit) appointed to implement the anti-monopoly compliance system at “Ko‘prikqurilish” JSC",
@@ -209,7 +211,8 @@
       "qaror": "Download decisions and documents",
       "aksiyadorlik": "Members of the joint-stock company management",
       "hujjat1": "Supervisory Board Decision June №1",
-      "hujjat2": "Supervisory Board Decision August №2"
+      "hujjat2": "Supervisory Board Decision August №2",
+      "hujjat3": "Supervisory Board Resolution No. 3"
     }
   },
   "ichki_nizom": {
@@ -230,7 +233,9 @@
     "file8": "Appendix 8 About the Appointment Committee",
     "file9": "Appendix 9 Strategy Committee",
     "file10": "Appendix 10 Anti-Corruption Committee",
-    "file11": "Appendix 15 Independent Member"
+    "file11": "Appendix 15 Independent Member",
+    "file12": "12-Regulation on the Executive Body",
+    "file13": "13-Regulation on the Supervisory Board"
   },
 
   "xizmatlar": {
@@ -640,6 +645,13 @@
     }
   },
 
+  "boshqaruv_kodeksi": {
+    "title": "Appendix 14: Corporate Governance Rules",
+    "download_desc": "Download the Corporate Governance Code document.",
+    "download_desc1": "Official document in PDF format. You can download and use it offline.",
+    "download_text": "Download"
+  },
+
   "executiveBoard": {
     "title": "Executive Board",
     "subtitle": "Executive board of “Ko‘prikqurilish” Joint-Stock Company",
@@ -911,6 +923,39 @@
         "req4": "Ability to read electrical diagrams and work with technical drawings"
       }
     },
+    "job7": {
+      "company": "JSC “Ko‘prikqurilish”",
+      "title": "Specialist of Personnel Management and Staff Training Department",
+      "experience": "At least 3 years of experience",
+      "education": "Higher education",
+      "responsibilities": {
+        "resp1": "Fulfillment of job description requirements",
+        "resp2": "Working with documents and reports",
+        "resp3": "Managing personnel-related processes",
+        "resp4": "Working with MS Word, Excel, and PowerPoint programs",
+        "resp5": "Responsible task execution based on analytical thinking"
+      },
+      "requirements": {
+        "req1": "Higher education degree",
+        "req2": "At least 3 years of work experience",
+        "req3": "Knowledge of the legislation of Uzbekistan",
+        "req4": "Skills in working with documents and reports",
+        "req5": "Knowledge of MS Word, Excel, and PowerPoint",
+        "req6": "Analytical thinking and responsibility"
+      },
+      "languages": {
+        "lang1": "Uzbek (fluent)",
+        "lang2": "Russian (fluent)",
+        "lang3": "English (preferred)"
+      },
+      "work_conditions": {
+        "schedule": "Monday–Friday (5/2)",
+        "days_off": "Saturday, Sunday",
+        "working_hours": "09:00 AM to 06:00 PM",
+        "employment_type": "Official employment"
+      },
+      "salary": "According to штат schedule"
+    },
 
     "modal": {
       "name": "First Name",
@@ -935,5 +980,26 @@
       "cancelBtn": "Cancel",
       "submitBtn": "Submit"
     }
-  }
+  },
+  "company1": "LLC \"Bridge Construction Unit No. 1\"",
+  "company2": "LLC \"Bridge Construction Supply\"",
+  "company3": "LLC \"Bridge Construction Design Institute\"",
+  "company4": "LLC \"Bridge Quality Control\"",
+  "company5": "LLC \"Bridge Construction Operations\"",
+  "company6": "LLC \"Khorezm Railway Construction\"",
+  "company7": "LLC \"Bridge Construction Repair Directorate\"",
+  "company8": "LLC \"Special Reinforced Concrete Products and Structures Manufacturing Plant\"",
+  "company9": "LLC \"Chinaz Special Reinforced Concrete Structures Plant\"",
+  "member4Name": "Nodirbek Gulmuradovich Yakubov",
+  "member4Position": "Deputy Head of Department, Agency for the Management of State Assets of the Republic of Uzbekistan",
+  "member5Name": "Nasiba Khadiyatullayevna Valiyeva",
+  "member5Position": "Senior Lecturer at the Higher School of Business and Entrepreneurship (Independent Member)",
+  "yil_yakuni_2025": "Resolution on the 2025 Year-End Results",
+  "biznes_reja_2026": "Business Plan for 2026",
+  "audit_xulosasi_2025": "Independent Auditor's Report for 2025",
+
+  "kuzatuv_kengashi_raisi": "Chairman of the Supervisory Board",
+  "kuzatuv_kengashi_raisi_name": "Sherzod Saidjonovich Khidoyatov",
+  "kuzatuv_kengashi_raisi_position": "Minister of Construction and Housing and Communal Services of the Republic of Uzbekistan",
+  "kuzatuv_kengashi_members": "Members of the Supervisory Board"
 }

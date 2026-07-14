@@ -50,7 +50,11 @@ const CorruptionMonitoringList = () => {
     try {
       const response = await fetch(Corruption_APPEALS_URL);
       const json = await response.json();
-      setData(json);
+      const sortedResults = [...(json.results || [])].sort(
+        (a, b) => new Date(b.created_at) - new Date(a.created_at),
+      );
+
+      setData({ ...json, results: sortedResults });
     } catch (error) {
       console.error("Error fetching data:", error);
     } finally {
@@ -69,7 +73,7 @@ const CorruptionMonitoringList = () => {
     // Step 2: Remove <iframe> tags
     const noIframe = decoded.replace(
       /<iframe\b[^<]*(?:(?!<\/iframe>)<[^<]*)*<\/iframe>/gi,
-      ""
+      "",
     );
 
     // Step 3: Strip remaining HTML tags
@@ -111,7 +115,7 @@ const CorruptionMonitoringList = () => {
         </Box>
       ) : (
         <Grid container spacing={4}>
-          {data.reverse().map((item) => (
+          {data?.results?.map((item) => (
             <Grid item xs={12} sm={6} md={6} key={item.id}>
               <Card
                 elevation={6}

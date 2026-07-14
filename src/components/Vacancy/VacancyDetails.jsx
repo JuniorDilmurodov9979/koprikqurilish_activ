@@ -54,7 +54,7 @@ const VacancyDetails = () => {
       salary: t("vacancy.job_price"),
       publishedDate: "2026-01-12",
       deadline: "2026-02-10",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
     },
     {
       id: 2,
@@ -108,7 +108,7 @@ const VacancyDetails = () => {
       location: t("vacancy.location"),
       salary: t("vacancy.job_price"),
       publishedDate: "2025-11-14",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
     },
     {
       id: 4,
@@ -120,8 +120,8 @@ const VacancyDetails = () => {
       experience: t("vacancy.job4.experience"),
       education: t("vacancy.modal.docs_option3"),
       salary: t("vacancy.job4.maosh"),
-      publishedDate: "2026-02-10",
-      deadline: "2026-03-10",
+      publishedDate: "2026-06-11",
+      // deadline: "2026-03-10",
       status: t("vacancy.job_status_1"),
 
       responsibilities: [
@@ -158,7 +158,7 @@ const VacancyDetails = () => {
       salary: t("vacancy.job_price"),
       publishedDate: "2026-03-01",
       deadline: "2026-03-30",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
 
       responsibilities: [
         t("vacancy.job5.responsibilities.resp1"),
@@ -187,7 +187,7 @@ const VacancyDetails = () => {
       salary: t("vacancy.job_price"),
       publishedDate: "2026-03-10",
       deadline: "2026-04-10",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
 
       responsibilities: [
         t("vacancy.job6.responsibilities.resp1"),
@@ -202,6 +202,43 @@ const VacancyDetails = () => {
         t("vacancy.job6.requirements.req2"),
         t("vacancy.job6.requirements.req3"),
         t("vacancy.job6.requirements.req4"),
+      ],
+    },
+    {
+      id: 7,
+      company: t("vacancy.job7.company"),
+      title: t("vacancy.job7.title"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job_place"),
+      experience: t("vacancy.job7.experience"),
+      education: t("vacancy.job7.education"),
+      salary: t("vacancy.job7.salary"),
+      publishedDate: "2026-05-01",
+      deadline: "2026-05-10",
+      status: t("vacancy.job_status_2"),
+
+      responsibilities: [
+        t("vacancy.job7.responsibilities.resp1"),
+        t("vacancy.job7.responsibilities.resp2"),
+        t("vacancy.job7.responsibilities.resp3"),
+        t("vacancy.job7.responsibilities.resp4"),
+        t("vacancy.job7.responsibilities.resp5"),
+      ],
+
+      requirements: [
+        t("vacancy.job7.requirements.req1"),
+        t("vacancy.job7.requirements.req2"),
+        t("vacancy.job7.requirements.req3"),
+        t("vacancy.job7.requirements.req4"),
+        t("vacancy.job7.requirements.req5"),
+        t("vacancy.job7.requirements.req6"),
+      ],
+
+      languages: [
+        t("vacancy.job7.languages.lang1"),
+        t("vacancy.job7.languages.lang2"),
+        t("vacancy.job7.languages.lang3"),
       ],
     },
   ];

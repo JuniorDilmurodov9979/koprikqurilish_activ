@@ -27,22 +27,22 @@ const Footer = ({
           <h1 className="container">
             <div className="footer__content">
               <div className="footer__box">
-                  <div className="footer__box">
-                      <h6>Ko‘prikqurilish AJ</h6>
-                      <a aria-disabled>Ma’lumotlar</a>
-                      <a href="#">
-                          Manzil: Toshkent, Bog‘iston ko‘chasi, 10A
+                <div className="footer__box">
+                  <h6>Ko‘prikqurilish AJ</h6>
+                  <a aria-disabled>Ma’lumotlar</a>
+                  <a href="#">Manzil: Toshkent, Bog‘iston ko‘chasi, 10A</a>
+                  <a className="tel">
+                    Telefon:
+                    <span>
+                      <a href="tel:+998(71)203-26-26">
+                        +998(71)203-26-26 (1019)
                       </a>
-                      <a className="tel">
-                          Telefon:
-                          <span>
-                    <a href="tel:+998(71)203-26-26">+998(71)203-26-26</a>
-                  </span>
-                      </a>
-                      <a href="mailto:koprikqurilishaj2@gmail.com">
-                          Email: <b>koprikqurilishaj2@gmail.com</b>
-                      </a>
-                  </div>
+                    </span>
+                  </a>
+                  <a href="mailto:koprikqurilishaj2@gmail.com">
+                    Email: <b>koprikqurilishaj2@gmail.com</b>
+                  </a>
+                </div>
               </div>
               <div className="footer__box menu">
                 <p>{t(menu1?.title)}</p>

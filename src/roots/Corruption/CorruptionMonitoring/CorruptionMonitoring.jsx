@@ -22,7 +22,7 @@ const CorruptionMonitoring = () => {
             ]}
           />
           <PageTwoMenu menu={menu6}>
-            <LargeText color="true">{t("menus.menu6.title3")}</LargeText>
+            <LargeText style={{ textAlign: "centr" }} color="true">{t("menus.menu6.title3")}</LargeText>
             <CorruptionMonitoringList />
           </PageTwoMenu>
         </div>

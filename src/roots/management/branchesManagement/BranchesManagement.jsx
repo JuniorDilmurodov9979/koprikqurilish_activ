@@ -7,62 +7,77 @@ import PageTwoMenu from "../../../containers/pageTwoMenu/PageTwoMenu";
 import { BranchesManagementWrapper } from "./BranchesManagementWrapper";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import http from "../../../utils/httpClient";
 import { langLocal } from "../../../const/LangLocal";
 import LeadershipCardTwo from "../../../components/leadershipCard/LeadershipCardTwo";
 import { transliterate } from "../../../const/ToKrillang";
+import axios from "axios";
+import { branchesByRegion } from "./BranchesMockData";
 
 const BranchesManagement = () => {
   const svg = useRef();
   const { t } = useTranslation();
   const [viloyat, setviloyat] = useState();
-  const [management, setManagement] = useState();
+  const [management, setManagement] = useState([]);
+
   const uzbMap = (e) => {
     var arr = Array.prototype.slice.call(svg.current.children);
     if (e.target.id.length > 0) {
-      arr?.map((item) => {
-        if (item.id == e.target.id) {
+      arr.forEach((item) => {
+        if (item.id === e.target.id) {
           item.classList.add("active");
-          setviloyat(item.id);
-        } else item.classList.remove("active");
+          item.classList.remove("active2");
+        } else {
+          item.classList.remove("active");
+        }
       });
+      setviloyat(e.target.id);
     }
   };
+
   const uzbMapHover = (e) => {
     var arr = Array.prototype.slice.call(svg.current.children);
     if (e.target.id.length > 0) {
-      arr?.map((item) => {
-        if (item.id == e.target.id) {
+      arr.forEach((item) => {
+        if (item.id === e.target.id) {
           item.classList.add("active2");
-        } else item.classList.remove("active2");
+        } else {
+          item.classList.remove("active2");
+        }
       });
     }
   };
+
   const uzbMapOut = (e) => {
     var arr = Array.prototype.slice.call(svg.current.children);
-    if (e.target.id.length > 0) {
-      arr?.map((item) => {
-        if (item.id == viloyat) {
-          item.classList.add("active2");
-        } else item.classList.remove("active2");
-      });
-    }
+    arr.forEach((item) => {
+      if (item.id === viloyat) {
+        item.classList.add("active"); // keep selected ones highlighted
+        item.classList.remove("active2");
+      } else {
+        item.classList.remove("active2");
+      }
+    });
   };
+
   const getLeadershipManagement = () => {
-    http
-      .get(`find/key/branch?key=${viloyat}&language=${langLocal()}`)
+    if (!viloyat) return;
+
+    axios
+      .get(`https://kuprikqurilish.uz/api/v1/branchs/find-one/${viloyat}`)
       .then((res) => {
-        if (res?.data?.ok) setManagement(res?.data?.data);
-        else setManagement();
+        setManagement(res?.data || null);
       })
       .catch((err) => {
         console.log(err);
+        setManagement(null);
       });
   };
-  useEffect(() => {
-    getLeadershipManagement();
-  }, [viloyat]);
 
+  useEffect(() => {
+    if (!viloyat) return;
+
+    setManagement(branchesByRegion[viloyat] ?? []);
+  }, [viloyat]);
   return (
     <>
       <Header />
@@ -164,8 +179,21 @@ const BranchesManagement = () => {
                   />
                 </svg>
               </div>
-              <p>{transliterate(management?.data?.area)}</p>
-              {management ? <LeadershipCardTwo item={management} /> : ""}
+              {/* <p>{transliterate(management?.uz?.area)}</p>
+              {management ? <LeadershipCardTwo item={management} /> : ""} */}
+
+              {!viloyat && null}
+
+              {/* {viloyat && management.length === 0 && (
+                <p>Ushbu viloyatda ma'lumot topilmadi.</p>
+              )} */}
+
+              {management.map((item) => (
+                <div key={item.id}>
+                  <p>{transliterate(item.uz?.area)}</p>
+                  <LeadershipCardTwo item={item} />
+                </div>
+              ))}
             </PageTwoMenu>
           </div>
         </BranchesManagementWrapper>

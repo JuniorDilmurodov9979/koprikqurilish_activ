@@ -59,14 +59,7 @@ const HeaderBottom = ({ color, menuChange, setmenuChange }) => {
             <li>
               <HeaderMenu color={color} menu={menu7} />
             </li>
-            <li className="relative">
-              {/* <span
-                style={{ fontSize: 10 }}
-                className="absolute -top-1 -right-4 z-10 rounded-full bg-red-500 px-2 py-1 font-semibold uppercase tracking-wide text-white shadow-md animate-pulse"
-              >
-                Yangi
-              </span> */}
-
+            <li>
               <HeaderMenu color={color} menu={menu8} />
             </li>
             <li>

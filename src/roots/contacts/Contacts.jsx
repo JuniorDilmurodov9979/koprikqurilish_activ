@@ -76,7 +76,7 @@ const Contacts = () => {
                 </div>
                 <div className="location">
                   <p>{t("footer.tel")}:</p>
-                  <a href="tel:+998(71)203-26-26">+998(71)203-26-26</a>
+                  <a href="tel:+998(71)203-26-26">+998(71)203-26-26 (1019)</a>
                   {/* <a href="tel:+998(71)203-26-26">+998(71)203-26-26</a> */}
                 </div>
                 <div className="location">

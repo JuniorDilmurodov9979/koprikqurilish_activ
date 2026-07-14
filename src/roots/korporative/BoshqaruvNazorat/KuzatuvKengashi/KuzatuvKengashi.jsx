@@ -27,6 +27,11 @@ const KuzatuvKengashi = () => {
       name: t("kuzatuv.new.hujjat2"),
       link: "/kuzatuv_2.pdf",
     },
+    {
+      id: 4,
+      name: t("kuzatuv.new.hujjat3"),
+      link: "/kuzatuv_3.pdf",
+    },
   ];
 
   return (
@@ -99,7 +104,37 @@ const KuzatuvKengashi = () => {
                   </div>
                 </div>
 
+                <div>
+                  <p className="text-sm font-semibold text-yellow-600 uppercase tracking-wide mb-3">
+                    {t("kuzatuv_kengashi_raisi")}:
+                  </p>
+                </div>
+
                 <ul className="space-y-5">
+                  <li className="group bg-[#fcfcfc] hover:bg-white border border-gray-100 hover:border-yellow-200 rounded-3xl p-5 transition-all duration-300 hover:shadow-lg">
+                    <div className="flex items-center gap-4">
+                      <div className="min-w-[48px] px-3 py-1 rounded-2xl bg-yellow-500 text-white flex items-center justify-center font-bold text-lg shadow-md">
+                        {/* <FileText size={20} /> */} 1
+                      </div>
+
+                      <div>
+                        <h4 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">
+                          {t("kuzatuv_kengashi_raisi_name")}
+                        </h4>
+
+                        <p className="text-gray-600 leading-relaxed">
+                          {t("kuzatuv_kengashi_raisi_position")}
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li className="pt-4">
+                    <h3 className="text-sm font-semibold text-yellow-600 uppercase tracking-wide">
+                      {t("kuzatuv_kengashi_members")}:
+                    </h3>
+                  </li>
+
                   {members.map((member, index) => (
                     <li
                       key={index}
@@ -107,7 +142,7 @@ const KuzatuvKengashi = () => {
                     >
                       <div className="flex items-center gap-4">
                         <div className="min-w-[48px] px-3 py-1 rounded-2xl bg-yellow-500 text-white flex items-center justify-center font-bold text-lg shadow-md">
-                          {index + 1}
+                          {index + 2}
                         </div>
 
                         <div>

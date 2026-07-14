@@ -66,6 +66,16 @@ const IchkiNizomlar = () => {
       title: t("ichki_nizom.file11"),
       file: "/11_ichki_nizom.pdf",
     },
+    {
+    id: 12,
+    title: t("ichki_nizom.file12"),
+    file: "/12_ichki_nizom.pdf",
+  },
+  {
+    id: 13,
+    title: t("ichki_nizom.file13"),
+    file: "/13_nizom.pdf",
+    }
   ];
 
   return (

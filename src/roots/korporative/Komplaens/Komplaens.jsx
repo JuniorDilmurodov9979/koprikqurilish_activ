@@ -92,7 +92,7 @@ const Komplaens = () => {
                       rel="noopener noreferrer"
                       // download
                     >
-                      <SimCardDownloadIcon className="icon" />
+                      <SimCardDownloadIcon className="icon m-0" />
                       <span>{item.name}</span>
                     </a>
                   ))}

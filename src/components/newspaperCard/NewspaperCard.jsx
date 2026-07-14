@@ -28,7 +28,7 @@ const NewspaperCard = ({ item }) => {
           variant="text"
           onClick={() => download(imgUrl + item?.__file__?.url_1)}
         >
-          <FileDownloadIcon /> dowload
+          <FileDownloadIcon /> download
         </Button>
       </div>
     </NewspaperCardWrapper>

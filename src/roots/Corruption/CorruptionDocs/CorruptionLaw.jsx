@@ -6,7 +6,7 @@ const CorruptionLaw = ({ item }) => {
     <LawsCardWrapper>
       <section>
         <a href={item?.file} target="_blank" rel="noopener noreferrer" download>
-          <SimCardDownloadIcon className="icon" />
+          <SimCardDownloadIcon className="icon m-0" />
           <span>{item?.title}</span>
         </a>
       </section>

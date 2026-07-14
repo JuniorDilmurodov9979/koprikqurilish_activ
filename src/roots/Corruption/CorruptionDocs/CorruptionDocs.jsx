@@ -47,7 +47,9 @@ const CorruptionDocs = () => {
             ]}
           />
           <PageTwoMenu menu={menu6}>
-            <LargeText color="true">{t("menus.menu6.title1")}</LargeText>
+            <LargeText style={{ marginBottom: "15px" }} color="true">
+              {t("menus.menu6.title1")}
+            </LargeText>
 
             {loading ? (
               <Box
@@ -63,7 +65,7 @@ const CorruptionDocs = () => {
                   color="text.secondary"
                   sx={{ mt: 2 }}
                 >
-                  {t("loading")}{" "}
+                  {t("loading")}
                   {/* You can also write plain text: "Maʼlumotlar yuklanmoqda..." */}
                 </Typography>
               </Box>
@@ -79,7 +81,9 @@ const CorruptionDocs = () => {
                 </Typography>
               </Box>
             ) : (
-              data.map((item) => <CorruptionLaw key={item.id} item={item} />)
+              data?.results.map((item) => (
+                <CorruptionLaw key={item.id} item={item} />
+              ))
             )}
           </PageTwoMenu>
         </div>

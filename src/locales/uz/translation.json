@@ -83,6 +83,8 @@
       "title2": "Korrupsiyaga oid murojaatlar bo‘yicha bog‘lanish",
       "title3": "Korrupsiyaga qarshi kurash borasida olib borilayotgan targ'ibot ishlari",
       "title4": "Monopoliyaga qarshi komplaens",
+      "title5": "Hisobotlar",
+      "title5_desc": "2025-yilning yakuniy hisoboti",
       "title4_title1": "Monopoliyaga qarshi komplaens tizimidagi hujjatlar",
       "title4_desc1": "2026-yil uchun\nishlab chiqilgan “yo‘l xaritasi”ni\ntasdiqlash to‘g‘risida buyruq",
       "title4_desc2": "“Ko‘prikqurilish” AJda monopoliyaga qarshi komplaens tizimini joriy etish uchun tayinlangan mas’ul shaxs (bo‘linma) to‘g‘risida ma’lumot",
@@ -119,6 +121,12 @@
       "desc1": "“Ko‘prikqurilish” tresti UK 1968 yilda sobiq ittifoq transport qurilish vazirligi qoshidagi 7-Ko‘prikqurilish tresti shaklida tashkil topgan bo‘lib, mustaqillik yillarida “O‘zbektransqurilish” uyushmasi tarkibida faoliyat yuritgan va O‘zbekiston Respublikasi Vazirlar Mahkamasining 2004 yil 21 oktyabr 489-son qarori bilan “O‘zbekiston temir yo‘llari” DATYK tarkibiga kiritilgan.",
       "desc2": "“Ko‘prikqurilish” tresti UK temir yo‘l transport inshootlari (ko‘priklar, tonellar, yo‘l o‘tkazgichlar va boshqa sunʼiy inshootlar)ni qurish, saqlash va taʼmirlashga ixtisoslashgan, shuningdek, ishlab chiqarish korxonalariga, loyiha tashkiloti va qurilish ishlarida sifatni nazorat qilish laboratoriyasiga ega bo‘lgan respublikada yagona korxona hisoblanadi.",
       "desc3": "2017-yilgacha “Ko‘prikqurilish trest” unitar korxonasi tarkibida quyidagi tarkibiy bo‘linmalar faoliyat ko‘rsatgan:"
+    },
+    "menu8": {
+      "title": "Xizmatlar",
+      "menu1": "Texnika ijarasi",
+      "menu2": "Laboratoriya xizmatlari",
+      "menu3": "Loyiha-smeta xizmatlari"
     }
   },
   "eye": "Zaif ko'ruvchilar uchun",
@@ -186,10 +194,6 @@
     "download": "📄 Kuzatuv Kengashi fayli",
     "members": [
       {
-        "name": "Xidoyatov Sherzod Saidjonovich",
-        "desc": "O‘zbekiston Respublikasi Qurilish va uy-joy kommunal xo‘jaligi vaziri"
-      },
-      {
         "name": "Choriev Jasurbek Ergashovich",
         "desc": "O‘zbekiston Respublikasi Transport vaziri o‘rinbosari"
       },
@@ -198,19 +202,20 @@
         "desc": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vaziri o‘rinbosari"
       },
       {
-        "name": "Zokirov Batir Irkinovich",
-        "desc": "..."
+        "name": "Якубов Нодирбек Гулмурадович",
+        "desc": "Ўзбекистон Республикаси Давлат активлари агентлиги бошқарма бошлиғи ўринбосари"
       },
       {
-        "name": "Mamatov Odiljon Abdugaparovich",
-        "desc": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i"
+        "name": "Валиева Насиба Хадиятуллаевна",
+        "desc": "Бизнес ва тадбиркорлик олий мактаби катта ўқитувчиси (мустақил аъзо)"
       }
     ],
     "new": {
       "qaror": "Qarorlar va hujjatlarni yuklab olish",
       "aksiyadorlik": "Aksiyadorlik jamiyati boshqaruvi a’zolari",
       "hujjat1": "Kuzatuv kengashi qarori iyun №1",
-      "hujjat2": "Kuzatuv kengashi qarori avgust №2"
+      "hujjat2": "Kuzatuv kengashi qarori avgust №2",
+      "hujjat3": "Kuzatuv kengashi qarori №3"
     }
   },
   "ichki_nizom": {
@@ -230,12 +235,14 @@
     "file8": "8-ilova Tayinlash qo‘mitasi to‘g‘risida",
     "file9": "9-ilova Strategiya qo‘mitasi",
     "file10": "10-ilova Antikorrupsiya qo‘mitasi",
-    "file11": "15-ilova Mustaqil a’zo"
+    "file11": "15-ilova Mustaqil a’zo",
+    "file12": "12-Ijro organi to‘g‘risida Nizom",
+    "file13": "13-Kuzatuv kengashi to‘g‘risida Nizom"
   },
 
   "xizmatlar": {
     "title": "Xizmatlar",
-    
+
     "menu1_title": "Texnika ijarasi",
     "menu1": {
       "title1": "Maxsus",
@@ -639,6 +646,13 @@
     }
   },
 
+  "boshqaruv_kodeksi": {
+    "title": "14-Ilova Korporativ qoidalar",
+    "download_desc": "Korporativ boshqaruv kodeksi hujjatini yuklab oling.",
+    "download_desc1": "PDF formatdagi rasmiy hujjat. Yuklab olib offline foydalanishingiz mumkin. ",
+    "download_text": "Yuklab olish"
+  },
+
   "executiveBoard": {
     "title": "Ijroiya organi",
     "subtitle": "“Ko‘prikqurilish” aksiyadorlik jamiyatining ijroiya organi",
@@ -910,6 +924,39 @@
         "req4": "Elektr sxemalarni o'qiy olish va texnik chizmalar bilan ishlash ko'nikmasi"
       }
     },
+    "job7": {
+      "company": "Ko'prikqurilish AJ",
+      "title": "Personallarni boshqarish va kadrlarni tayyorlash boshqarmasi mutaxassisi",
+      "experience": "3 yildan kam bo‘lmagan tajriba",
+      "education": "Oliy ma’lumot",
+      "responsibilities": {
+        "resp1": "Lavozim yo‘riqnomasi talablarini bajarish",
+        "resp2": "Hujjat va hisobotlar bilan ishlash",
+        "resp3": "Kadrlar bilan ishlash jarayonlarini yuritish",
+        "resp4": "MS Word, Excel va PowerPoint dasturlarida ishlash",
+        "resp5": "Analitik fikrlash asosida vazifalarni mas’uliyat bilan bajarish"
+      },
+      "requirements": {
+        "req1": "Oliy ma’lumotga ega bo‘lish",
+        "req2": "3 yildan kam bo‘lmagan ish tajribasi",
+        "req3": "O‘zbekiston qonunchiligini bilish",
+        "req4": "Hujjat va hisobotlar bilan ishlash ko‘nikmasi",
+        "req5": "MS Word, Excel va PowerPoint dasturlarini bilish",
+        "req6": "Analitik fikrlash va mas’uliyatlilik"
+      },
+      "languages": {
+        "lang1": "O‘zbek tili (erkin)",
+        "lang2": "Rus tili (erkin)",
+        "lang3": "Ingliz tili (afzal)"
+      },
+      "work_conditions": {
+        "schedule": "Dushanba–Juma (5/2)",
+        "days_off": "Shanba, Yakshanba",
+        "working_hours": "09:00 dan 18:00 gacha",
+        "employment_type": "Rasmiy"
+      },
+      "salary": "Shtatlar jadvaliga muvofiq"
+    },
 
     "modal": {
       "name": "Ism",
@@ -934,5 +981,28 @@
       "cancelBtn": "Bekor qilish",
       "submitBtn": "Yuborish"
     }
-  }
+  },
+
+  "company1": "\"1-Ko‘prikqurilish otryadi\" MChJ",
+  "company2": "\"Ko‘prikqurilishbutlash\" MChJ",
+  "company3": "\"Ko‘prikqurilishloyiha\" MChJ",
+  "company4": "\"Ko‘priksifatnazorat\" MChJ",
+  "company5": "\"Ko‘prikqurilishfoydalanish\" MChJ",
+  "company6": "\"Xorazm Temir Yo‘l Qurilish\" MChJ",
+  "company7": "\"Ko‘prikqurilishta'mirlash direksiyasi\" MChJ",
+  "company8": "\"Maxsus temir-beton buyumlari va konstruksiyalarini ishlab chiqarish zavodi\" MChJ",
+  "company9": "\"Chinoz maxsus temir beton konstruksiyalari zavodi\" MChJ",
+
+  "member4Name": "Yaqubov Nodirbek Gulmuradovich",
+  "member4Position": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i o‘rinbosari",
+
+  "member5Name": "Valiyeva Nasiba Xadiyatullayevna",
+  "member5Position": "Biznes va tadbirkorlik oliy maktabi katta o‘qituvchisi (mustaqil a'zo)",
+  "yil_yakuni_2025": "2025 yil yakunlari bo'yicha qaror",
+  "biznes_reja_2026": "Biznes reja 2026",
+  "audit_xulosasi_2025": "Auditorlik xulosasi 2025",
+  "kuzatuv_kengashi_raisi": "Kuzatuv kengashi raisi",
+  "kuzatuv_kengashi_raisi_name": "Xidoyatov Sherzod Saidjonovich",
+  "kuzatuv_kengashi_raisi_position": "O‘zbekiston Respublikasi Qurilish va uy-joy kommunal xo‘jaligi vaziri",
+  "kuzatuv_kengashi_members": "Kuzatuv kengashi a'zolari"
 }

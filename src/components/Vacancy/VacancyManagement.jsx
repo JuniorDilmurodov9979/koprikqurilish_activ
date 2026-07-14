@@ -16,9 +16,17 @@ import {
 } from "@ant-design/icons";
 
 import vacancyImg from "../../assets/imgs/vacancy_img.jpg";
+import axios from "axios";
 
 const VacancyManagement = () => {
   const { t } = useTranslation();
+
+  const vacancys = axios
+    .get("https://korrupsiya.kuprikqurilish.uz/api/vacancies")
+    .then((response) => {
+      return response.data;
+    });
+  console.log(vacancys);
 
   const vacancy = [
     {
@@ -28,15 +36,12 @@ const VacancyManagement = () => {
       positions: [
         {
           name: t("vacancy.job1.job_desc1"),
-          // count: 2,
         },
         {
           name: t("vacancy.job1.job_desc2"),
-          // count: 2,
         },
         {
           name: t("vacancy.job1.job_desc3"),
-          // count: 2,
         },
       ],
       type: t("vacancy.job_type") + " (5/2)",
@@ -45,7 +50,7 @@ const VacancyManagement = () => {
       salary: t("vacancy.job_price"),
       publishedDate: "2026-01-12",
       deadline: "2026-02-10",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
     },
     {
       id: 2,
@@ -99,44 +104,9 @@ const VacancyManagement = () => {
       location: t("vacancy.location"),
       salary: t("vacancy.job_price"),
       publishedDate: "2025-11-14",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
     },
-    {
-      id: 4,
-      company: t("vacancy.job4.job_info"),
-      title: t("vacancy.job4.job_title"),
-      type: t("vacancy.job_type") + " (5/2)",
-      workHours: "09:00 – 18:00",
-      location: t("vacancy.job4.manzil"),
-      experience: t("vacancy.job4.experience"),
-      education: t("vacancy.modal.docs_option3"),
-      salary: t("vacancy.job4.maosh"),
-      publishedDate: "2026-02-10",
-      deadline: "2026-03-10",
-      status: t("vacancy.job_status_1"),
 
-      responsibilities: [
-        t("vacancy.job4.job_desc4_info1"),
-        t("vacancy.job4.job_desc4_info2"),
-        t("vacancy.job4.job_desc4_info3"),
-      ],
-
-      requirements: [
-        t("vacancy.job4.job_desc2_info1"),
-        t("vacancy.job4.job_desc2_info2"),
-        t("vacancy.job4.job_desc2_info3"),
-        t("vacancy.job4.job_desc2_info4"),
-      ],
-
-      conditions: [
-        t("vacancy.job4.job_desc6_info1"),
-        t("vacancy.job4.job_desc6_info2"),
-        t("vacancy.job4.job_desc6_info3"),
-      ],
-
-      contact: t("vacancy.job4.aloqa"),
-      email: t("vacancy.job4.pochta"),
-    },
     {
       id: 5,
       company: t("vacancy.job5.company"),
@@ -149,7 +119,7 @@ const VacancyManagement = () => {
       salary: t("vacancy.job_price"),
       publishedDate: "2026-03-01",
       deadline: "2026-03-30",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
 
       responsibilities: [
         t("vacancy.job5.responsibilities.resp1"),
@@ -178,7 +148,7 @@ const VacancyManagement = () => {
       salary: t("vacancy.job_price"),
       publishedDate: "2026-03-10",
       deadline: "2026-04-10",
-      status: t("vacancy.job_status_1"),
+      status: t("vacancy.job_status_2"),
 
       responsibilities: [
         t("vacancy.job6.responsibilities.resp1"),
@@ -194,6 +164,79 @@ const VacancyManagement = () => {
         t("vacancy.job6.requirements.req3"),
         t("vacancy.job6.requirements.req4"),
       ],
+    },
+    {
+      id: 7,
+      company: t("vacancy.job7.company"),
+      title: t("vacancy.job7.title"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job_place"),
+      experience: t("vacancy.job7.experience"),
+      education: t("vacancy.job7.education"),
+      salary: t("vacancy.job7.salary"),
+      publishedDate: "2026-05-01",
+      deadline: "2026-05-10",
+      status: t("vacancy.job_status_2"),
+
+      responsibilities: [
+        t("vacancy.job7.responsibilities.resp1"),
+        t("vacancy.job7.responsibilities.resp2"),
+        t("vacancy.job7.responsibilities.resp3"),
+        t("vacancy.job7.responsibilities.resp4"),
+        t("vacancy.job7.responsibilities.resp5"),
+      ],
+
+      requirements: [
+        t("vacancy.job7.requirements.req1"),
+        t("vacancy.job7.requirements.req2"),
+        t("vacancy.job7.requirements.req3"),
+        t("vacancy.job7.requirements.req4"),
+        t("vacancy.job7.requirements.req5"),
+        t("vacancy.job7.requirements.req6"),
+      ],
+
+      languages: [
+        t("vacancy.job7.languages.lang1"),
+        t("vacancy.job7.languages.lang2"),
+        t("vacancy.job7.languages.lang3"),
+      ],
+    },
+    {
+      id: 4,
+      company: t("vacancy.job4.job_info"),
+      title: t("vacancy.job4.job_title"),
+      type: t("vacancy.job_type") + " (5/2)",
+      workHours: "09:00 – 18:00",
+      location: t("vacancy.job4.manzil"),
+      experience: t("vacancy.job4.experience"),
+      education: t("vacancy.modal.docs_option3"),
+      salary: t("vacancy.job4.maosh"),
+      publishedDate: "2026-06-11",
+      // deadline: "2026-03-10",
+      status: t("vacancy.job_status_1"),
+
+      responsibilities: [
+        t("vacancy.job4.job_desc4_info1"),
+        t("vacancy.job4.job_desc4_info2"),
+        t("vacancy.job4.job_desc4_info3"),
+      ],
+
+      requirements: [
+        t("vacancy.job4.job_desc2_info1"),
+        t("vacancy.job4.job_desc2_info2"),
+        t("vacancy.job4.job_desc2_info3"),
+        t("vacancy.job4.job_desc2_info4"),
+      ],
+
+      conditions: [
+        t("vacancy.job4.job_desc6_info1"),
+        t("vacancy.job4.job_desc6_info2"),
+        t("vacancy.job4.job_desc6_info3"),
+      ],
+
+      contact: t("vacancy.job4.aloqa"),
+      email: t("vacancy.job4.pochta"),
     },
   ];
 
@@ -233,12 +276,6 @@ const VacancyManagement = () => {
     if (vacancy.type) return vacancy.type;
     if (vacancy.workDaysPerMonth)
       return `${vacancy.workDaysPerMonth} kun oyiga`;
-    return t("vacancy.job_time");
-  };
-
-  const formatWorkHours = (vacancy) => {
-    if (vacancy.workHours) return vacancy.workHours;
-    if (vacancy.contact) return vacancy.contact;
     return t("vacancy.job_time");
   };
 
@@ -293,7 +330,7 @@ const VacancyManagement = () => {
                                   ? "success"
                                   : "error"
                               }
-                              className="m-0 rounded-md"
+                              className="m-0 rounded-md ml-1"
                             >
                               {vacancy.status}
                             </Tag>

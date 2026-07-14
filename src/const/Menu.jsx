@@ -108,6 +108,11 @@ export let menu6 = {
       path: "/corruption/monopoliyaga-qarshi-komplaens",
       title: "menus.menu6.title4",
     },
+    {
+      id:5,
+      path: "/corruption/hisobot",
+      title: "menus.menu6.title5",
+    }
   ],
 };
 export const menu7 = {
@@ -142,23 +147,23 @@ export const menu7 = {
   ],
 };
 export const menu8 = {
-  title: t("xizmatlar.title"),
+  title: "xizmatlar.title",
   path: "/xizmatlar",
   menus: [
     {
       id: 1,
       path: "/xizmatlar/texnika",
-      title: t("xizmatlar.menu1_title"),
+      title: "xizmatlar.menu1_title",
     },
     {
       id: 2,
       path: "/xizmatlar/laboratoriya",
-      title: t("xizmatlar.menu2_title"),
+      title: "xizmatlar.menu2_title",
     },
     {
       id: 3,
       path: "/xizmatlar/loyiha",
-      title: t("xizmatlar.menu3_title"),
+      title: "xizmatlar.menu3_title",
     },
   ],
 };

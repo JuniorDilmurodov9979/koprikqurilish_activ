@@ -70,6 +70,8 @@ import VacancyDetails from "./components/Vacancy/VacancyDetails.jsx";
 import Texnika from "./components/Texnika/Texnika.jsx";
 import TexnikaSinglePage from "./components/Texnika/TexnikaSinglePage.jsx";
 import InProgressPage from "./components/InProgressPage/InProgressPage.jsx";
+import Laboratoriya from "./roots/laboratoriya/Laboratoriya.jsx";
+import CorruptionHisobot from "./roots/Corruption/CorruptionHisobot.jsx";
 
 const Routs = () => {
   const color = useSelector((store) => store.darkmode);
@@ -119,6 +121,7 @@ const Routs = () => {
               path="/corruption/monopoliyaga-qarshi-komplaens"
               element={<Komplaens />}
             />
+            <Route path="/corruption/hisobot" element={<CorruptionHisobot />} />
           </>
           {/*Korporation*/}
           <>
@@ -288,14 +291,13 @@ const Routs = () => {
               path="/xizmatlar/texnika/:id"
               element={<TexnikaSinglePage />}
             />
-            <Route
-              path="/xizmatlar/laboratoriya"
-              element={<InProgressPage />}
-            />
-            <Route
-              path="/xizmatlar/loyiha"
-              element={<InProgressPage />}
-            />
+            <Route path="/xizmatlar/laboratoriya" element={<Laboratoriya />} />
+            <Route path="/xizmatlar/loyiha" element={<InProgressPage />} />
+          </>
+
+          {/* virtual page */}
+          <>
+            <Route path="/virtual" element={<Qabulxona />} />
           </>
 
           <Route path="*" element={<PageNotFound />} />
