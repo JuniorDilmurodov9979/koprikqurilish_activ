@@ -14,7 +14,7 @@ const Aksiyadorlarga = () => {
     const navigate = useNavigate();
     const menus = [
         { id: 1, path: "ustavFondi", title: t("ustavFondi") },
-        { id: 2, path: "aliflangan", title: t("aliflangan") },
+        { id: 2, path: "affillangan", title: t("affillangan") },
         { id: 2, path: "royhat", title: t("royhat") },
         { id: 2, path: "umumiyYigilish", title: t("umumiyYigilish") },
     ];

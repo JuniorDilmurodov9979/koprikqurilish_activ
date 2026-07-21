@@ -186,10 +186,6 @@
     "download": "📄 Download Supervisory Board file",
     "members": [
       {
-        "name": "Sherzod Saidjonovich Khidoyatov",
-        "desc": "Minister of Construction and Housing and Communal Services of the Republic of Uzbekistan"
-      },
-      {
         "name": "Jasurbek Ergashovich Choriev",
         "desc": "Deputy Minister of Transport of the Republic of Uzbekistan"
       },
@@ -198,12 +194,12 @@
         "desc": "Deputy Minister of Economy and Finance of the Republic of Uzbekistan"
       },
       {
-        "name": "Batir Irkinovich Zokirov",
-        "desc": "..."
+        "name": "Nodirbek Gulmuradovich Yakubov",
+        "desc": "Deputy Head of the Department of the State Assets Agency of the Republic of Uzbekistan"
       },
       {
-        "name": "Odiljon Abdugaparovich Mamatov",
-        "desc": "Head of the Department of the Agency for Management of State Assets of the Republic of Uzbekistan"
+        "name": "Nasiba Khadiyatullaevna Valieva",
+        "desc": "Senior Lecturer at the Higher School of Business and Entrepreneurship (Independent Member)"
       }
     ],
 
@@ -733,7 +729,7 @@
     }
   },
   "ustavFondi": "Charter capital",
-  "aliflangan": "Subscribed persons",
+  "affillangan": "Subscribed persons",
   "royhat": "Shareholders list",
   "umumiyYigilish": "General meeting of shareholders",
   "jamiyatUstavFondi": "Company Charter Capital",

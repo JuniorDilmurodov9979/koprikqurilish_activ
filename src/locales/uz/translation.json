@@ -202,12 +202,12 @@
         "desc": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vaziri o‘rinbosari"
       },
       {
-        "name": "Якубов Нодирбек Гулмурадович",
-        "desc": "Ўзбекистон Республикаси Давлат активлари агентлиги бошқарма бошлиғи ўринбосари"
+        "name": "Yakubov Nodirbek G‘ulmurodovich",
+        "desc": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi boshqarma boshlig‘i o‘rinbosari"
       },
       {
-        "name": "Валиева Насиба Хадиятуллаевна",
-        "desc": "Бизнес ва тадбиркорлик олий мактаби катта ўқитувчиси (мустақил аъзо)"
+        "name": "Valiyeva Nasiba Xadiyatullayevna",
+        "desc": "Biznes va tadbirkorlik oliy maktabi katta o‘qituvchisi (mustaqil a’zo)"
       }
     ],
     "new": {
@@ -734,7 +734,7 @@
     }
   },
   "ustavFondi": "Ustav fondi",
-  "aliflangan": "Afillangan shaxslar",
+  "affillangan": "Afillangan shaxslar",
   "royhat": "Aksiyadorlar ro‘yxati",
   "umumiyYigilish": "Aksiyadorlarning umumiy yig‘ilishi",
   "jamiyatUstavFondi": "Jamiyat Ustav fondi",
