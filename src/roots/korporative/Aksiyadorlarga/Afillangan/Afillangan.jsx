@@ -53,13 +53,13 @@ const Afillangan = () => {
           <Breadcrumb
             links={[
               { link: t("menus.menu7.title5") },
-              { link: t("aliflangan") },
+              { link: t("affillangan") },
             ]}
           />
 
           {/* Title */}
           <h1 className="text-3xl font-bold text-yellow-600 mb-8 text-center sm:text-left uppercase">
-            {t("aliflangan")}
+            {t("affillangan")}
           </h1>
 
           {/* Card */}

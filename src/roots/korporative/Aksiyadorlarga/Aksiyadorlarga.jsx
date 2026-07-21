@@ -23,7 +23,7 @@ const Aksiyadorlarga = () => {
             <Header />
 
             <BackGroundColor>
-                <div className="container mx-auto   px-6 max-w-[1300px]">
+                <div className="container mx-auto px-6 max-w-[1300px]">
                     {/* Breadcrumb */}
                     <Breadcrumb links={[{ link: t("menus.menu7.title5") }]} />
 

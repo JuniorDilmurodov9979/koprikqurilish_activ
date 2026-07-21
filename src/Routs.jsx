@@ -310,7 +310,7 @@ const Routs = () => {
                 element={<UstavFondi />}
               />
               <Route
-                path="/corporativ/Aksiyadorlarga/aliflangan"
+                path="/corporativ/Aksiyadorlarga/affillangan"
                 element={<Afillangan />}
               />
               <Route
